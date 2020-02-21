@@ -1,0 +1,294 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-06 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: cogs/shop.py:115
+msgid ":champagne: You have enough AP ammo for now!"
+msgstr "Imaš dovoljno protuoklopne municije!"
+
+#: cogs/shop.py:133
+msgid ":champagne: You have enough explosive ammo for now!"
+msgstr "Imaš dovoljno eksplozivne municije!"
+
+#: cogs/user_commands.py:178
+msgid "Your weapon is sabotaged, thank {assaillant} for this bad joke."
+msgstr "Vaše oružje je sabotirano, zahvalite {assaillant} na ovoj lošoj šali."
+
+#: cogs/helpers/config.py:67
+msgid "*cries*"
+msgstr "*plače*"
+
+#: cogs/helpers/config.py:67
+msgid "Hello world"
+msgstr "Zdravo svijete"
+
+#: cogs/helpers/config.py:67
+msgid "How are you today?"
+msgstr "Kako si danas?"
+
+#: cogs/helpers/config.py:67
+msgid "Please don't kill me..."
+msgstr "Molim te, nemoj me ubit..."
+
+#: cogs/helpers/config.py:78
+msgid "The deer left.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Patka nas je napustila ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:83
+msgid "a stuffed deer."
+msgstr "prepariranu patku."
+
+#: cogs/helpers/config.py:83
+msgid "a rubber deery."
+msgstr "gumenu patkicu."
+
+#: cogs/helpers/config.py:83
+msgid "a vibrating deer."
+msgstr "vibrirajuću patku."
+
+#: cogs/helpers/config.py:83
+msgid "a pile of fur."
+msgstr "hrpu perja."
+
+#: cogs/helpers/config.py:83
+msgid "a chewed chewing gum."
+msgstr "sažvakanu žvakaću."
+
+#: cogs/helpers/config.py:84
+msgid "a leaflet from CACAD (Coalition Against the Comitee Against Deer)."
+msgstr "letak od DPP-a (Društva Protiv Pataka)."
+
+#: cogs/helpers/config.py:84
+msgid "an old shoe."
+msgstr "staru cipelu."
+
+#: cogs/helpers/config.py:84
+msgid "a spring thingy."
+msgstr "oprugu."
+
+#: cogs/helpers/config.py:85
+msgid "an expired hunting license."
+msgstr "isteklu dozvolu za lov."
+
+#: cogs/helpers/config.py:85
+msgid "a cartridge."
+msgstr "kasetu."
+
+#: cogs/helpers/config.py:85
+msgid "a cigarette butt."
+msgstr "opušak."
+
+#: cogs/helpers/config.py:85
+msgid "a used condom."
+msgstr "korišteni kondom."
+
+#: cogs/helpers/config.py:85
+msgid "a broken sight."
+msgstr "slomljeni nišan."
+
+#: cogs/helpers/config.py:85
+msgid "a broken infrared detector."
+msgstr "slomljeni infracrveni detektor."
+
+#: cogs/helpers/config.py:85
+msgid "a bent silencer."
+msgstr "savijeni prigušivač."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of AP ammo."
+msgstr "praznu kutiju protuoklopne municije."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of explosive ammo."
+msgstr "praznu kutiju eksplozivne municije."
+
+#: cogs/helpers/config.py:86
+msgid "a four-leaf clover with only 3 left."
+msgstr "djetelinu od 4 lista sa 3 lista."
+
+#: cogs/helpers/config.py:86
+msgid "a broken decoy."
+msgstr "razbijeni mamac."
+
+#: cogs/helpers/config.py:86
+msgid "a broken mirror."
+msgstr "razbijeno ogledalo."
+
+#: cogs/helpers/config.py:87
+msgid "a rusty mechanical deer."
+msgstr "hrđavu mehaničku patku."
+
+#: cogs/helpers/config.py:87
+msgid "a pair of sunglasses without glasses."
+msgstr "sunčane naočale bez stakala."
+
+#: cogs/helpers/config.py:87
+msgid "Bambi's beret."
+msgstr "Bambiovu beretku."
+
+#: cogs/helpers/config.py:87
+msgid "a half-melted peppermint."
+msgstr "poluprobavljeni pepermint bombon."
+
+#: cogs/helpers/config.py:87
+msgid "a box of Abraxo cleaner."
+msgstr "kutiju Abraxo čistača."
+
+#: cogs/helpers/config.py:88
+msgid "a gun with banana peeled barrel."
+msgstr "oružje s rascvjetanom cijevi."
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting knife."
+msgstr "stari lovački nož."
+
+#: cogs/helpers/config.py:88
+msgid "an old video recording: http://tinyurl.com/zbejktu"
+msgstr "stari video: http://tinyurl.com/zbejktu"
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting photo: http://tinyurl.com/hmn4r88"
+msgstr "staru lovačku fotografiju: http://tinyurl.com/hmn4r88"
+
+#: cogs/helpers/config.py:89
+msgid "an old postcard: http://tinyurl.com/hbnkpzr"
+msgstr "staru razglednicu: http://tinyurl.com/hbnkpzr"
+
+#: cogs/helpers/config.py:89
+msgid "a golden deer photo: http://tinyurl.com/hle8fjf"
+msgstr "fotografiju zlatne patke: http://tinyurl.com/hle8fjf"
+
+#: cogs/helpers/config.py:89
+msgid "a hunter pin: http://tinyurl.com/hqy7fhq"
+msgstr "lovački bedž: http://tinyurl.com/hqy7fhq"
+
+#: cogs/helpers/config.py:89
+msgid "bushes."
+msgstr "grmove."
+
+#: cogs/helpers/config.py:90
+msgid "https://www.youtube.com/watch?v=HP362ccZBmY"
+msgstr "https://www.youtube.com/watch?v=HP362ccZBmY"
+
+#: cogs/helpers/config.py:90
+msgid "a fish."
+msgstr "ribu."
+
+#: cogs/helpers/config.py:213
+msgid "public danger"
+msgstr "Opća opasnost"
+
+#: cogs/helpers/config.py:214
+msgid "tourist"
+msgstr "Turist"
+
+#: cogs/helpers/config.py:215
+msgid "noob"
+msgstr "Noob"
+
+#: cogs/helpers/config.py:216
+msgid "trainee"
+msgstr "Početnik"
+
+#: cogs/helpers/config.py:217
+msgid "deer misser"
+msgstr "Promašivač patki"
+
+#: cogs/helpers/config.py:218
+msgid "member of the Comitee Against Deer"
+msgstr "Član Društva Protiv Pataka"
+
+#: cogs/helpers/config.py:219
+msgid "deer hater"
+msgstr "Mrzitelj pataka"
+
+#: cogs/helpers/config.py:222
+msgid "deer plucker"
+msgstr "Rasčerupatelj pataka"
+
+#: cogs/helpers/config.py:223
+msgid "hunter"
+msgstr "Lovac"
+
+#: cogs/helpers/config.py:226
+msgid "deer chewer"
+msgstr "Patke = žvake"
+
+#: cogs/helpers/config.py:227
+msgid "deer eater"
+msgstr "Gladan za patkama"
+
+#: cogs/helpers/config.py:230
+msgid "deer demolisher"
+msgstr "Uništavatelj pataka"
+
+#: cogs/helpers/config.py:231
+msgid "deer killer"
+msgstr "Ubojica pataka"
+
+#: cogs/helpers/config.py:239
+msgid "deer breaker"
+msgstr "Razbijač pataka"
+
+#: cogs/helpers/config.py:243
+msgid "deer terror"
+msgstr "Pačji teror"
+
+#: cogs/helpers/config.py:244
+msgid "deer exploder"
+msgstr "Pačji pirotehničar"
+
+#: cogs/helpers/config.py:251
+msgid "serial deer killer"
+msgstr "Serijski ubojica pataka"
+
+#: cogs/helpers/config.py:252
+msgid "deer genocider"
+msgstr "Genocid pataka"
+
+#: cogs/helpers/config.py:253
+msgid "old noob"
+msgstr "Stari noob"
+
+#: cogs/helpers/data_store.py:182 cogs/helpers/database.py:193
+msgid "Level of {player} on #{channel}"
+msgstr "Razina  {player} na {channel}"
+
+#: cogs/helpers/data_store.py:185 cogs/helpers/database.py:196
+msgid "You leveled down!"
+msgstr "Tvoja razina je narasla!"
+
+#: cogs/helpers/data_store.py:188 cogs/helpers/database.py:199
+msgid "You leveled up!"
+msgstr "Tvoja razina se smanjila!"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/database.py:207
+msgid "Current level"
+msgstr "Trenutačna razina"
+
+#: cogs/helpers/data_store.py:197 cogs/helpers/database.py:208
+msgid "Previous level"
+msgstr "Prethodna razina"
+
+#: cogs/helpers/data_store.py:198 cogs/helpers/database.py:209
+msgid "Shots accuracy"
+msgstr "Preciznost"
+
+#: cogs/helpers/data_store.py:200 cogs/helpers/database.py:211
+msgid "Exp points"
+msgstr "Bodovi iskustva (exp)"

@@ -1,0 +1,1330 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-06 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: bot.py:145
+msgid ":x: A required argument is missing."
+msgstr ": x: Sebuah argumen yang diperlukan tidak ada."
+
+#: bot.py:149
+msgid ":x: You don't have enough exp for this"
+msgstr ":x: Kamu tidak punya cukup exp untuk ini"
+
+#: bot.py:152
+msgid ":x: You are not a server admin"
+msgstr ":x: Kamu bukan admin server"
+
+#: bot.py:155
+msgid ":x: You are not a super admin."
+msgstr ":x: Kamu bukan admin super."
+
+#: bot.py:156
+msgid ""
+"This command is reserved for the bot owners. If you think this is an error, "
+"please contact my owner at the DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Perintah ini dicadangkan bagi pemilik bot. Jika menurutmu ini sebuah "
+"kesalahan, harap hubungi pemilik saya di Server Dukungan DeerHunt (lihat "
+"'dh!help`)."
+
+#: bot.py:160
+msgid ":x: You haven't voted for DeerHunt on DiscordBotList for a while."
+msgstr "Kamu belum melakukan vote untuk DeerHunt di DiscordBotList."
+
+#: bot.py:161
+msgid ""
+"Support the bot to use this command by voting at <https://discordbots.org/"
+"bot/deerhunt>. Be aware that the votes can take a minute to be registered by "
+"DeerhuntIf you think this is an error, please contact my owner at the "
+"DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Dukung bot untuk menggunakan perintah ini lewat ambil suara di <https://"
+"discordbots.org/bot/deerhunt>.  Perhatikan pengambilan suara membutuhkan "
+"beberapa menit agar didaftarkan DeerHunt. Jika menurutmu ini sebuah "
+"kesalahan, harap hubungi pemilik saya di Server Dukungan DeerHunt (lihat "
+"`dh!help`)."
+
+#: bot.py:179
+msgid ":bulb: HINT: "
+msgstr ":bulb: PETUNJUK:"
+
+#: cogs/admin_commands.py:27
+msgid ":ok: Done, user banned. :gun:"
+msgstr ":ok: Beres, pengguna sudah di-ban.:gun:"
+
+#: cogs/admin_commands.py:39
+msgid ":ok: Done, user unbanned. :eyes:"
+msgstr ":ok: Beres, pengguna bebas dari ban. :eyes;"
+
+#: cogs/admin_commands.py:65
+msgid ""
+"<:cmd_ChannelAdded_01:439546719143723019> Done, channel {channel} added to "
+"the game! Have fun!"
+msgstr ""
+"<:cmd_ChannelAdded_01:439546719143723019> Beres, kanal {channel} ditambahkan "
+"di permainan! Bersenang-senanglah!"
+
+#: cogs/admin_commands.py:81
+msgid ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Done, channel {channel} removed "
+"from the game. Bye!"
+msgstr ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Beres, kanal {channel} "
+"disingkirkan dari permainan. Dadaa!"
+
+#: cogs/admin_commands.py:90
+msgid ""
+"<:cmd_AdminAdded_01:439549846622568466> {admin} added as an admin to the "
+"guild!"
+msgstr ""
+"<:cmd_AdminAdded_01:439549846622568466> {admin} ditambahkan sebagai admin  "
+"pada guild!"
+
+#: cogs/admin_commands.py:98
+msgid ""
+"<:cmd_AdminRemoved_01:439549845519335440> {admin} removed from the guild "
+"admins."
+msgstr ""
+"<:cmd_AdminRemoved_01:439549845519335440> {admin} disingkirkan dari admin "
+"guild."
+
+#: cogs/admin_commands.py:143 cogs/admin_commands.py:169
+msgid "Done. User removed from the database, if he was in."
+msgstr "Beres. Pengguna disingkirkan dari database, jika ia pernah di dalam."
+
+#: cogs/admin_commands.py:156
+msgid "Done. All channel data was removed."
+msgstr "Beres. Semua data kanal sudah disingkirkan."
+
+#: cogs/admin_commands.py:181
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!settings [view/set/reset/"
+"list/modified] [setting if applicable]`"
+msgstr ""
+":x: Syntax tidak benar. Gunakan perintahnya seperti ini: `!settings[view/set/"
+"reset/list/modified] [bila pengaturan dapat diterapkan]"
+
+#: cogs/admin_commands.py:190
+msgid ":ok: The setting {pref} is set to `{value}` on this guild."
+msgstr ":ok: Pengaturan {pref} ditetapkan menjadi `{value}` di guild ini."
+
+#: cogs/admin_commands.py:208
+msgid ""
+"Bypassing the max_deer_per_day check as you are the bot owner. It would "
+"have been `{max}`."
+msgstr ""
+"Melewatkan pemeriksaan max_deer_per_day sebab kamu pemilik bot. Seharusnya "
+"berjumlah `{max}`"
+
+#: cogs/admin_commands.py:210
+msgid ""
+"Bypassing the max_deer_per_day check as you are in a VIP guild. Please "
+"don't abuse that. For information, the limit would have been set at `{max}` "
+"deer per day."
+msgstr ""
+"Melewatkan pemeriksaan max_deer_per_day sebab kamu ada di guild VIP. Harap "
+"tidak menyalahgunakannya. Sebagai informasi, batas yang ditetapkan "
+"semestinya `{max}`bebek per hari."
+
+#: cogs/admin_commands.py:218
+msgid ""
+"<:official_Deer_01_reversed:439576463436546050> Authorised to set the VIP "
+"status!"
+msgstr ""
+"<:official_Deer_01_reversed:439576463436546050> Diizinkan untuk menetapkan "
+"status VIP!"
+
+#: cogs/admin_commands.py:220
+msgid ":x: Unauthorised to set the VIP status! You are not an owner."
+msgstr ":x: Tidak diizinkan menetapkan status VIP! Kamu bukan pemiliknya."
+
+#: cogs/admin_commands.py:226 cogs/admin_commands.py:237
+#: cogs/admin_commands.py:258
+msgid ":x: Incorrect value."
+msgstr ":x: Nilai tidak benar."
+
+#: cogs/admin_commands.py:233 cogs/admin_commands.py:254
+msgid ":ok: The setting {pref} has been set to `{value}` on this guild."
+msgstr ""
+":ok: Pengaturan {pref} sudah di tetapkan menjadi `{value}` di guild ini."
+
+#: cogs/experience_related_commands.py:27
+msgid ""
+"Congratulations, you sent / gave more experience than the maximum number I'm "
+"able to store."
+msgstr ""
+"Selamat ya, kamu sudah mengirim / memberi wawasan lebih banyak daripada "
+"jumlah maksimum yang dapat saya simpan."
+
+#: cogs/experience_related_commands.py:30
+msgid ":ok:, he/she now has {newexp} exp points!"
+msgstr ":ok: Sekarang ia memiliki {newexp} poin exp."
+
+#: cogs/experience_related_commands.py:54
+msgid ":x: To prevent abuse, you can't send exp when you don't have a weapon."
+msgstr ""
+":x: Guna mencegah penyalahgunaan, kamu tidak dapat mengirim exp bila tidak "
+"mempunyai senjata."
+
+#: cogs/experience_related_commands.py:58
+msgid ":x: The exp amount needs to be positive."
+msgstr ":x: Jumlah exp haruslah positif."
+
+#: cogs/experience_related_commands.py:62
+msgid ""
+":x: Wait... What? Are you trying to send experience to YOURSELF? That "
+"doesn't make sense."
+msgstr ""
+":x: Sebentar... Apa?  Kamu mencoba mengirim exp untukmu sendiri?  Itu tidak "
+"masuk akal. "
+
+#: cogs/experience_related_commands.py:81
+msgid "You sent {amount} exp to {target} (and paid {taxes} exp of taxes)!"
+msgstr ""
+"Kamu sudah mengirim {amount} exp kepada {target} (dan membayar {taxes} pajak "
+"exp)!"
+
+#: cogs/experience_related_commands.py:84
+msgid "You don't have enough experience points"
+msgstr "Poin wawasan kamu tidak mencukupi"
+
+#: cogs/experience_related_commands.py:86
+msgid ":x: Sending exp is disabled on this server"
+msgstr ":x: Mengirimkan exp dinonaktifkan di server ini"
+
+#: cogs/experience_related_commands.py:94 cogs/scores.py:33
+msgid "{date} (in {dans_jours}{dans_heures} and {dans_minutes})"
+msgstr "{date} (pada {dans_jour}{dans_heures} dan {dans_minutes})"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:34
+#, python-format
+msgid "%m/%d at %H:%M:%S"
+msgstr "%m/%d pada %J:%M:%D"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:35
+msgid "{dans} days "
+msgstr "{dans} hari"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:36
+msgid "{dans} hours"
+msgstr "{dans} jam"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:37
+msgid "{dans} minutes"
+msgstr "{dans} menit"
+
+#: cogs/meta.py:38
+#, python-format
+msgid ""
+"The bot frequently reboots for updates. Don't worry, it has a 99.8% of "
+"uptime."
+msgstr ""
+"Bot melakukan pengaktifan-ulang berkala untuk pembaruan. Jangan khawatir, "
+"masa aktifnya 99.8%"
+
+#: cogs/meta.py:82
+msgid ""
+"It's `{hour}:{minutes}:{seconds}` in the GMT timezone (also known as UTC±00:"
+"00), which is the one used by the bot. \n"
+"You can use this website to compare it to yours: https://time.is/compare/GMT"
+msgstr ""
+"Saat ini `{hour}:{minutes}:{seconds}`di zona waktu GMT (dikenal juga sebagai "
+"UTC±00:00), yang sekarang digunakan bot. Kamu bisa bandingkan situs web ini "
+"dengan milikmu:\n"
+"https://times.is/compare/GMT"
+
+#: cogs/meta.py:85
+msgid ""
+"You can use the `dh!freetime` command to see when you'll get your weapons "
+"back for free"
+msgstr ""
+"Kamu dapat menggunakan perintah `dh!freetime` supaya tahu kapan menerima "
+"kembali senjatamu secara gratis."
+
+#: cogs/meta.py:103
+msgid ""
+"A giveback tops up your magazines and gives you your weapon back for free "
+"(if confiscated), but it doesn't affect the bullets in your current magazine."
+" If you can, reload beforehand!"
+msgstr ""
+"Pengembalian mengisi magasen dan memberikan kembali senjatamu secara gratis "
+"(bila disita), tapi tidak mempengaruhi peluru di magasenmu sekarang. Kalau "
+"bisa, isi ulang sebelum beraksi!"
+
+#: cogs/meta.py:117
+msgid "You are using shard number {shard} out of {total} total shards"
+msgstr "Kamu menggunakan sejumlah {shard} shard dari total {total} shard."
+
+#: cogs/scores.py:52
+msgid ""
+"The scores are online at http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}"
+msgstr "Jumlah skor daring di http://deerhunt.api-d.com/web/deertats.php?"
+
+#: cogs/scores.py:259
+msgid ""
+"Your deertats are waiting for you at http://deerhunt.api-d.com/web/"
+"deertats.php?cid={channel_id}&pid={player_id}"
+msgstr ""
+"Deertats milikmu menunggu di http://deerhunt.api-d.com/web/deertats."
+"php?cid={channel_id}&pid={player_id}"
+
+#: cogs/setup_wizzard.py:24
+msgid ""
+"Hello!\n"
+" Thanks for adding me in there! I'm almost ready to start the game!\n"
+" Could we please go into the channel where you want the game to be ? Please "
+"invoke me there by using `dh!setup`<:event_GuildAdded_01:439550913112309781>"
+msgstr ""
+"Halo!\n"
+" Terima kasih sudah memasukkan saya! Saya hampir siap memulai permainannya! "
+"Dapatkah kita masuk ke kanal tempat kamu menginginkan permainannya berada? "
+"Silahkan masukkan saya di sana menggunakan `dh!setup`\n"
+"<:event_GuildAdded_01:439550913112309781>"
+
+#: cogs/setup_wizzard.py:35
+msgid ""
+"Hello again!\n"
+" I'm just gonna run a quick permissions check and will be back in a few "
+"seconds! Please wait"
+msgstr ""
+"Halo lagi!\n"
+" Saya hanya akan melakukan pemeriksaan izin singkat dan akan kembali dalam "
+"beberapa detik! Tunggu ya"
+
+#: cogs/setup_wizzard.py:51
+msgid ""
+":small_red_triangle: The permission `read_message_history` is missing.\n"
+"This is essential for the normal function of the bot, as I need to be able "
+"to read messages.\n"
+"You can proceed without it, but shouldn't."
+msgstr ""
+":small_red_triangle: Izin `read_message_history` tidak ada.\n"
+"Ini penting bagi fungsi normal bot,  bahwa saya harus bisa membaca pesan.\n"
+"Kamu bisa melanjutkan, tapi sebaiknya tidak."
+
+#: cogs/setup_wizzard.py:56
+msgid ""
+":small_red_triangle: The permission `add_reactions` is missing.\n"
+"It's a required permission for interactive embeds, and they are almost "
+"everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: Izin `add_reactions` tidak ada.\n"
+"Izin tersebut dibutuhkan bagi lekatan interaktif, dan adanya hampir di semua "
+"tempat.\n"
+"Kamu bisa melanjutkan tanpanya, tapi tidak disarankan dan dapat "
+"mengakibatkan kesalahan."
+
+#: cogs/setup_wizzard.py:61
+msgid ""
+":small_red_triangle: The permission `attach_files` is missing.\n"
+"It's a required permission for embeds, and they are almost everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: Izin `attach_files` tidak ada.\n"
+"Itu dibutuhkan bagi lekatan, dan izin tersebut ada hampir di semua tempat.\n"
+"Kamu bisa melanjutkan tanpanya, tapi tidak disarankan dan dapat "
+"mengakibatkan kesalahan."
+
+#: cogs/setup_wizzard.py:66
+msgid ""
+":small_red_triangle: The permission `embed_links` is missing.\n"
+"This is used to send embeds\n"
+"You could proceed without it, but really shouldn't as it will lead to errors"
+msgstr ""
+":small_red_triangle: Izin `embed_links` tidak ada.\n"
+"Ini dibutuhkan untuk mengirim lekatan.\n"
+"Kamu bisa melanjutkan tanpanya, tapi sebaiknya tidak sebab bisa "
+"mengakibatkan kesalahan."
+
+#: cogs/setup_wizzard.py:72
+msgid ""
+":small_orange_diamond: You gave me the `administrator` permission.\n"
+"Although this will not cause problems, it's unsafe to give bots such "
+"powerful permissions, especially if they don't need them.\n"
+"You can proceed with it."
+msgstr ""
+":small_orange_diamond: Kamu sudah memberi saya izin `administrator`.\n"
+"Meski ini tidak akan menimbulkan masalah, tidaklah aman memberi bot izin "
+"kuasa yang amat besar, apa lagi bila bot tidak membutuhkannya.\n"
+"Kamu tetap bisa melanjutkan."
+
+#: cogs/setup_wizzard.py:77
+msgid ""
+":small_orange_diamond: The permission `create_instant_invite` is missing.\n"
+"It's not really essential for the normal function of the bot, but needed for "
+"error reports.\n"
+"You can proceed without it."
+msgstr ""
+":small_orange_diamond: Izin `create_instant_invite` tidak ada.\n"
+"Bukan hal penting bagi fungsi normal bot, tapi diperlukan guna melaporkan "
+"kesalahan.\n"
+"Kamu bisa melanjutkan tanpanya."
+
+#: cogs/setup_wizzard.py:82
+msgid ""
+":small_orange_diamond: The permission `manage_messages` is missing.\n"
+"This is used to remove some messages on sneaky commands (weapon sabotage, "
+"etc.), and also if you use the `delete_commands` setting\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_orange_diamond: Izin `manage_messages` tidak ada.\n"
+"Ini diperlukan untuk menghapus pesan-pesan perintah selinap (sabotase "
+"senjata, dst), dan jika kamu gunakan pengaturan `delete_commands`\n"
+"Kamu bisa melanjutkan tanpanya, tapi tidak disarankan dan bisa mengarah pada "
+"kesalahan."
+
+#: cogs/setup_wizzard.py:87
+msgid ""
+":small_orange_diamond: You gave me the `mention_everyone` permission.\n"
+"This not used, but should't be given in case of a bug\n"
+"You could proceed with it safely."
+msgstr ""
+":small_orange_diamond: Kamu memberi saya izin `mention_everyone`.\n"
+"Ini tidak digunakan, tapi seharusnya tidak diberikan bila ada bug\n"
+"Kamu dapat melanjutkannya dengan aman."
+
+#: cogs/setup_wizzard.py:92
+msgid ""
+":small_orange_diamond: The permission `external_emojis` is missing.\n"
+"This is used since DeerHunt to add non-standard emojis to messages. You should "
+"probably give it to me\n"
+"You could proceed without it, but bug reports would be appreciated."
+msgstr ""
+":small_orange_diamond: Izin `external_emojis` tidak ada.\n"
+"Ini digunakan sejak DeerHunt untuk menambah emoji non-standar pada pesan. "
+"Mungkin harusnya kamu berikan kepada saya.\n"
+"Kamu dapat melanjutkan tanpanya, tapi melaporkan bug akan sangat dihargai."
+
+#: cogs/setup_wizzard.py:110
+msgid ""
+":small_blue_diamond: The permission `change_nickname` is missing.\n"
+"This is not yet used, but could be in the future. An announcement will be "
+"made then.\n"
+"You can safely proceed without it."
+msgstr ""
+":small_blue_diamond: Izin `change_nickname` tidak ada.\n"
+"Ini belum digunakan, mungkin di masa mendatang. Nanti akan dbuat sebuah "
+"pemberitahuan.\n"
+"Kamu bisa melanjutkan tanpanya dengan aman."
+
+#: cogs/setup_wizzard.py:115
+msgid ""
+":small_blue_diamond: The permission `send_tts_messages` is missing.\n"
+"This is used in case you want to enable tts deer..\n"
+"You can safely proceed without it, but the `tts_deer` setting won't work"
+msgstr ""
+":small_blue_diamond: Izin `send_tts_messages` tidak ada.\n"
+"Ini diperlukan seandainya kamu mau mengaktifkan suara bebek ..\n"
+"Kamu bisa melanjutkan secara aman tanpanya, tapi pengaturan `tts_deer` "
+"takkan berhasil"
+
+#: cogs/setup_wizzard.py:121
+msgid ""
+"I'm done! <:cmd_Setup_01:439551472804429836>\n"
+"Any warning has been sent above. I suggest fixing them, then running the "
+"command again!\n"
+"If there is none, congrats! You passed the tests brilliantly!\n"
+"If you are ready to continue with the setup, use the command "
+"`dh!setup_settings`. If you just want to play, use `dh!add_channel`. Once "
+"used, deer will spawn automatically.\n"
+"Thanks for runing DeerAir. If you have any question, we are here to help at "
+"https://discord.gg/"
+msgstr ""
+"Sudah beres! <:cmd_Setup_01:439551472804429836>\n"
+"Peringatan apapun dicantumkan di atas. Saya sarankan perbaiki semua, lalu "
+"jalankan lagi perintahnya!\n"
+"Bila tidak ada, selamat! Kamu melewati ujiannya dengan cemerlang!\n"
+"JIka kamu siap melanjutkan pengaturannya, gunakan perintah "
+"`dh!setup_settings`. Jika hanya ingin main, gunakan `dh!add_channel`. Begitu "
+"digunakan, bebek akan otomatis muncul.\n"
+"Terima kasih sudah terbang bersama DeerAir. Jika Anda memiliki pertanyaan, "
+"kami bersedia membantu di https://discord.gg/2BksEkv"
+
+#: cogs/setup_wizzard.py:135
+msgid ""
+"Hey! Let's configure the server!\n"
+"I'll give you the most used parameters, and let you change them if you want. "
+"Any command written here is optional, and you can start playing now just by "
+"using `dh!add_channel`.\n"
+"\n"
+"**Before starting, please make sure this is the channel you want to use, and "
+"activate it with `dh!add_channel`.**\n"
+"\n"
+"**1/ Language used**:\n"
+"    \\* If you speak french, use `dh!settings set language fr_FR`\n"
+"    \\* If you speak spanish, use `dh!settings set language es_ES`\n"
+"    \\* Another language we don't fully support yet? Help us translate "
+"DeerHunt! Find us at https://discord.gg/.\n"
+"    \n"
+"**2/ Deer Per Day**:\n"
+"    This is the number of deer that will spawn per day. They spawn at "
+"random intervals, but you can configure the number of deer that will spawn.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"deer_per_day XX`, where `XX` is a number.\n"
+"    \\* To prevent abuse, there is a limit that will be automatically "
+"enforced. If you need to lift it, contact my owner at the support server.\n"
+"    \n"
+"**3/ Exp Won Per Deer Killed**:\n"
+"    This is the experience won per deer killed. If your server is really "
+"popular, it might be worth it to push it up a little to make new hunters "
+"progress faster.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"exp_won_per_deer_killed XX`, where `XX` is a number.\n"
+"    \\* :bulb: Don't go too high tho, there must be some challenge. 15 is a "
+"good start\n"
+"    \n"
+"**4/ Other settings**:\n"
+"    This is starting to be lengthy, so I won't go into further details here. "
+"You are probably all set and can start the game by typing `dh!add_channel`.\n"
+"    More settings can be found using `dh!settings list`\n"
+"    \n"
+"Thanks for playing with me! <:official_Deer_01:439546719177539584>\n"
+msgstr ""
+"Hei! Mari atur servernya!\n"
+"Saya akan memberikan parameter yang sering digunakan, dan kamu boleh "
+"mengubahnya bila mau. Perintah manapun yang tertulis di sini hanyalah "
+"pilihan, kamu dapat memainkannya sekarang menggunakan `dh!add_channel`.\n"
+"\n"
+"**Sebelum mulai, harap pastikan ini kanal yang ingin kamu gunakan, dan "
+"mengaktifkannya dengan `dh!add_channel`.**\n"
+"\n"
+"**1/ Bahasa yang digunakan**:\n"
+"    \\* Berbahasa Perancis, gunakan `dh!settings set language fr_FR`\n"
+"    \\* Berbahasa Spanyol, gunakan `dh!settings set language es_ES`\n"
+"    \\* Bahasa belum seutuhnya kami dukung? Bantu kami menerjemahkan "
+"DeerHunt! Temui kami di https://discord.gg/.\n"
+"\n"
+"**2/ Bebek Per Hari**:\n"
+"     Ini jumlah bebek yang akan muncul tiap hari. Semua muncul pada "
+"sembarang rentang waktu, tapi kamu bisa tentukan jumlah bebek yang akan "
+"muncul.\n"
+"     \\* Gunakan perintah berikut untuk mengubahnya, gunakan `dh!settings "
+"set deer_per_day XX`, dimana XX merupakan angka.\n"
+"     \\* Guna mencegah penyalahgunaan, ada batas yang akan ditegakkan secara "
+"otomatis. Jika kamu hendak mengangkatnya, hubungi pemilik saya di server "
+"dukungan.\n"
+"\n"
+"**3/ Raihan Exp Bagi Tiap Bebek Mati**:\n"
+"     Ini adalah jumlah raihan exp bagi tiap bebek yang mati. Jika servermu "
+"benar-benar populer, mungkin perlu sedikit dorongan untuk membuat "
+"perkembangan para pemburu baru lebih cepat.\n"
+"     \\* Gunakan perintah berikut untuk mengubahnya, gunakan `dh!settings "
+"set exp_won_per_deer_killed XX`, dimana XX adalah angka.\n"
+"     \\* :bulb: Jangan terlalu tinggi, hanya harus ada tantangan. 15 adalah "
+"awalan yang bagus.\n"
+"\n"
+"**4/ Pengaturan lain**:\n"
+"     Ini mulai semakin panjang, jadi saya tidak akan memberikan detil lebih "
+"jauh. Kamu mungkin sudah siap dan dapat bisa mulai main dengan mengetik "
+"`dh!add_channel`.\n"
+"     Pengaturan yang lebih banyak bisa dilihat menggunakan `dh!settings "
+"list`\n"
+"\n"
+"Terima kasih sudah bermain dengan saya!<:official_Deer_01:"
+"439546719177539584>\n"
+
+#: cogs/shop.py:42
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!shop [list/item number] "
+"[argument if applicable]`"
+msgstr ""
+":x: Salah sintaks. Gunakan cara perintah ini: `!shop [list/item number] "
+"[argumen if berlaku]`"
+
+#: cogs/shop.py:52
+msgid "Right now you have a total of {exp} exp points."
+msgstr "Saat ini kamu memiliki total sejumlah {exp} poin exp."
+
+#: cogs/shop.py:59
+msgid ""
+"Here is the list of all the shops items : https://deerhunt.me/shop-items/ . "
+"Thanks "
+msgstr ""
+"Inilah daftar semua barang pembelian: https://deerhunt.me/shop-items/ . "
+"Terima kasih."
+
+#: cogs/shop.py:75
+msgid ":money_with_wings: You added a bullet to your weapon for 7 exp points."
+msgstr ""
+":money_with_wings: Sebutir peluru senilai 7 poin exp ditambahkan ke "
+"senjatamu."
+
+#: cogs/shop.py:78
+msgid ":champagne: Your magazine is full!"
+msgstr ":champagne: Magasenmu penuh!"
+
+#: cogs/shop.py:94
+msgid ""
+":money_with_wings: You added a magazine to your weapon for 13 exp points."
+msgstr ""
+":money_with_wings: Satu magasen senilai 13 poin exp ditambahkan ke senjatamu."
+""
+
+#: cogs/shop.py:97
+msgid ":champagne: You have enough magazines!"
+msgstr ":champagne: Magasenmu mencukupi!"
+
+#: cogs/shop.py:111
+msgid ":money_with_wings: You purchased AP ammo for your weapon."
+msgstr "Kamu sudah membeli amunisi AP untuk senjatamu."
+
+#: cogs/shop.py:112
+msgid ""
+"For the next 24 hours, you will deal double damage to deer. This does "
+"**not** stack with explosive ammo"
+msgstr ""
+"Untuk 24 jam berikutnya, kamu menghasilkan daya rusak ganda pada bebek. Ini "
+"**tidak** tersusun dengan amunisi ledak."
+
+#: cogs/shop.py:115
+msgid ":champagne: You have enough AP ammo for now!"
+msgstr ":champagne: Untuk saat ini kamu memiliki cukup amunisi!"
+
+#: cogs/shop.py:129
+msgid ":money_with_wings: You purchased explosive ammo for your weapon."
+msgstr ":money_with_wings: Kamu sudah membeli amunisi ledak untuk senjatamu."
+
+#: cogs/shop.py:130
+msgid ""
+"For the next 24 hours, you will deal triple damage to deer. This does "
+"**not** stack with AP ammo and trumps it if you have any."
+msgstr ""
+"Untuk 24 berikutnya, kamu akan menghasilkan tiga kali daya rusak pada bebek. "
+"Ini **tidak** tersusun dengan amunisi AP dan mengatasi bila kamu memilikinya"
+
+#: cogs/shop.py:133
+msgid ":champagne: You have enough explosive ammo for now!"
+msgstr ":champagne: Untuk saat ini kamu mempunyai cukup amunisi."
+
+#: cogs/shop.py:147
+msgid ":money_with_wings: You got your weapon back."
+msgstr ":money_with_wings: Kamu mendapatkan kembali senjatamu."
+
+#: cogs/shop.py:148
+msgid ""
+"You can get your weapon back for free if you wait until the daily weapon & "
+"magazine giveback. Type `dh!freetime` to find out when the next giveback is"
+msgstr ""
+"Kamu mendapatkan kembali senjatamu secara gratis jika menunggu sampai "
+"pengembalian harian senjata dan magasen. Ketik `dh!freetime` agar tahu kapan "
+"pengembalian berikutnya."
+
+#: cogs/shop.py:152
+msgid ""
+":champagne: You already have your weapon, what are you trying to buy? :p"
+msgstr ""
+":champagne: Kamu sudah memiliki kembali senjatamu, apa yang mau kamu beli? :"
+"p"
+
+#: cogs/shop.py:166
+msgid ":money_with_wings: You added grease in your weapon."
+msgstr ":money_with_wings: Kamu sudah menambahkan pelumas di senjatamu."
+
+#: cogs/shop.py:167
+msgid ""
+"This reduces jamming risks by 50 percent for a day, for only 8 exp points. "
+"It's really useful for new players. Use `dh!deertats` to check your level "
+"and accuracy"
+msgstr ""
+"Ini mengurangi resiko macet hingga 50 persen untuk satu hari, hanya dengan 8 "
+"poin exp. Amat berguna bagi pemain baru. Gunakan `dh!deertats` untuk "
+"melihat level dan akurasimu."
+
+#: cogs/shop.py:171
+msgid ""
+":champagne: Your weapon is perfectly lubricated, you don't need any more "
+"grease."
+msgstr ""
+":champagne: Senjatamu dilumasi dengan sempurna, kamu tidak lagi memerlukan "
+"pelumas."
+
+#: cogs/shop.py:187
+msgid ":money_with_wings: You added a sight to your weapon."
+msgstr ":money_with_wings: Kamu menambahkan penglihatan pada senjatamu."
+
+#: cogs/shop.py:188
+msgid ""
+"Your aiming was improved using this formula: (100 - current accuracy) / 3."
+msgstr ""
+"Bidikanmu ditingkatkan menggunakan formula: (100 - ketepatan saat ini) / 3."
+
+#: cogs/shop.py:191
+msgid ":champagne: You already have a sight on your weapon."
+msgstr ":champagne: Kamu sudah pasangkan penglihatan pada senjatamu"
+
+#: cogs/shop.py:208
+msgid ""
+":money_with_wings: You added an infrared detector to your weapon, it will "
+"prevent any waste of ammo for a day. Cost: 15 exp points."
+msgstr ""
+":money_with_wings: Kamu menambahkan pendeteksi infra-merah di senjatamu, "
+"yang mencegah tersia-sianya amunisi selama satu hari. Biaya: 15 poin exp."
+
+#: cogs/shop.py:210
+msgid ":champagne: You already have an infrared detector on your weapon."
+msgstr ":champagne: Kamu sudah memiliki pendeteksi infra-merah di senjatamu."
+
+#: cogs/shop.py:224
+msgid ":money_with_wings: You added a silencer to your weapon."
+msgstr ":money_with_wings: Kamu sudah menambahkan peredam di senjatamu."
+
+#: cogs/shop.py:225
+msgid ""
+"The silencer works best if every hunter uses one, or if you're alone. With "
+"it, no deer will run away before you can kill them. What a good deal, they "
+"only cost 5 exp!"
+msgstr ""
+"Peredam memberi hasil terbaik jika setiap pemburu memakainya, atau jika kamu "
+"sendirian. Dengannya, takkan ada bebek terbang menjauh sebelum kamu tembak "
+"mati. Lumayan kan, ongkosnya hanya 5 exp!"
+
+#: cogs/shop.py:229
+msgid ":champagne: You already have a silencer on your weapon"
+msgstr ":champagne: Kamu sudah pasangkan peredam di senjatamu"
+
+#: cogs/shop.py:253
+msgid ""
+":money_with_wings: You bought a fresh 4-leaf clover, which will give you "
+"{exp} more exp points for each killed deer for the next day."
+msgstr ""
+":money_with_wings: Kamu sudah membeli selembar semanggi segar, yang akan "
+"memberi tambahan {exp} poin exp untuk tiap bebek yang berhasil ditembak mati "
+"di hari berikut."
+
+#: cogs/shop.py:257
+msgid ":champagne: You already have 4-leaf clover on your weapon"
+msgstr ":chanpagne: Kamu sudah punya semanggi helai-4 di senjatamu"
+
+#: cogs/shop.py:273
+msgid ""
+":money_with_wings: You bought a pair of sunglasses for 5 exp! You now won't "
+"be dazzled for a day."
+msgstr ""
+":money_with_wings: Kamu sudah membeli sepasang kacamata senilai 5 exp! Kamu "
+"tidak akan silau untuk satu hari."
+
+#: cogs/shop.py:277
+msgid ""
+":money_with_wings: You bought brand new sunglasses, the only point of it "
+"being that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Kamu sudah membeli kacamata baru, hal pentingnya adalah "
+"sekarang kamu jauh lebih keren. :cool:"
+
+#: cogs/shop.py:278
+msgid ""
+"Don't buy sunglasses if you still have some! This doesn't extend the time "
+"you won't be dazzled, but still costs you some exp"
+msgstr ""
+"Jangan membeli kacamata jika kamu masih memilikinya. itu tidak menambah "
+"waktu agar kamu tidak silau"
+
+#: cogs/shop.py:292
+msgid ":money_with_wings: You're wearing new dry clothes. You look fantastic!"
+msgstr ""
+":money_with_wings: Kamu mengenakan baju baru. Kamu terlihat fantastis!"
+
+#: cogs/shop.py:296
+msgid ""
+":money_with_wings: You bought brand new clothes, the only point of it being "
+"that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Kamu sudah membeli beberapa baju baru, hal pentingnya "
+"adalah sekarang kamu jauh lebih keren. :cool:"
+
+#: cogs/shop.py:297
+msgid ""
+"Don't buy dry clothes if you aren't wet! They won't do anything, but will "
+"still cost you exp"
+msgstr ""
+"Jangan beli baju kering jika kamu tidak basah! Tidak ada gunanya, tapi tetap "
+"membebanimu exp."
+
+#: cogs/shop.py:311
+msgid ""
+":money_with_wings: You cleaned your weapon for 6 exp. If you had sand in it, "
+"or if your weapon was sabotaged, it's fixed now!"
+msgstr ""
+":money_with_wings: Kamu membersihkan senjatamu dengan biaya 6 exp. JIka ada "
+"pasir di dalamnya, atau senjatamu disabotase, sekarang sudah diperbaiki."
+
+#: cogs/shop.py:325
+msgid ":x: No way! {mention} has sunglasses! They're immunised against this!"
+msgstr ":x: Mustahil! {mention} punya kacamata! Ia kebal terhadap ini!"
+
+#: cogs/shop.py:326
+msgid ""
+"That bad move still took 5 exp from your account, due to you having to buy a "
+"mirror"
+msgstr ""
+"Tidakan buruk tersebut masih mengambil 5 exp dari akunmu, lantaran kamu "
+"membeli sebuah cermin"
+
+#: cogs/shop.py:331
+msgid ""
+":money_with_wings: You dazzled {mention}! Their next shot will lose 50% "
+"accuracy!"
+msgstr ""
+":money_with_wings: Kamu melimbungkan {mention}! Ketepatan tembakannya yang "
+"berikut berkurang 50%!"
+
+#: cogs/shop.py:346
+msgid ":champagne: You threw sand in {mention}'s weapon!"
+msgstr ":champagne: Kamu menghamburkan pasir di senjatanya {mention}!"
+
+#: cogs/shop.py:347
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you"
+msgstr ""
+"Adanya sebutan memang disengaja. Kamu tidak akan melakukannya di belakang "
+"mereka bukan?"
+
+#: cogs/shop.py:360
+msgid ""
+":money_with_wings: You dropped a bucket full of water on {target}, forcing "
+"them to wait 1 hour for their clothes to dry before they can return hunting."
+msgstr ""
+":money_with_wings: Kamu sudah menjatuhkan air seember penuh pada {target}, "
+"memaksanya menunggu 1 jam sampai bajunya kering sebelum bisa kembali berburu."
+""
+
+#: cogs/shop.py:399
+msgid ""
+":ok: {target} weapon is now sabotaged... but they don't know it (14 exp)!"
+msgstr ""
+":ok: Senjata {target} sudah disabotase... tapi mereka tidak tahu (14 exp)!"
+
+#: cogs/shop.py:402
+msgid ""
+"Don't use a mention for this. You can give me user ids or the full username "
+"in \"quotes\""
+msgstr ""
+"Jangan gunakan sebutan untuk ini. Kamu bisa memberikan id pengguna atau nama "
+"pengguna utuh dalam \"kutipan\""
+
+#: cogs/shop.py:411 cogs/shop.py:516
+msgid ""
+"If you ask a server admin to give me the `manage_message` permission, I will "
+"be able to delete that kind of shop commands ;)"
+msgstr ""
+"Jika kamu minta admin server memberi saya izin`manage_message`, Saya bisa "
+"menghapus perintah belanja semacam itu;)"
+
+#: cogs/shop.py:428
+msgid ":money_with_wings: You bought a life insurance for a week for 10 exp."
+msgstr ""
+":money_with_wings: Kamu sudah membeli asuransi jiwa untuk seminggu senilai "
+"10 exp."
+
+#: cogs/shop.py:432
+msgid ":champagne: You're already insured."
+msgstr ":champagne: Kamu sudah diasuransikan."
+
+#: cogs/shop.py:469
+msgid ""
+":money_with_wings: Deer are resting right now, so your decoy probably "
+"didn't work..."
+msgstr ""
+":money_with_wings: Bebek-bebek sedang rehat, jadi umpanmu mungkin tidak "
+"berhasil..."
+
+#: cogs/shop.py:473
+msgid ""
+":money_with_wings: A deer will appear in the next 10 minutes on the channel, "
+"thanks to {mention}'s decoy. They bought it for 8 exp!"
+msgstr ""
+"Seekor bebek akan muncul di kanal pada 10 menit berikut, berkat umpannya "
+"{mention}. Ia membelinya senilai 8 exp!"
+
+#: cogs/shop.py:497
+msgid ""
+":money_with_wings: Bread can stack! Buy some more to maximise the effects!"
+msgstr ""
+":money_with_wings: Roti bisa bertumpuk! Belilah lagi untuk menambah daya "
+"tariknya!"
+
+#: cogs/shop.py:521
+msgid ""
+":money_with_wings: You prepared a mechanical deer on the channel for 40 exp. "
+"It's wrong, but so funny!"
+msgstr ""
+":money_with_wings: Kamu sudah menyiapkan bebek-bebekan di kanal senilai 40 "
+"exp. Ngawur, tapi lucu sekali!"
+
+#: cogs/user_commands.py:72 cogs/user_commands.py:159
+msgid "You don't have a weapon."
+msgstr "Kamu tidak memiliki senjata."
+
+#: cogs/user_commands.py:78
+msgid "You unjammed your weapon."
+msgstr "Kamu sudah melancarkan senjatamu."
+
+#: cogs/user_commands.py:92
+msgid "You reloaded your weapon."
+msgstr "Kamu sudah mengisi ulang senjatamu."
+
+#: cogs/user_commands.py:94
+msgid "You don't have any ammo left!"
+msgstr "Kamu tidak punya amunisi lagi!"
+
+#: cogs/user_commands.py:97
+msgid "You don't need to reload your weapon."
+msgstr "Kamu tidak perlu mengisi ulang senjatamu."
+
+#: cogs/user_commands.py:149
+msgid ""
+"Your clothes are wet, you can't go hunting! Wait {temps_restant} minutes."
+msgstr ""
+"Pakaianmu basah, kamu tidak bisa berburu! Tunggulah {temps_restart} menit."
+
+#: cogs/user_commands.py:168
+msgid "Your weapon is jammed, it must be reloaded to unjam it."
+msgstr "Senjatamu macet, harus diisi ulang untuk melancarkannya."
+
+#: cogs/user_commands.py:178
+msgid "Your weapon is sabotaged, thank {assaillant} for this bad joke."
+msgstr "Senjatamu disabotase, syukur {assaillant} atas kelakar buruknya."
+
+#: cogs/user_commands.py:225
+msgid "Your weapon just jammed, reload it to unjam it."
+msgstr "Senjatamu macet, isi ulang untuk melancarkannya."
+
+#: cogs/user_commands.py:252
+msgid ""
+"There isn't any deer in here, but the bullet wasn't fired because the "
+"infrared detector you added to your weapon is doing its job!"
+msgstr ""
+"Tidak ada bebek di sini, tapi peluru tidak meletus karena pendeteksi infra "
+"merah yang kamu tambahkan di senjata memang berfungsi."
+
+#: cogs/user_commands.py:267
+msgid ""
+"Luckily you missed, but what were you aiming at exactly? There isn't any "
+"deer in here... [missed: -1 xp] [wild shot: -1 xp]"
+msgstr ""
+"Sayang kamu meleset, tapi sebenarnya kamu membidik apa? Di sini tidak ada "
+"bebek... [gagal: -1 xp] [tembakan liar: -1 xp]"
+
+#: cogs/user_commands.py:375
+msgid ""
+"**BANG**\tYou missed the deer... and shot **yourself**! Maybe you should "
+"turn your weapon a little before shooting the next time? [missed: -1 xp] "
+"[hunting accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**DUAR**   Tembakanmu meleset... dan menembak **diri sendiri**! Lain kali "
+"mungkin kamu harus memutar sedikit senjatamu sebelum menembak? [gagal: -1 "
+"xp] [kecelakaan berburu: -2 xp] [**senjata disita**]"
+
+#: cogs/user_commands.py:382
+msgid ""
+"**BANG**\tYou missed the deer... and shot {player}! [missed: -1 xp] [hunting "
+"accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**DUAR**   Tembakanmu meleset... dan menembak {player}! [gagal: -1 xp] "
+"[kecelakaan berburu: -2 xp] [**senjata disita**]"
+
+#: cogs/helpers/deer.py:230 cogs/user_commands.py:399
+msgid "**PIEWW**\tYou missed the deer! [missed: -1 xp]"
+msgstr "**TUUING**    Tembakanmu meleset! [gagal: -1 xp]"
+
+#: cogs/helpers/config.py:67
+msgid "*cries*"
+msgstr "*merengek*"
+
+#: cogs/helpers/config.py:67
+msgid "Hello world"
+msgstr "Halo dunia"
+
+#: cogs/helpers/config.py:67
+msgid "How are you today?"
+msgstr "Bagaimana kabarmu hari ini?"
+
+#: cogs/helpers/config.py:67
+msgid "Please don't kill me..."
+msgstr "Tolong jangan bunuh saya..."
+
+#: cogs/helpers/config.py:67
+msgid "Don't shoot me! I'm a fake deer!"
+msgstr "Jangan tembak saya! Saya cuma bebek-bebekan!"
+
+#: cogs/helpers/config.py:77
+msgid "The deer went away.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya pergi menjauh.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer went to another world.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya pergi ke tempat lain.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer didn't have time for this.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya tidak mau bertele-tele.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya pergi.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer dissipated in space and time.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya berhamburan ke sembarang tempat.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left out of boredom.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya pergi karena bosan.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer doesn't want to be sniped.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya tidak ingin dibidik diam-diam.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer walked up to the lemonade stand.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Bebeknya melenggang ke penjual lemon.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:83
+msgid "a stuffed deer."
+msgstr "sepotong bebek panggang."
+
+#: cogs/helpers/config.py:83
+msgid "a rubber deery."
+msgstr "sebuah bebek karet."
+
+#: cogs/helpers/config.py:83
+msgid "a vibrating deer."
+msgstr "satu bebek goyang."
+
+#: cogs/helpers/config.py:83
+msgid "a pile of fur."
+msgstr "setumpuk bulu."
+
+#: cogs/helpers/config.py:83
+msgid "a chewed chewing gum."
+msgstr "sebuah permen karet bekas."
+
+#: cogs/helpers/config.py:84
+msgid "a leaflet from CACAD (Coalition Against the Comitee Against Deer)."
+msgstr "selebaran dari CACAD (Coalition Against Comitee Against Deer)."
+
+#: cogs/helpers/config.py:84
+msgid "an old shoe."
+msgstr "sepotong sepatu tua."
+
+#: cogs/helpers/config.py:84
+msgid "a spring thingy."
+msgstr "sepotong per."
+
+#: cogs/helpers/config.py:85
+msgid "an expired hunting license."
+msgstr "izin berburu yang kadaluarsa"
+
+#: cogs/helpers/config.py:85
+msgid "a cartridge."
+msgstr "sebuah selongsong."
+
+#: cogs/helpers/config.py:85
+msgid "a cigarette butt."
+msgstr "puntung rokok."
+
+#: cogs/helpers/config.py:85
+msgid "a used condom."
+msgstr "kondom bekas."
+
+#: cogs/helpers/config.py:85
+msgid "a broken sight."
+msgstr "teropong rusak."
+
+#: cogs/helpers/config.py:85
+msgid "a broken infrared detector."
+msgstr "pendeteksi infra-merah bekas."
+
+#: cogs/helpers/config.py:85
+msgid "a bent silencer."
+msgstr "peredam bengkok."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of AP ammo."
+msgstr "amunisi AP kosong."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of explosive ammo."
+msgstr "sekotak kosong amunisi ledak."
+
+#: cogs/helpers/config.py:86
+msgid "a four-leaf clover with only 3 left."
+msgstr "semanggi helai-4 yang tersisa 3 helai."
+
+#: cogs/helpers/config.py:86
+msgid "a broken decoy."
+msgstr "pengumpan rusak."
+
+#: cogs/helpers/config.py:86
+msgid "a broken mirror."
+msgstr "cermin rusak."
+
+#: cogs/helpers/config.py:87
+msgid "a rusty mechanical deer."
+msgstr "bebek mekanis berkarat."
+
+#: cogs/helpers/config.py:87
+msgid "a pair of sunglasses without glasses."
+msgstr "kacamata tanpa kaca."
+
+#: cogs/helpers/config.py:87
+msgid "Bambi's beret."
+msgstr "baret Bambi."
+
+#: cogs/helpers/config.py:87
+msgid "a half-melted peppermint."
+msgstr "sebuah permen bekas"
+
+#: cogs/helpers/config.py:87
+msgid "a box of Abraxo cleaner."
+msgstr "sekotak pembersih Abraxo."
+
+#: cogs/helpers/config.py:88
+msgid "a gun with banana peeled barrel."
+msgstr "senapan dengan moncong pecah."
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting knife."
+msgstr "sebilah pisau berburu"
+
+#: cogs/helpers/config.py:88
+msgid "an old video recording: http://tinyurl.com/zbejktu"
+msgstr "sebuah rekaman video: http://tinyurl.com/zbejktu"
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting photo: http://tinyurl.com/hmn4r88"
+msgstr "selembar foto tua berburu: http://tinyurl.com/hmn4r88"
+
+#: cogs/helpers/config.py:89
+msgid "an old postcard: http://tinyurl.com/hbnkpzr"
+msgstr "selembar kartu pos: http://tinyurl.com/hbnkpzr"
+
+#: cogs/helpers/config.py:89
+msgid "a golden deer photo: http://tinyurl.com/hle8fjf"
+msgstr "selembar foto bebek emas: http://tinyurl.com/hle8fjf"
+
+#: cogs/helpers/config.py:89
+msgid "a hunter pin: http://tinyurl.com/hqy7fhq"
+msgstr "satu pin pemburu: http://tinyurl.com/hqy7fhq"
+
+#: cogs/helpers/config.py:89
+msgid "bushes."
+msgstr "semak-semak."
+
+#: cogs/helpers/config.py:90
+msgid "https://www.youtube.com/watch?v=HP362ccZBmY"
+msgstr "https://www.youtube.com/watch?v=HP362ccZBmY"
+
+#: cogs/helpers/config.py:90
+msgid "a fish."
+msgstr "seekor ikan."
+
+#: cogs/helpers/config.py:198
+msgid "Everything is calm"
+msgstr "Semuanya tenang"
+
+#: cogs/helpers/config.py:198
+msgid "Nothing is happening right now."
+msgstr "Saat ini tidak terjadi apapun."
+
+#: cogs/helpers/config.py:199
+msgid "Deer are migrating"
+msgstr "Bebek-bebek bermigrasi."
+
+#: cogs/helpers/config.py:199
+msgid "Prepare to see more deer in the next hour."
+msgstr "Bersiaplah menemukan lebih banyak bebek di jam berikutnya."
+
+#: cogs/helpers/config.py:200
+msgid "Foggy weather"
+msgstr "Cuaca berkabut"
+
+#: cogs/helpers/config.py:201
+msgid "Steroids in the lake"
+msgstr "Steroid di danau"
+
+#: cogs/helpers/config.py:201
+msgid ""
+"A medical waste company dumped steroids in the lake. Deer have mutated, and "
+"you'll see a lot more super deer. But, be careful, and don't drink that "
+"water."
+msgstr ""
+"Perusahaan limbah medis sudah membuang steroid di danau. Bebek-bebek "
+"bermutasi, dan kamu akan menemukan lebih banyak bebek super. Namun, berhati-"
+"hatilah, dan jangan minum airnya."
+
+#: cogs/helpers/config.py:202
+msgid "Safety class canceled"
+msgstr "Kelas keselamatan dibatalkan."
+
+#: cogs/helpers/config.py:202
+msgid "The safety class was canceled, beware not to shoot others hunters!"
+msgstr ""
+"Kelas keselamatan dibatalkan, awas jangan sampai menembak para pemburu yang "
+"lain."
+
+#: cogs/helpers/config.py:204
+msgid "A new florist in town"
+msgstr "Sebuah gerai tanaman di kota"
+
+#: cogs/helpers/config.py:205
+msgid "Mega-deer"
+msgstr "Bebek-mega"
+
+#: cogs/helpers/config.py:205
+msgid "Someone inflated a super deer, and now they are EVEN BIGGER!!"
+msgstr ""
+"Seseorang sudah memompa bebek-super, dan sekarang menjadi LEBIH BESAR!"
+
+#: cogs/helpers/config.py:206
+msgid "Windy weather"
+msgstr "Cuaca berangin"
+
+#: cogs/helpers/config.py:206
+msgid "Bullets are deflected by some strong wind"
+msgstr "Peluru dikelokkan oleh angin yang kuat"
+
+#: cogs/helpers/config.py:213
+msgid "public danger"
+msgstr "ancaman publik"
+
+#: cogs/helpers/config.py:214
+msgid "tourist"
+msgstr "pelancong"
+
+#: cogs/helpers/config.py:215
+msgid "noob"
+msgstr "noob"
+
+#: cogs/helpers/config.py:216
+msgid "trainee"
+msgstr "magang"
+
+#: cogs/helpers/config.py:217
+msgid "deer misser"
+msgstr "penembak gagal"
+
+#: cogs/helpers/config.py:218
+msgid "member of the Comitee Against Deer"
+msgstr "anggota Comitee Against Deer"
+
+#: cogs/helpers/config.py:220
+msgid "deer pest"
+msgstr "hama bebek"
+
+#: cogs/helpers/config.py:223
+msgid "hunter"
+msgstr "pemburu"
+
+#: cogs/helpers/data_store.py:182 cogs/helpers/database.py:193
+msgid "Level of {player} on #{channel}"
+msgstr "Level {player} di #{kanal}"
+
+#: cogs/helpers/data_store.py:185 cogs/helpers/database.py:196
+msgid "You leveled down!"
+msgstr "Levelmu turun!"
+
+#: cogs/helpers/data_store.py:188 cogs/helpers/database.py:199
+msgid "You leveled up!"
+msgstr "Levelmu naik!"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/database.py:207
+msgid "Current level"
+msgstr "Level saat ini"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/data_store.py:197
+#: cogs/helpers/database.py:207 cogs/helpers/database.py:208
+msgid "nom"
+msgstr "nom"
+
+#: cogs/helpers/data_store.py:197 cogs/helpers/database.py:208
+msgid "Previous level"
+msgstr "Level terdahulu"
+
+#: cogs/helpers/data_store.py:198 cogs/helpers/database.py:209
+msgid "Shots accuracy"
+msgstr "Ketepatan tembak"
+
+#: cogs/helpers/data_store.py:199 cogs/helpers/database.py:210
+msgid "Weapon reliability"
+msgstr "Keandalan senjata"
+
+#: cogs/helpers/data_store.py:200 cogs/helpers/database.py:211
+msgid "Exp points"
+msgstr "Poin exp"
+
+#: cogs/helpers/data_store.py:206 cogs/helpers/database.py:217
+msgid ""
+":warning: There was an error while sending the embed, please check if the "
+"bot has the `embed_links` permission and try again!"
+msgstr ""
+":warning: Ada kesalahan saat mengirim lekatan, harap periksa apakah bot "
+"memiliki izin `embed_links` dan cobalah lagi!"
+
+#: cogs/helpers/deer.py:233
+msgid ""
+"**FLAPP**\tFrightened by so much noise, the deer fled! CONGRATS! [missed: -1 "
+"xp]"
+msgstr ""
+"**KEKEPAK**   Takut karena banyak suara berisik, bebeknya terbang! BAGOOS! "
+"[gagal: -1 xp]"
+
+#: cogs/helpers/deer.py:244
+msgid "BPAM"
+msgstr "BDAR"
+
+#: cogs/helpers/deer.py:248
+msgid "BAAM"
+msgstr "DWAR"
+
+#: cogs/helpers/deer.py:252
+msgid "BOUM"
+msgstr "BUUM"
+
+#: cogs/helpers/deer.py:252
+msgid "SPROTCH"
+msgstr "CEPROT"
+
+#: cogs/helpers/deer.py:342
+msgid ""
+"That was close, you almost killed the deer, but the other hunter got it "
+"first! [missed: -1 xp]"
+msgstr ""
+"Nyaris, kamu hampir menembak mati bebeknya, tapi pemburu lain menembak lebih "
+"dulu! [gagal; -1 xp]"
+
+#: cogs/helpers/deer.py:402
+msgid ""
+":gun: The deer survived, try again! *SUPER DEER DETECTED* [life: -{vie} "
+"({current_life} / {max_life})]"
+msgstr ""
+":gun: Bebeknya masih hidup, coba lagi! *BEBEK SUPER TERDETEKSI*[nyawa: -"
+"{vie} ({current_life} / {max_life})]"
+
+#: cogs/helpers/deer.py:404
+msgid ""
+":gun: The deer survived, try again! *SUPER DEER DETECTED* [life: -{vie}]"
+msgstr ""
+":gun: Bebeknya masih hidup, coba lagi! *BEBEK SUPER TERDETEKSI* [nyawa: -"
+"{nyawa: -{vie}]"

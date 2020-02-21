@@ -1,0 +1,9 @@
+node_modules/*
+!/credentials_example.json
+*.json
+.DS_Store
+.idea/
+DHV2.iml
+__pycache__/
+
+DeerHunt.iml

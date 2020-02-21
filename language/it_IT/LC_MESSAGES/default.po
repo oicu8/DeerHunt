@@ -1,0 +1,1903 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-06 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: bot.py:145
+msgid ":x: A required argument is missing."
+msgstr ":x: Manca un argomento obbligatorio."
+
+#: bot.py:149
+msgid ":x: You don't have enough exp for this"
+msgstr ":x: Non hai abbastanza exp"
+
+#: bot.py:152
+msgid ":x: You are not a server admin"
+msgstr ":x: Non sei un amministratore del server"
+
+#: bot.py:155
+msgid ":x: You are not a super admin."
+msgstr ":x: Non sei un super admin"
+
+#: bot.py:156
+msgid ""
+"This command is reserved for the bot owners. If you think this is an error, "
+"please contact my owner at the DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Questo comando è riservato ai creatori del bot. Se ritieni che si tratti di "
+"un errore, per favore, contatta il mio proprietario sul server di supporto "
+"DeerHunt (utilizza `dh!help`)."
+
+#: bot.py:160
+msgid ":x: You haven't voted for DeerHunt on DiscordBotList for a while."
+msgstr ":x: Non hai votato per DeerHunt su DiscordBotList da un po'."
+
+#: bot.py:161
+msgid ""
+"Support the bot to use this command by voting at <https://discordbots.org/"
+"bot/deerhunt>. Be aware that the votes can take a minute to be registered by "
+"DeerhuntIf you think this is an error, please contact my owner at the "
+"DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Supporta il bot per utilizzare questo comando votando a <https://discordbots."
+"org/bot/deerhunt>. Tieni presente che i voti possono richiedere un minuto "
+"per essere registrati da Deerhunt. Se ritieni che si tratti di un errore, "
+"contatta il mio proprietario presso il server di supporto DeerHunt (consulta "
+"`dh!help`)."
+
+#: bot.py:173
+msgid "You are on cooldown :(, try again in {seconds} seconds!"
+msgstr "Sei in cooldown :(, riprova tra {seconds} secondi!"
+
+#: bot.py:179
+msgid ":bulb: HINT: "
+msgstr ":bulb: SUGGERIMENTO:"
+
+#: cogs/admin_commands.py:27
+msgid ":ok: Done, user banned. :gun:"
+msgstr ":ok: Fatto, utente bannato. :gun:"
+
+#: cogs/admin_commands.py:39
+msgid ":ok: Done, user unbanned. :eyes:"
+msgstr ":ok: Fatto, rimosso il ban dall’utente. :eyes:"
+
+#: cogs/admin_commands.py:65
+msgid ""
+"<:cmd_ChannelAdded_01:439546719143723019> Done, channel {channel} added to "
+"the game! Have fun!"
+msgstr ""
+"<:cmd_ChannelAdded_01:439546719143723019>Fatto, il canale {channel} è stato "
+"aggiunto al gioco! Divertiti!"
+
+#: cogs/admin_commands.py:81
+msgid ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Done, channel {channel} removed "
+"from the game. Bye!"
+msgstr ""
+"<:cmd_ChannelRemoved_01:439546718737137674>Fatto, il canale {channel} è "
+"stato rimosso dal gioco. Ciao!"
+
+#: cogs/admin_commands.py:90
+msgid ""
+"<:cmd_AdminAdded_01:439549846622568466> {admin} added as an admin to the "
+"guild!"
+msgstr ""
+"<:cmd_AdminAdded_01:439549846622568466>{admin} è stato aggiunto come un "
+"amministratore della gilda!"
+
+#: cogs/admin_commands.py:98
+msgid ""
+"<:cmd_AdminRemoved_01:439549845519335440> {admin} removed from the guild "
+"admins."
+msgstr ""
+"<:cmd_AdminRemoved_01:439549845519335440>{admin} rimosso dagli "
+"amministratori della gilda."
+
+#: cogs/admin_commands.py:143 cogs/admin_commands.py:169
+msgid "Done. User removed from the database, if he was in."
+msgstr "Fatto. Utente rimosso dal database, se presente."
+
+#: cogs/admin_commands.py:156
+msgid "Done. All channel data was removed."
+msgstr "Fatto. Tutti i dati del canale sono stati rimossi."
+
+#: cogs/admin_commands.py:181
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!settings [view/set/reset/"
+"list/modified] [setting if applicable]`"
+msgstr ""
+":x: Sintassi errata. Utilizzare il comando in questo modo: `!settings [view/"
+"set/reset/list/modified] [impostazione se applicabile]`"
+
+#: cogs/admin_commands.py:190
+msgid ":ok: The setting {pref} is set to `{value}` on this guild."
+msgstr ":ok: L’impostazione {pref} è impostata su `{value}` in questa gilda."
+
+#: cogs/admin_commands.py:208
+msgid ""
+"Bypassing the max_deer_per_day check as you are the bot owner. It would "
+"have been `{max}`."
+msgstr ""
+"Stai bypassando il max_deer_per_day come se fossi il proprietario. Sarebbe "
+"stato `{max}`."
+
+#: cogs/admin_commands.py:210
+msgid ""
+"Bypassing the max_deer_per_day check as you are in a VIP guild. Please "
+"don't abuse that. For information, the limit would have been set at `{max}` "
+"deer per day."
+msgstr ""
+"Stai bypassando il controllo max_deer_per_day come se fossi in una gilda "
+"VIP. Per piacere non abusarne. Per tua informazione, il limite sarebbe stato "
+"fissato a `{max}`anatre al giorno."
+
+#: cogs/admin_commands.py:218
+msgid ""
+"<:official_Deer_01_reversed:439576463436546050> Authorised to set the VIP "
+"status!"
+msgstr ""
+"<:official_Deer_01_reversed:439576463436546050>Autorizzato ad impostare lo "
+"stato VIP!"
+
+#: cogs/admin_commands.py:220
+msgid ":x: Unauthorised to set the VIP status! You are not an owner."
+msgstr ""
+":x: Non autorizzato ad impostare lo stato VIP! Non sei un proprietario."
+
+#: cogs/admin_commands.py:226 cogs/admin_commands.py:237
+#: cogs/admin_commands.py:258
+msgid ":x: Incorrect value."
+msgstr ":x: Valore incorretto."
+
+#: cogs/admin_commands.py:233 cogs/admin_commands.py:254
+msgid ":ok: The setting {pref} has been set to `{value}` on this guild."
+msgstr ""
+":ok: l’impostazione {pref} è stata impostata a `{value}` in questa gilda."
+
+#: cogs/experience_related_commands.py:27
+msgid ""
+"Congratulations, you sent / gave more experience than the maximum number I'm "
+"able to store."
+msgstr ""
+"Congratulazioni, hai inviato / dato più esperienza del numero massimo che "
+"posso memorizzare."
+
+#: cogs/experience_related_commands.py:30
+msgid ":ok:, he/she now has {newexp} exp points!"
+msgstr ":ok:, lui/lei adesso ha {newexp} punti exp!"
+
+#: cogs/experience_related_commands.py:54
+msgid ":x: To prevent abuse, you can't send exp when you don't have a weapon."
+msgstr ""
+":x: Per prevenire l’abuso di questo comando, non puoi inviare exp quando non "
+"hai un'arma."
+
+#: cogs/experience_related_commands.py:58
+msgid ":x: The exp amount needs to be positive."
+msgstr ":x: L’importo exp dev’essere positivo."
+
+#: cogs/experience_related_commands.py:62
+msgid ""
+":x: Wait... What? Are you trying to send experience to YOURSELF? That "
+"doesn't make sense."
+msgstr ""
+":x: Aspe...Cosa? Stai cercando di inviare esperienza A TE STESSO? Tutto ciò "
+"non ha alcun senso."
+
+#: cogs/experience_related_commands.py:81
+msgid "You sent {amount} exp to {target} (and paid {taxes} exp of taxes)!"
+msgstr ""
+"Hai inviato {amount} exp a {target} (ed hai pagato {taxes} exp di tasse)!"
+
+#: cogs/experience_related_commands.py:84
+msgid "You don't have enough experience points"
+msgstr "Non hai abbastanza punti esperienza "
+
+#: cogs/experience_related_commands.py:86
+msgid ":x: Sending exp is disabled on this server"
+msgstr ":x: l'invio di exp è disabilitato su questo server"
+
+#: cogs/experience_related_commands.py:94 cogs/scores.py:33
+msgid "{date} (in {dans_jours}{dans_heures} and {dans_minutes})"
+msgstr "{date} (in {dans_jours} {dans_heures} e {dans_minutes})"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:34
+#, python-format
+msgid "%m/%d at %H:%M:%S"
+msgstr "%m /%d %H:%M:%S"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:35
+msgid "{dans} days "
+msgstr "{dans} giorni"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:36
+msgid "{dans} hours"
+msgstr "{dans} ore"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:37
+msgid "{dans} minutes"
+msgstr "{dans} minuti"
+
+#: cogs/meta.py:38
+#, python-format
+msgid ""
+"The bot frequently reboots for updates. Don't worry, it has a 99.8% of "
+"uptime."
+msgstr ""
+"Il bot si riavvia spesso per gli aggiornamenti. Non preoccuparti, il 99,8% "
+"delle volte è operativo"
+
+#: cogs/meta.py:69
+msgid ""
+"Here is the command list: http://deerhunt.me/command-list/ | If you need "
+"anything, feel free to join the support server at https://discordapp.com/"
+"invite/2BksEkV"
+msgstr ""
+"Eccoti la lista comandi: : http://deerhunt.me/command-list/ | Se hai bisogno "
+"di qualsiasi cosa, sentiti pure libero di entrare nel server di supporto a "
+"https://discordapp.com/invite/2BksEkV"
+
+#: cogs/meta.py:82
+msgid ""
+"It's `{hour}:{minutes}:{seconds}` in the GMT timezone (also known as UTC±00:"
+"00), which is the one used by the bot. \n"
+"You can use this website to compare it to yours: https://time.is/compare/GMT"
+msgstr ""
+"Sono le `{hour}:{minutes}:{seconds}` nel fuso orario GMT (noto anche come "
+"UTC ± 00: 00), che è quello usato dal bot.\n"
+"Puoi utilizzare questo sito Web per confrontarlo con il tuo: https://time.is/"
+"compare/GMT"
+
+#: cogs/meta.py:85
+msgid ""
+"You can use the `dh!freetime` command to see when you'll get your weapons "
+"back for free"
+msgstr ""
+"Puoi usare il comando `dh!freetime` per vedere quando potrai recuperare le "
+"tue armi gratuitamente"
+
+#: cogs/meta.py:100
+msgid ""
+":alarm_clock: Next giveback of weapons and magazines in {sec} seconds "
+"({hours} hour(s) and {minutes} minute(s))."
+msgstr ""
+":alarm_clock: La prossima ridistribuzione di armi e cartucce avverrà tra "
+"{sec} secondi ({hours} ora(e) e {minutes} minuto(i))."
+
+#: cogs/meta.py:103
+msgid ""
+"A giveback tops up your magazines and gives you your weapon back for free "
+"(if confiscated), but it doesn't affect the bullets in your current magazine."
+" If you can, reload beforehand!"
+msgstr ""
+"Una ridistribuzione (giveback) ti riempie le cartucce e ti ridà indietro "
+"l'arma gratuitamente (se confiscata), ma non influisce sui proiettili nel "
+"tuo caricatore attuale. Se puoi, ricarica prima!"
+
+#: cogs/meta.py:117
+msgid "You are using shard number {shard} out of {total} total shards"
+msgstr "Stai usando {shard} shards su un totale di {total} shards"
+
+#: cogs/scores.py:52
+msgid ""
+"The scores are online at http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}"
+msgstr ""
+"I punteggi sono disponibili online all'indirizzo web http://deerhunt.api-d."
+"com/web/deertats.php?cid={channel_id}"
+
+#: cogs/scores.py:259
+msgid ""
+"Your deertats are waiting for you at http://deerhunt.api-d.com/web/"
+"deertats.php?cid={channel_id}&pid={player_id}"
+msgstr ""
+"Le tue deertats ti stanno aspettando all'indirizzo web http://deerhunt.api-"
+"d.com/web/deertats.php?cid={channel_id}&pid={player_id}"
+
+#: cogs/setup_wizzard.py:24
+msgid ""
+"Hello!\n"
+" Thanks for adding me in there! I'm almost ready to start the game!\n"
+" Could we please go into the channel where you want the game to be ? Please "
+"invoke me there by using `dh!setup`<:event_GuildAdded_01:439550913112309781>"
+msgstr ""
+"Ciao!\n"
+"Grazie per avermi aggiunto! Sono quasi pronto per iniziare il gioco!\n"
+"Potremmo cortesemente entrare nel canale dove vuoi che il gioco avvenga? Per "
+"piacere chiamami lì utilizzando `dh!setup` <:event_GuildAdded_01:"
+"439550913112309781>"
+
+#: cogs/setup_wizzard.py:35
+msgid ""
+"Hello again!\n"
+" I'm just gonna run a quick permissions check and will be back in a few "
+"seconds! Please wait"
+msgstr ""
+"Ma che piacere rivederti!\n"
+"Farò un rapido controllo delle autorizzazioni e tornerò tra qualche secondo! "
+"Attendere prego"
+
+#: cogs/setup_wizzard.py:51
+msgid ""
+":small_red_triangle: The permission `read_message_history` is missing.\n"
+"This is essential for the normal function of the bot, as I need to be able "
+"to read messages.\n"
+"You can proceed without it, but shouldn't."
+msgstr ""
+":small_red_triangle: Manca l'autorizzazione `read_message_history`.\n"
+"Questa è essenziale per il normale funzionamento del bot, in quanto ho "
+"bisogno dell’abilità di poter di leggere i messaggi.\n"
+"Potresti procedere senza, ma non dovresti."
+
+#: cogs/setup_wizzard.py:56
+msgid ""
+":small_red_triangle: The permission `add_reactions` is missing.\n"
+"It's a required permission for interactive embeds, and they are almost "
+"everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: Manca l'autorizzazione `add_reactions`.\n"
+"È un permesso richiesto per gli incorporamenti interattivi, e sono quasi "
+"ovunque.\n"
+"Potresti procedere senza, ma non è consigliato e potrebbe portare a errori"
+
+#: cogs/setup_wizzard.py:61
+msgid ""
+":small_red_triangle: The permission `attach_files` is missing.\n"
+"It's a required permission for embeds, and they are almost everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: Manca l'autorizzazione `attach_files`.\n"
+"È un permesso richiesto per gli incorporamenti interattivi, e sono quasi "
+"ovunque.\n"
+"Potresti procedere senza, ma non è consigliato e potrebbe portare a errori"
+
+#: cogs/setup_wizzard.py:66
+msgid ""
+":small_red_triangle: The permission `embed_links` is missing.\n"
+"This is used to send embeds\n"
+"You could proceed without it, but really shouldn't as it will lead to errors"
+msgstr ""
+":small_red_triangle: Manca l'autorizzazione `embed_links`.\n"
+"Questa è usata per inviare incorporamenti\n"
+"Potresti procedere senza di esso, ma in realtà non dovresti, poiché porterà "
+"a errori"
+
+#: cogs/setup_wizzard.py:72
+msgid ""
+":small_orange_diamond: You gave me the `administrator` permission.\n"
+"Although this will not cause problems, it's unsafe to give bots such "
+"powerful permissions, especially if they don't need them.\n"
+"You can proceed with it."
+msgstr ""
+":small_orange_diamond: Mi hai dato il permesso di `administrator`.\n"
+"Sebbene ciò non causi problemi, è pericoloso fornire ai bot autorizzazioni "
+"così potenti, specialmente se non ne hanno bisogno.\n"
+"Puoi procedere come sai."
+
+#: cogs/setup_wizzard.py:77
+msgid ""
+":small_orange_diamond: The permission `create_instant_invite` is missing.\n"
+"It's not really essential for the normal function of the bot, but needed for "
+"error reports.\n"
+"You can proceed without it."
+msgstr ""
+":small_orange_diamond: Manca l'autorizzazione `create_instant_invite`.\n"
+"Non è veramente essenziale per la normale funzione del bot, ma è richiesta "
+"per le segnalazioni di errore.\n"
+"Volendo, puoi procedere senza di essa."
+
+#: cogs/setup_wizzard.py:82
+msgid ""
+":small_orange_diamond: The permission `manage_messages` is missing.\n"
+"This is used to remove some messages on sneaky commands (weapon sabotage, "
+"etc.), and also if you use the `delete_commands` setting\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_orange_diamond: Manca l'autorizzazione `manage_messages`.\n"
+"Questa è usata per rimuovere alcuni messaggi con comandi subdoli (sabotaggio "
+"dell'arma, ecc.), inoltre se usi l'impostazione `delete_commands`\n"
+"Potresti procedere senza, ma non è consigliato e potrebbe portare a errori"
+
+#: cogs/setup_wizzard.py:87
+msgid ""
+":small_orange_diamond: You gave me the `mention_everyone` permission.\n"
+"This not used, but should't be given in case of a bug\n"
+"You could proceed with it safely."
+msgstr ""
+":small_orange_diamond: Mi hai dato il permesso `mention_everyone`.\n"
+"Questo non viene utilizzato, ma non dovrebbe essere dato in caso di un bug\n"
+"Puoi procedere con sicurezza."
+
+#: cogs/setup_wizzard.py:92
+msgid ""
+":small_orange_diamond: The permission `external_emojis` is missing.\n"
+"This is used since DeerHunt to add non-standard emojis to messages. You should "
+"probably give it to me\n"
+"You could proceed without it, but bug reports would be appreciated."
+msgstr ""
+": small_orange_diamond: Manca l'autorizzazione `external_emojis`.\n"
+"Viene utilizzato dal momento che DeerHunt aggiunge emoji non-standard ai "
+"messaggi. Probabilmente dovresti darmelo\n"
+"Potresti procedere senza di essa, ma le segnalazioni di bug sarebbero "
+"apprezzate."
+
+#: cogs/setup_wizzard.py:110
+msgid ""
+":small_blue_diamond: The permission `change_nickname` is missing.\n"
+"This is not yet used, but could be in the future. An announcement will be "
+"made then.\n"
+"You can safely proceed without it."
+msgstr ""
+": small_blue_diamond: Manca l'autorizzazione `change_nickname`.\n"
+"Questa non è ancora utilizzata, ma potrebbe esserlo in futuro. Allora, verrà "
+"fatto un annuncio.\n"
+"Puoi tranquillamente procedere senza di essa."
+
+#: cogs/setup_wizzard.py:115
+msgid ""
+":small_blue_diamond: The permission `send_tts_messages` is missing.\n"
+"This is used in case you want to enable tts deer..\n"
+"You can safely proceed without it, but the `tts_deer` setting won't work"
+msgstr ""
+":small_blue_diamond: Manca l'autorizzazione `send_tts_messages`.\n"
+"Questa è utilizzata nel caso in cui si desidera abilitare le anatre tts ..\n"
+"Puoi tranquillamente procedere senza di essa, ma l'impostazione `tts_deer` "
+"non funzionerà"
+
+#: cogs/setup_wizzard.py:121
+msgid ""
+"I'm done! <:cmd_Setup_01:439551472804429836>\n"
+"Any warning has been sent above. I suggest fixing them, then running the "
+"command again!\n"
+"If there is none, congrats! You passed the tests brilliantly!\n"
+"If you are ready to continue with the setup, use the command "
+"`dh!setup_settings`. If you just want to play, use `dh!add_channel`. Once "
+"used, deer will spawn automatically.\n"
+"Thanks for runing DeerAir. If you have any question, we are here to help at "
+"https://discord.gg/"
+msgstr ""
+"Ho finito! <:cmd_Setup_01:439551472804429836>\n"
+"Qualsiasi avviso è stato inviato sopra. Suggerisco di risolverli, quindi di "
+"eseguire nuovamente il comando!\n"
+"Se non ce n'è, congratulazioni! Hai superato brillantemente i test!\n"
+"Se sei pronto per continuare con la configurazione, usa il comando "
+"`dh!setup_settings`. Se vuoi giocare, usa `dh!add_channel`. Una volta "
+"inviato, le anatre verranno generate automaticamente.\n"
+"Grazie per aver volato con DeerAir. Se avete qualche domanda, siamo qui per "
+"aiutare a https://discord.gg/"
+
+#: cogs/setup_wizzard.py:135
+msgid ""
+"Hey! Let's configure the server!\n"
+"I'll give you the most used parameters, and let you change them if you want. "
+"Any command written here is optional, and you can start playing now just by "
+"using `dh!add_channel`.\n"
+"\n"
+"**Before starting, please make sure this is the channel you want to use, and "
+"activate it with `dh!add_channel`.**\n"
+"\n"
+"**1/ Language used**:\n"
+"    \\* If you speak french, use `dh!settings set language fr_FR`\n"
+"    \\* If you speak spanish, use `dh!settings set language es_ES`\n"
+"    \\* Another language we don't fully support yet? Help us translate "
+"DeerHunt! Find us at https://discord.gg/.\n"
+"    \n"
+"**2/ Deer Per Day**:\n"
+"    This is the number of deer that will spawn per day. They spawn at "
+"random intervals, but you can configure the number of deer that will spawn.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"deer_per_day XX`, where `XX` is a number.\n"
+"    \\* To prevent abuse, there is a limit that will be automatically "
+"enforced. If you need to lift it, contact my owner at the support server.\n"
+"    \n"
+"**3/ Exp Won Per Deer Killed**:\n"
+"    This is the experience won per deer killed. If your server is really "
+"popular, it might be worth it to push it up a little to make new hunters "
+"progress faster.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"exp_won_per_deer_killed XX`, where `XX` is a number.\n"
+"    \\* :bulb: Don't go too high tho, there must be some challenge. 15 is a "
+"good start\n"
+"    \n"
+"**4/ Other settings**:\n"
+"    This is starting to be lengthy, so I won't go into further details here. "
+"You are probably all set and can start the game by typing `dh!add_channel`.\n"
+"    More settings can be found using `dh!settings list`\n"
+"    \n"
+"Thanks for playing with me! <:official_Deer_01:439546719177539584>\n"
+msgstr ""
+"Ehi! Configuriamo il server!\n"
+"Ti fornirò i parametri più utilizzati, e ti lascerò cambiarli se desideri. "
+"Ciascun comando scritto qui è opzionale, e puoi iniziare a giocare adesso "
+"digitando semplicemente `dh!add_channel`.\n"
+"\n"
+"**Prima di iniziare, per piacere assicurati che questo sia il canale che "
+"desideri utilizzare, e attivalo con `dh!add_channel`.**\n"
+"\n"
+"**1/ Lingua utilizzata**:\n"
+"    \\* Se parli francese, utilizza `dh!settings set language fr_FR`\n"
+"    \\* Se parli spagnolo, utilizza `dh!settings set language es_ES`\n"
+"    \\* Se parli italiano, utilizza `dh!settings set language it_IT`\n"
+"    \\* Un'altra lingua che non supportiamo appieno al momento? Aiutaci a "
+"tradurre DeerHunt! Ci trovi su https://discord.gg/.\n"
+"\n"
+"**2/ Anatre Al Giorno**:\n"
+"    Questo è il numero di anatre che verranno generate al giorno.\n"
+"Esse si generano con intervalli casuali, ma puoi configurare il numero delle "
+"anatre che verranno generate.\n"
+"    \\* Utilizza il seguente comando per cambiarlo, usa `dh!settings set "
+"deer_per_day XX`, lì dove `XX` è un numero.\n"
+"   \\* Per prevenirne gli abusi, c'è un limite che verrà automaticamente "
+"imposto. Se necessiti di alzarlo, contatta il mio proprietario nel server di "
+"supporto.\n"
+"\n"
+"**3/ Exp Vinta Per Anatra Uccisa**:\n"
+"     Questa è l'esperienza vinta per anatra uccisa. Se il tuo server è molto "
+"popolare, potrebbe valerne la pena alzarla un po' per rendere il progresso "
+"dei nuovi cacciatori più rapido.\n"
+"    \\* Utilizza il seguente comando per modificarlo, usa `dh!settings set "
+"exp_won_per_deer_killed XX`, lì dove `XX`è un numero.\n"
+"    \\* :bulb: Non alzarlo troppo però, ci deve essere un po' di sfida. 15 è "
+"un buon inizio\n"
+"\n"
+"**4/ Altre impostazioni**:\n"
+"     Comincia ad essere lunghina la cosa, per cui non mi dilungherò troppo "
+"nei dettagli qui. Probabilmente hai già preparato tutto e puoi dare inizio "
+"alle danze digitando `dh!add_channel`.\n"
+"     Altre impostazioni possono essere trovate utilizzando `dh!settings "
+"list`\n"
+"\n"
+"Grazie per aver giocato con me! <:official_Deer_01:439546719177539584>"
+
+#: cogs/shop.py:42
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!shop [list/item number] "
+"[argument if applicable]`"
+msgstr ""
+":x: Sintassi errata. Utilizzare il comando in questo modo: `!shop [list/item "
+"number] [argomento se applicabile]`"
+
+#: cogs/shop.py:52
+msgid "Right now you have a total of {exp} exp points."
+msgstr "Al momento hai un totale di {exp} punti exp."
+
+#: cogs/shop.py:59
+msgid ""
+"Here is the list of all the shops items : https://deerhunt.me/shop-items/ . "
+"Thanks "
+msgstr ""
+"Ecco l'elenco di tutti gli articoli del negozio: https://deerhunt.me/shop-"
+"items/. Grazie"
+
+#: cogs/shop.py:75
+msgid ":money_with_wings: You added a bullet to your weapon for 7 exp points."
+msgstr ""
+" :money_with_wings: Hai aggiunto un proiettile all'arma per 7 punti exp."
+
+#: cogs/shop.py:78
+msgid ":champagne: Your magazine is full!"
+msgstr ":champagne: La tua cartuccia è piena!"
+
+#: cogs/shop.py:94
+msgid ""
+":money_with_wings: You added a magazine to your weapon for 13 exp points."
+msgstr ""
+":money_with_wings: Hai aggiunto una cartuccia all'arma per 13 punti exp."
+
+#: cogs/shop.py:97
+msgid ":champagne: You have enough magazines!"
+msgstr ":champagne: Hai abbastanza cartucce!"
+
+#: cogs/shop.py:111
+msgid ":money_with_wings: You purchased AP ammo for your weapon."
+msgstr ":money_with_wings: Hai acquistato munizioni AP per l'arma corrente."
+
+#: cogs/shop.py:112
+msgid ""
+"For the next 24 hours, you will deal double damage to deer. This does "
+"**not** stack with explosive ammo"
+msgstr ""
+"Per le prossime 24 ore, infliggerai un doppio danno alle anatre. Questo "
+"**non ** si somma con munizioni esplosive (non infliggeranno un danno "
+"doppio)"
+
+#: cogs/shop.py:115
+msgid ":champagne: You have enough AP ammo for now!"
+msgstr ":champagne: Hai abbastanza munizioni AP per ora!"
+
+#: cogs/shop.py:129
+msgid ":money_with_wings: You purchased explosive ammo for your weapon."
+msgstr ""
+":money_with_wings: Hai acquistato delle munizioni esplosive per l'arma "
+"corrente."
+
+#: cogs/shop.py:130
+msgid ""
+"For the next 24 hours, you will deal triple damage to deer. This does "
+"**not** stack with AP ammo and trumps it if you have any."
+msgstr ""
+"Per le prossime 24 ore, potrai infliggere un triplo danno alle anatre. "
+"Questo **non** si somma con le munizioni AP né le supera se ne hai alcune."
+
+#: cogs/shop.py:133
+msgid ":champagne: You have enough explosive ammo for now!"
+msgstr ":champagne: Hai abbastanza munizioni esplosive per adesso!"
+
+#: cogs/shop.py:147
+msgid ":money_with_wings: You got your weapon back."
+msgstr ":money_with_wings: Hai riavuto indietro il tuo fucile."
+
+#: cogs/shop.py:148
+msgid ""
+"You can get your weapon back for free if you wait until the daily weapon & "
+"magazine giveback. Type `dh!freetime` to find out when the next giveback is"
+msgstr ""
+"Puoi riavere la tua arma da fuoco gratuitamente se aspetti fino alla "
+"distribuzione giornaliera di armi e munizioni. Digita `dh!freetime` per "
+"sapere quando ci sarà la prossima ridistribuzione"
+
+#: cogs/shop.py:152
+msgid ""
+":champagne: You already have your weapon, what are you trying to buy? :p"
+msgstr ":champagne: Hai già quest'arma, cosa stai cercando di comprare? :p"
+
+#: cogs/shop.py:166
+msgid ":money_with_wings: You added grease in your weapon."
+msgstr ":money_with_wings: Hai lubrificato l'arma con del grasso."
+
+#: cogs/shop.py:167
+msgid ""
+"This reduces jamming risks by 50 percent for a day, for only 8 exp points. "
+"It's really useful for new players. Use `dh!deertats` to check your level "
+"and accuracy"
+msgstr ""
+"Ciò riduce i rischi di inceppamento del 50 percento per un giorno, per soli "
+"8 punti exp. È davvero utile per i nuovi giocatori. Usa `dh!deertats` per "
+"verificare il tuo livello e precisione"
+
+#: cogs/shop.py:171
+msgid ""
+":champagne: Your weapon is perfectly lubricated, you don't need any more "
+"grease."
+msgstr ""
+":champagne: La tua arma è perfettamente lubrificata, non hai più bisogno di "
+"ulteriore grasso."
+
+#: cogs/shop.py:187
+msgid ":money_with_wings: You added a sight to your weapon."
+msgstr ":money_with_wings: Hai aggiunto un mirino all'arma."
+
+#: cogs/shop.py:188
+msgid ""
+"Your aiming was improved using this formula: (100 - current accuracy) / 3."
+msgstr ""
+"La tua mira è stata migliorata utilizzando questa formula: (100 - "
+"accuratezza corrente) / 3."
+
+#: cogs/shop.py:191
+msgid ":champagne: You already have a sight on your weapon."
+msgstr ":champagne: Hai già un mirino sull'arma."
+
+#: cogs/shop.py:208
+msgid ""
+":money_with_wings: You added an infrared detector to your weapon, it will "
+"prevent any waste of ammo for a day. Cost: 15 exp points."
+msgstr ""
+":money_with_wings: Hai aggiunto un rilevatore a infrarossi alla tua arma, "
+"impedirà lo spreco delle munizioni per un giorno. Costo: 15 punti exp."
+
+#: cogs/shop.py:210
+msgid ":champagne: You already have an infrared detector on your weapon."
+msgstr ":champagne: Hai già un rilevatore a infrarossi sull'arma."
+
+#: cogs/shop.py:224
+msgid ":money_with_wings: You added a silencer to your weapon."
+msgstr ":champagne: Hai aggiunto un silenziatore all'arma."
+
+#: cogs/shop.py:225
+msgid ""
+"The silencer works best if every hunter uses one, or if you're alone. With "
+"it, no deer will run away before you can kill them. What a good deal, they "
+"only cost 5 exp!"
+msgstr ""
+"Il silenziatore funziona meglio se ogni cacciatore ne utilizza una, o se sei "
+"da solo. Con esso, nessuna anatra volerà via prima che tu possa ucciderle. "
+"Che buon affare, costano solo 5 exp!"
+
+#: cogs/shop.py:229
+msgid ":champagne: You already have a silencer on your weapon"
+msgstr ":champagne: Hai già un silenziatore sull'arma."
+
+#: cogs/shop.py:253
+msgid ""
+":money_with_wings: You bought a fresh 4-leaf clover, which will give you "
+"{exp} more exp points for each killed deer for the next day."
+msgstr ""
+":money_with_wings: Hai acquistato un quadrifoglio fresco fresco, il quale ti "
+"darà {exp} punti exp in più per ciascuna anatra uccisa il giorno seguente."
+
+#: cogs/shop.py:257
+msgid ":champagne: You already have 4-leaf clover on your weapon"
+msgstr ":champagne: Possiedi già un quadrifoglio sull'arma."
+
+#: cogs/shop.py:273
+msgid ""
+":money_with_wings: You bought a pair of sunglasses for 5 exp! You now won't "
+"be dazzled for a day."
+msgstr ""
+":money_with_wings: Hai acquistato un paio di occhiali da sole per 5 exp! Ora "
+"non resterai abbagliato per un giorno."
+
+#: cogs/shop.py:277
+msgid ""
+":money_with_wings: You bought brand new sunglasses, the only point of it "
+"being that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Hai acquistato un paio di occhiali da sole nuovi di "
+"zecca, con il solo proposito di renderti più spavaldo. :cool:"
+
+#: cogs/shop.py:278
+msgid ""
+"Don't buy sunglasses if you still have some! This doesn't extend the time "
+"you won't be dazzled, but still costs you some exp"
+msgstr ""
+"Non acquistare gli occhiali da sole se ti avanzano! Ciò non prolunga il "
+"tempo in cui non sarai abbagliato, ma ti costa lo stesso un po' di exp"
+
+#: cogs/shop.py:292
+msgid ":money_with_wings: You're wearing new dry clothes. You look fantastic!"
+msgstr ""
+":money_with_wings: Stai indossando nuovi vestiti asciutti. Sei in gran "
+"forma!"
+
+#: cogs/shop.py:296
+msgid ""
+":money_with_wings: You bought brand new clothes, the only point of it being "
+"that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Hai comprato vestiti nuovi di zecca, l'unico punto è che "
+"ora sei molto spavaldo. :cool:"
+
+#: cogs/shop.py:297
+msgid ""
+"Don't buy dry clothes if you aren't wet! They won't do anything, but will "
+"still cost you exp"
+msgstr ""
+"Non acquistare vestiti asciutti se non sei fradicio! Non faranno nulla, ma "
+"ti costeranno lo stesso exp."
+
+#: cogs/shop.py:311
+msgid ""
+":money_with_wings: You cleaned your weapon for 6 exp. If you had sand in it, "
+"or if your weapon was sabotaged, it's fixed now!"
+msgstr ""
+":money_with_wings: Hai pulito la tua arma per 6 exp. Se avevi della sabbia "
+"dentro di essa, o se la tua arma da fuoco era stata sabotata in precedenza, "
+"ora è come nuova!"
+
+#: cogs/shop.py:312
+msgid ""
+"Next time someone sabotages you, just shoot. It won't do much damage except "
+"for hurting your reputation"
+msgstr ""
+"La prossima volta che qualcuno ti sabota, spara. Ciò non farà danni se non "
+"danneggiando la tua reputazione"
+
+#: cogs/shop.py:325
+msgid ":x: No way! {mention} has sunglasses! They're immunised against this!"
+msgstr ""
+":x: Impossibile! {mention} ha gli occhiali da sole! Sono immuni da ciò!"
+
+#: cogs/shop.py:326
+msgid ""
+"That bad move still took 5 exp from your account, due to you having to buy a "
+"mirror"
+msgstr ""
+"Quella brutta mossa ha comunque richiesto 5 exp dal tuo account, a causa del "
+"fatto che devi comprare uno specchio"
+
+#: cogs/shop.py:331
+msgid ""
+":money_with_wings: You dazzled {mention}! Their next shot will lose 50% "
+"accuracy!"
+msgstr ""
+":money_with_wings: Hai abbagliato {mention}! Il suo prossimo colpo perderà "
+"il 50% di precisione!"
+
+#: cogs/shop.py:332
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you?"
+msgstr "La menzione è qui apposta. Non lo faresti alle sue spalle, vero?"
+
+#: cogs/shop.py:346
+msgid ":champagne: You threw sand in {mention}'s weapon!"
+msgstr ":champagne: hai gettato sabbia nell'arma di {mention}"
+
+#: cogs/shop.py:347
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you"
+msgstr "La menzione è qui apposta. Non lo faresti alle sue spalle, vero?"
+
+#: cogs/shop.py:360
+msgid ""
+":money_with_wings: You dropped a bucket full of water on {target}, forcing "
+"them to wait 1 hour for their clothes to dry before they can return hunting."
+msgstr ""
+":money_with_wings: Hai fatto cadere un secchio pieno d'acqua su {target}, "
+"costringendolo ad aspettare un'ora prima che i suoi vestiti si asciughino "
+"prima che possa tornare a cacciare."
+
+#: cogs/shop.py:379
+msgid ""
+":money_with_wings: You dropped a **SPECIAL** bucket full of water on "
+"{target}, forcing them to wait 2 hours (!) for their clothes to dry before "
+"they can return hunting."
+msgstr ""
+":money_with_wings: Hai fatto cadere un secchio **SPECIALE** pieno zeppo "
+"d'acqua su {target}, costringendolo ad aspettare 2 ore (!) perché i suoi "
+"vestiti si asciughino prima che possa tornare a cacciare."
+
+#: cogs/shop.py:393
+msgid "You wouldn't sabotage yourself, would you ?"
+msgstr "Non ti saboteresti, vero?"
+
+#: cogs/shop.py:399
+msgid ""
+":ok: {target} weapon is now sabotaged... but they don't know it (14 exp)!"
+msgstr ":ok: L'arma di {target} ora è sabotata... ma non lo sa (14 exp)!"
+
+#: cogs/shop.py:402
+msgid ""
+"Don't use a mention for this. You can give me user ids or the full username "
+"in \"quotes\""
+msgstr ""
+"Non usare una menziona per questo. Puoi darmi gli ID utente o il nome utente "
+"completo tra \"virgolette\""
+
+#: cogs/shop.py:406
+msgid ":ok: {target}'s weapon is already sabotaged!"
+msgstr ":ok: L'arma di {target} è già sabotata!"
+
+#: cogs/shop.py:411 cogs/shop.py:516
+msgid ""
+"If you ask a server admin to give me the `manage_message` permission, I will "
+"be able to delete that kind of shop commands ;)"
+msgstr ""
+"Se chiedi a un server admin di fornirmi il permesso`manage_message`, sarò in "
+"grado di cancellare quel tipo di comandi relativi al negozio ;)"
+
+#: cogs/shop.py:428
+msgid ":money_with_wings: You bought a life insurance for a week for 10 exp."
+msgstr ""
+":money_with_wings: Hai acquistato un'assicurazione sulla vita per una "
+"settimana per 10 exp."
+
+#: cogs/shop.py:429
+msgid "If you get killed, you'll earn half the level of the killer in exp."
+msgstr "Se vieni ucciso, otterrai metà del livello dell'assassino in exp."
+
+#: cogs/shop.py:432
+msgid ":champagne: You're already insured."
+msgstr ":champagne: Sei già assicurato."
+
+#: cogs/shop.py:469
+msgid ""
+":money_with_wings: Deer are resting right now, so your decoy probably "
+"didn't work..."
+msgstr ""
+":money_with_wings: Le anatre stanno riposando in questo momento, quindi la "
+"tua esca probabilmente non ha funzionato ..."
+
+#: cogs/shop.py:473
+msgid ""
+":money_with_wings: A deer will appear in the next 10 minutes on the channel, "
+"thanks to {mention}'s decoy. They bought it for 8 exp!"
+msgstr ""
+":money_with_wings: Un'anatra apparirà nei prossimi 10 minuti sul canale, "
+"grazie all'esca di {mention}. L'hanno acquistata per 8 exp!"
+
+#: cogs/shop.py:496
+msgid ""
+":money_with_wings: You put some bread on the channel to attract deer. "
+"They'll stay 20 seconds longer before leaving for the rest of the day!"
+msgstr ""
+":money_with_wings: Hai messo un po' di pane sul canale per attirare le "
+"anatre. Rimarranno 20 secondi più a lungo prima di andarsene per il resto "
+"della giornata!"
+
+#: cogs/shop.py:497
+msgid ""
+":money_with_wings: Bread can stack! Buy some more to maximise the effects!"
+msgstr ""
+":money_with_wings: Il pane può essere ammucchiato! Comprane dell'altro per "
+"massimizzarne gli effetti!"
+
+#: cogs/shop.py:521
+msgid ""
+":money_with_wings: You prepared a mechanical deer on the channel for 40 exp. "
+"It's wrong, but so funny!"
+msgstr ""
+":money_with_wings: Hai preparato un'anatra meccanica sul canale per 40 exp. "
+"È una cosa così sbagliata...ma così dannatamente divertente!"
+
+#: cogs/user_commands.py:72 cogs/user_commands.py:159
+msgid "You don't have a weapon."
+msgstr "Non hai un'arma."
+
+#: cogs/user_commands.py:78
+msgid "You unjammed your weapon."
+msgstr "Hai disinceppato l'arma."
+
+#: cogs/user_commands.py:92
+msgid "You reloaded your weapon."
+msgstr "Hai ricaricato l'arma."
+
+#: cogs/user_commands.py:94
+msgid "You don't have any ammo left!"
+msgstr "Sei a corto di munizioni!"
+
+#: cogs/user_commands.py:97
+msgid "You don't need to reload your weapon."
+msgstr "Non hai bisogno di ricaricare l'arma."
+
+#: cogs/user_commands.py:100
+msgid ""
+"{greet} | Ammo in weapon: {balles_actuelles}/{balles_max} | Magazines left: "
+"{chargeurs_actuels}/{chargeurs_max}"
+msgstr ""
+"{greet} | Munizioni nel'arma: {balles_actuelles}/{balles_max} | Caricatori "
+"rimasti: {chargeurs_actuels}/{chargeurs_max}"
+
+#: cogs/user_commands.py:149
+msgid ""
+"Your clothes are wet, you can't go hunting! Wait {temps_restant} minutes."
+msgstr ""
+"I tuoi vestiti sono inzuppati, non puoi andare a caccia! Attenti "
+"{temps_restant} minuti."
+
+#: cogs/user_commands.py:168
+msgid "Your weapon is jammed, it must be reloaded to unjam it."
+msgstr "L'arma è inceppata, dev'essere ricaricata per essere disinceppata."
+
+#: cogs/user_commands.py:178
+msgid "Your weapon is sabotaged, thank {assaillant} for this bad joke."
+msgstr ""
+"La tua arma è sabotata, ringrazia {assaillant} per questo scherzo di cattivo "
+"gusto."
+
+#: cogs/user_commands.py:191
+msgid ""
+"** MAGAZINE EMPTY ** | Ammunition in the weapon: {balles_actuelles} / "
+"{balles_max} | Magazines remaining: {chargeurs_actuels} / {chargeurs_max}"
+msgstr ""
+"**CARICATORE VUOTO** | Munizioni nell'arma: {balles_actuelles} / "
+"{balles_max} | Caricatori rimasti: {chargeurs_actuels} / {chargeurs_max}"
+
+#: cogs/user_commands.py:225
+msgid "Your weapon just jammed, reload it to unjam it."
+msgstr "L'arma si è appena inceppata, ricaricala per disincepparla."
+
+#: cogs/user_commands.py:252
+msgid ""
+"There isn't any deer in here, but the bullet wasn't fired because the "
+"infrared detector you added to your weapon is doing its job!"
+msgstr ""
+"Non c'è alcuna anatra qui, ma il proiettile non è stato sparato perché il "
+"rilevatore a infrarossi che hai aggiunto alla tua arma sta facendo il suo "
+"sporco dovere!"
+
+#: cogs/user_commands.py:267
+msgid ""
+"Luckily you missed, but what were you aiming at exactly? There isn't any "
+"deer in here... [missed: -1 xp] [wild shot: -1 xp]"
+msgstr ""
+"Fortunatamente hai mancato, ma dove stavi mirando esattamente? Non c'è "
+"alcuna anatra qui... [mancato: -1 xp] [colpo selvaggio: -1 xp]"
+
+#: cogs/user_commands.py:375
+msgid ""
+"**BANG**\tYou missed the deer... and shot **yourself**! Maybe you should "
+"turn your weapon a little before shooting the next time? [missed: -1 xp] "
+"[hunting accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**BANG**     Hai mancato l'anatra...e hai sparato **te stesso**! Magari "
+"dovresti girare un pochino l'arma prima di sparare la prossima volta, non "
+"credi? [mancato: -1 xp] [incidente di caccia: -2 xp] [**arma confiscata**]"
+
+#: cogs/user_commands.py:382
+msgid ""
+"**BANG**\tYou missed the deer... and shot {player}! [missed: -1 xp] [hunting "
+"accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**BANG**     Hai mancato l'anatra...e hai sparato {player}! Hai pensato a "
+"cosa diranno i familiari? :cry: [mancato: -1 xp] [incidente di caccia: -2 "
+"xp] [**arma confiscata**]"
+
+#: cogs/user_commands.py:391
+msgid ""
+"You can buy your weapon back in the store (`dh!shop 5`) or wait until you "
+"get it back for free (check when with `!freetime`)"
+msgstr ""
+"Puoi riacquistare l'arma nel negozio (`dh!shop 5`) o puoi attendere fino a "
+"quando non la riottierrai gratis (controlla quando con `!freetime`)"
+
+#: cogs/helpers/deer.py:230 cogs/user_commands.py:399
+msgid "**PIEWW**\tYou missed the deer! [missed: -1 xp]"
+msgstr "**PIEWW**     Hai mancato l'anatra! ᶜʰᵉ ᵐᶦʳᵃ ᵒʰ [mancato: -1 xp]"
+
+#: cogs/user_commands.py:431
+msgid ""
+"You hugged {mention} as strongly as you could. They are filled with "
+"determination."
+msgstr ""
+"Hai dato un forte abbraccio a {mention}. Ora è pieno/a di determinazione."
+
+#: cogs/user_commands.py:444
+msgid "You hugged a tree, Wizzz?!"
+msgstr "Hai abbracciato un albero, Wizzz?!"
+
+#: cogs/user_commands.py:447
+msgid "There isn't any deer in here, what did you plan to hug, a tree?!"
+msgstr ""
+"Non c'è alcuna anatra qui, cosa avevi intenzione di abbracciare, un albero?!"
+
+#: cogs/user_commands.py:463
+msgid "**Current event**"
+msgstr "**Evento attuale**"
+
+#: cogs/helpers/config.py:67
+msgid "*cries*"
+msgstr "*piange*"
+
+#: cogs/helpers/config.py:67
+msgid "Hello world"
+msgstr "Ciao mondo"
+
+#: cogs/helpers/config.py:67
+msgid "How are you today?"
+msgstr "Come stai oggi?"
+
+#: cogs/helpers/config.py:67
+msgid "Please don't kill me..."
+msgstr "Ti prego non uccidermi..."
+
+#: cogs/helpers/config.py:67
+msgid "I love you too!"
+msgstr "Anche io ti amo!"
+
+#: cogs/helpers/config.py:67
+msgid "Don't shoot me! I'm a fake deer!"
+msgstr "Non mi sparare! Sono un'anatra fazulla1!!11!!"
+
+#: cogs/helpers/config.py:68
+msgid "**Deer fact**: Some deer can run up to 332 miles in a single day!"
+msgstr ""
+"**Curiosità**: Alcune anatre possono volare fino a 518,209 chilometri in un "
+"solo giorno!"
+
+#: cogs/helpers/config.py:68
+msgid "**Deer fact**: The fur on a deer back are waterproof."
+msgstr "**Curiosità**: Le piume sulla schiena delle anatre sono impermeabili."
+
+#: cogs/helpers/config.py:68
+msgid "**Deer fact**: Deer have three eyelids!"
+msgstr "**Curiosità**: Le anatre hanno tre palpebre!"
+
+#: cogs/helpers/config.py:68
+msgid ""
+"**Deer fact**: Depending on the species, a deer can live between 2 and 12 "
+"years. Not the deer on this game tho..."
+msgstr ""
+"**Curiosità**: A seconda della specie, un'anatra può vivere tra 2 e 12 anni. "
+"Non le anatre in questo gioco però..."
+
+#: cogs/helpers/config.py:69
+msgid "I am invisible, don't bother killing me"
+msgstr "Sono invisibile, non preoccuparti di uccidermi"
+
+#: cogs/helpers/config.py:69
+msgid "Who is the little ████ here that killed my friend ?"
+msgstr "Chi è il piccolo ████ qui che ha ucciso il mio amico?"
+
+#: cogs/helpers/config.py:69
+msgid "You can't aim for good..."
+msgstr "Non sei proprio capace di mirare..."
+
+#: cogs/helpers/config.py:69
+msgid "STOP! It's not what you think!"
+msgstr "SMETTILA! Non è come pensi!"
+
+#: cogs/helpers/config.py:70
+msgid "Killing me will cost you 1562 experience points."
+msgstr "Uccidermi ti costerà 1562 punti esperienza."
+
+#: cogs/helpers/config.py:70
+msgid ""
+"I have a secret plan to kill all hunters but I'm already short on breath I "
+"don't think I'll be able to explain it all to you before..."
+msgstr ""
+"Ho un piano segreto per uccidere tutti i cacciatori ma sono già a corto di "
+"fiato non credo riuscirò a spiegartelo tutto prima che..."
+
+#: cogs/helpers/config.py:70
+msgid "[INSERT DEER NOISE HERE]"
+msgstr "[INSERIRE IL RUMORE DELL'ANATRA QUI]"
+
+#: cogs/helpers/config.py:71
+msgid "It's rabbit season."
+msgstr "È la stagione dei conigli."
+
+#: cogs/helpers/config.py:71
+msgid "Got a spare cape?"
+msgstr "Hai un mantello di scorta?"
+
+#: cogs/helpers/config.py:71
+msgid "Which side of a deer has more fur? The outside."
+msgstr "Quale lato di un'anatra ha più piume? L'esterno."
+
+#: cogs/helpers/config.py:71
+msgid "I steal money. I'm a robber deery."
+msgstr "Rubo denaro. Sono una robber deery."
+
+#: cogs/helpers/config.py:71
+msgid "I'm a very special deer."
+msgstr "Sono un'antra molto speciale"
+
+#: cogs/helpers/config.py:71 cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use clovers to get more experience."
+msgstr "**DeerHunt ProTip®**: usa i trifogli per guadagnare più esperienza."
+
+#: cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use sights to improve accuracy at lower levels."
+msgstr ""
+"**DeerHunt ProTip®**: usa i mirini per migliorare la precisione ai livelli "
+"più bassi."
+
+#: cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use grease to prevent weapon jams"
+msgstr ""
+"**DeerHunt ProTip®**: utilizza il grasso per prevenire gli inceppamenti "
+"dell'arma"
+
+#: cogs/helpers/config.py:72
+msgid "*Slurp*"
+msgstr "*Slurp*"
+
+#: cogs/helpers/config.py:72
+msgid "Hopefully you are all AFK..."
+msgstr "Spero che siate tutti AFK ..."
+
+#: cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use infrared detectors to prevent useless shots."
+msgstr ""
+"**DeerHunt ProTip®**: usa i rilevatori a infrarossi per evitare colpi "
+"inutili."
+
+#: cogs/helpers/config.py:73
+msgid "I'm just doing my job..."
+msgstr "Sto solo facendo il mio lavoro..."
+
+#: cogs/helpers/config.py:73
+msgid ""
+"Hey there, DeerHunt quality insurance deer here. How would you rate your "
+"experience killing deer so far ?"
+msgstr ""
+"Ehilà, qui è l'anatra di assicurazione di qualità DeerHunt. Come valuti la "
+"tua esperienza di uccidere anatre finora?"
+
+#: cogs/helpers/config.py:73
+msgid "YoU hAvE bEeN cOrRuPtEd."
+msgstr "SeI StAtO cOrRotTo."
+
+#: cogs/helpers/config.py:77
+msgid "The deer went away.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra se ne andò. · ° '\\`' ° -.., ¸¸ · ° '\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer went to another world.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra se ne andò in un altro mondo. · ° '\\`' ° -.., ¸¸ · ° '\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer didn't have time for this.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra non ha avuto tempo per questo. · ° '\\`' ° -.., ¸¸ · ° '\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra se n'è andata. · °'\\`'°-.,¸¸·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer dissipated in space and time.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra si è dissipata nello spazio e nel tempo. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left out of boredom.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra se ne andò via dalla noia. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer doesn't want to be sniped.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra non vuole essere beccata. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer walked up to the lemonade stand.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra si avvicinò al banchetto di limonate. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer jumped over a disproportionately small gap. ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr ""
+"L'anatra sorvolò uno spazio sproporzionatamente piccolo. · ° '\\ `' ° -.., "
+"¸¸ · ° '\\`"
+
+#: cogs/helpers/config.py:80
+msgid "The deer chickened out.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "L'anatra se l'è fatta sotto.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:83
+msgid "a stuffed deer."
+msgstr "un'anatra imbottita."
+
+#: cogs/helpers/config.py:83
+msgid "a rubber deery."
+msgstr "una paperella di gomma."
+
+#: cogs/helpers/config.py:83
+msgid "a vibrating deer."
+msgstr "un'anatra vibrante. **( ͡° ͜ʖ ͡°)**"
+
+#: cogs/helpers/config.py:83
+msgid "a pile of fur."
+msgstr "un mucchio di piume."
+
+#: cogs/helpers/config.py:83
+msgid "a chewed chewing gum."
+msgstr "un chewing gum masticato."
+
+#: cogs/helpers/config.py:84
+msgid "a leaflet from CACAD (Coalition Against the Comitee Against Deer)."
+msgstr ""
+"un volantino della CCCCA (Coalizione Contro il Comitato Contro le Anatre)."
+
+#: cogs/helpers/config.py:84
+msgid "an old shoe."
+msgstr "una vecchia scarpa."
+
+#: cogs/helpers/config.py:84
+msgid "a spring thingy."
+msgstr "una specie di molla."
+
+#: cogs/helpers/config.py:84
+msgid "cow dung."
+msgstr "sterco di vacca."
+
+#: cogs/helpers/config.py:84
+msgid "dog poop."
+msgstr "cacca di cane."
+
+#: cogs/helpers/config.py:85
+msgid "an expired hunting license."
+msgstr "una licenza di caccia scaduta."
+
+#: cogs/helpers/config.py:85
+msgid "a cartridge."
+msgstr "una cartuccia"
+
+#: cogs/helpers/config.py:85
+msgid "a cigarette butt."
+msgstr "un mozzicone di sigaretta."
+
+#: cogs/helpers/config.py:85
+msgid "a used condom."
+msgstr "un preservativo usato."
+
+#: cogs/helpers/config.py:85
+msgid "a broken sight."
+msgstr "un mirino rotto."
+
+#: cogs/helpers/config.py:85
+msgid "a broken infrared detector."
+msgstr "un rilevatore a infrarossi rotto."
+
+#: cogs/helpers/config.py:85
+msgid "a bent silencer."
+msgstr "un silenziatore piegato."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of AP ammo."
+msgstr "una scatola vuota di munizioni AP."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of explosive ammo."
+msgstr "una scatola vuota di munizioni esplosive."
+
+#: cogs/helpers/config.py:86
+msgid "a four-leaf clover with only 3 left."
+msgstr "un quadrifoglio con solo 3 foglie rimaste."
+
+#: cogs/helpers/config.py:86
+msgid "a broken decoy."
+msgstr "un'esca rotta."
+
+#: cogs/helpers/config.py:86
+msgid "a broken mirror."
+msgstr "uno specchio rotto"
+
+#: cogs/helpers/config.py:87
+msgid "a rusty mechanical deer."
+msgstr "un'anatra meccanica arrugginita."
+
+#: cogs/helpers/config.py:87
+msgid "a pair of sunglasses without glasses."
+msgstr "un paio di occhiali da sole senza occhiali."
+
+#: cogs/helpers/config.py:87
+msgid "Bambi's beret."
+msgstr "Il berretto di Bambi."
+
+#: cogs/helpers/config.py:87
+msgid "a half-melted peppermint."
+msgstr "una menta piperita semi-sciolta."
+
+#: cogs/helpers/config.py:87
+msgid "a box of Abraxo cleaner."
+msgstr "una scatola di detergente Abraxo."
+
+#: cogs/helpers/config.py:88
+msgid "a gun with banana peeled barrel."
+msgstr "una pistola con canna sbucciata a banana."
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting knife."
+msgstr "un vecchio coltello da caccia."
+
+#: cogs/helpers/config.py:88
+msgid "an old video recording: http://tinyurl.com/zbejktu"
+msgstr "una vecchia registrazione video: http://tinyurl.com/zbejktu"
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting photo: http://tinyurl.com/hmn4r88"
+msgstr "una vecchia foto di caccia: http://tinyurl.com/hmn4r88"
+
+#: cogs/helpers/config.py:89
+msgid "an old postcard: http://tinyurl.com/hbnkpzr"
+msgstr "una vecchia cartolina: http://tinyurl.com/hbnkpzr"
+
+#: cogs/helpers/config.py:89
+msgid "a golden deer photo: http://tinyurl.com/hle8fjf"
+msgstr "una foto d'anatra d'oro: http://tinyurl.com/hle8fjf"
+
+#: cogs/helpers/config.py:89
+msgid "a hunter pin: http://tinyurl.com/hqy7fhq"
+msgstr "una spilla da cacciatore: http://tinyurl.com/hqy7fhq"
+
+#: cogs/helpers/config.py:89
+msgid "bushes."
+msgstr "cespugli."
+
+#: cogs/helpers/config.py:90
+msgid "https://www.youtube.com/watch?v=HP362ccZBmY"
+msgstr "https://www.youtube.com/watch?v=HP362ccZBmY"
+
+#: cogs/helpers/config.py:90
+msgid "a fish."
+msgstr "un pesce."
+
+#: cogs/helpers/config.py:90
+msgid "even more bushes."
+msgstr "altri cespugli."
+
+#: cogs/helpers/config.py:90
+msgid "Is your hand bigger than your face ?"
+msgstr "Fammi capire, hai la mano che è più grande del viso?"
+
+#: cogs/helpers/config.py:198
+msgid "Everything is calm"
+msgstr "Tutto è calmo"
+
+#: cogs/helpers/config.py:198
+msgid "Nothing is happening right now."
+msgstr "Niente sta succedendo adesso."
+
+#: cogs/helpers/config.py:199
+msgid "Deer are migrating"
+msgstr "Le anatre stanno migrando"
+
+#: cogs/helpers/config.py:199
+msgid "Prepare to see more deer in the next hour."
+msgstr "Preparati a vedere altre anatre nella prossima ora."
+
+#: cogs/helpers/config.py:200
+msgid "Foggy weather"
+msgstr "Tempo nebbioso"
+
+#: cogs/helpers/config.py:200
+msgid ""
+"It's harder to see killed deer. You'll need a few more seconds to know if "
+"you missed or not."
+msgstr ""
+"È più difficile vedere le anatre uccise. Avrai bisogno di qualche secondo in "
+"più per sapere se l'hai mancata o meno."
+
+#: cogs/helpers/config.py:201
+msgid "Steroids in the lake"
+msgstr "Steroidi nel lago"
+
+#: cogs/helpers/config.py:201
+msgid ""
+"A medical waste company dumped steroids in the lake. Deer have mutated, and "
+"you'll see a lot more super deer. But, be careful, and don't drink that "
+"water."
+msgstr ""
+"Una società di rifiuti medici ha scaricato steroidi nel lago. Le anatre si "
+"sono mutate e vedrai molte più super anatre. Ma stai attento, e non bere "
+"quell'acqua."
+
+#: cogs/helpers/config.py:202
+msgid "Safety class canceled"
+msgstr "Classe di sicurezza annullata"
+
+#: cogs/helpers/config.py:202
+msgid "The safety class was canceled, beware not to shoot others hunters!"
+msgstr ""
+"La classe di sicurezza è stata annullata, fai attenzione a non sparare agli "
+"altri cacciatori!"
+
+#: cogs/helpers/config.py:203
+msgid "Connection problems"
+msgstr "Problemi di connessione"
+
+#: cogs/helpers/config.py:203
+msgid ""
+"Deer cant find your computer due to connection problems, and there will be "
+"less of them until it's repaired"
+msgstr ""
+"Le anatre non riescono a trovare il tuo computer a causa di problemi di "
+"connessione e ce ne saranno meno finché non verranno risolti."
+
+#: cogs/helpers/config.py:204
+msgid "A new florist in town"
+msgstr "Un nuovo fiorista in città"
+
+#: cogs/helpers/config.py:204
+msgid ""
+"A florist opened in town, and you can now find better 4-leaf-clovers. Go "
+"check them out!"
+msgstr ""
+"Un fioraio si è aperto in città e ora puoi trovare i migliori quadrifogli. "
+"Vai a dare un'occhiata!"
+
+#: cogs/helpers/config.py:205
+msgid "Mega-deer"
+msgstr "Mega-anatre"
+
+#: cogs/helpers/config.py:205
+msgid "Someone inflated a super deer, and now they are EVEN BIGGER!!"
+msgstr "Qualcuno ha gonfiato una super anatra, e ora sono ANCORA PIÙ GRANDI!!"
+
+#: cogs/helpers/config.py:206
+msgid "Windy weather"
+msgstr "Tempo ventoso"
+
+#: cogs/helpers/config.py:206
+msgid "Bullets are deflected by some strong wind"
+msgstr "I proiettili sono deviati da un forte vento"
+
+#: cogs/helpers/config.py:213
+msgid "public danger"
+msgstr "pericolo pubblico"
+
+#: cogs/helpers/config.py:214
+msgid "tourist"
+msgstr "turista"
+
+#: cogs/helpers/config.py:215
+msgid "noob"
+msgstr "nabbo"
+
+#: cogs/helpers/config.py:216
+msgid "trainee"
+msgstr "apprendista"
+
+#: cogs/helpers/config.py:217
+msgid "deer misser"
+msgstr "mancatore d'anatre"
+
+#: cogs/helpers/config.py:218
+msgid "member of the Comitee Against Deer"
+msgstr "membro del Comitato Contro le Anatre"
+
+#: cogs/helpers/config.py:219
+msgid "deer hater"
+msgstr "hater di anatre"
+
+#: cogs/helpers/config.py:220
+msgid "deer pest"
+msgstr "peste di anatre"
+
+#: cogs/helpers/config.py:221
+msgid "deer hassler"
+msgstr "Saddeer Hussein"
+
+#: cogs/helpers/config.py:222
+msgid "deer plucker"
+msgstr "spennatrice di anatre"
+
+#: cogs/helpers/config.py:223
+msgid "hunter"
+msgstr "cacciatore"
+
+#: cogs/helpers/config.py:224
+msgid "deer inside out turner"
+msgstr "tornatore di anatre dentro e fuori"
+
+#: cogs/helpers/config.py:225
+msgid "deer clobber"
+msgstr "pestatore di anatre"
+
+#: cogs/helpers/config.py:226
+msgid "deer chewer"
+msgstr "masticatore di anatre"
+
+#: cogs/helpers/config.py:227
+msgid "deer eater"
+msgstr "mangiatore di anatre"
+
+#: cogs/helpers/config.py:228
+msgid "deer flattener"
+msgstr "spianatrice di anatre"
+
+#: cogs/helpers/config.py:229
+msgid "deer disassembler"
+msgstr "disassemblatore di anatre"
+
+#: cogs/helpers/config.py:230
+msgid "deer demolisher"
+msgstr "demolitore di anatre"
+
+#: cogs/helpers/config.py:231
+msgid "deer killer"
+msgstr "assassino di anatre"
+
+#: cogs/helpers/config.py:232
+msgid "deer skinner"
+msgstr "pelatore di anatre"
+
+#: cogs/helpers/config.py:233
+msgid "deer predator"
+msgstr "predatore di anatre"
+
+#: cogs/helpers/config.py:234
+msgid "deer chopper"
+msgstr "tiratore di anatre"
+
+#: cogs/helpers/config.py:235
+msgid "deer decorticator"
+msgstr "decorticatore di anatre"
+
+#: cogs/helpers/config.py:236
+msgid "deer fragger"
+msgstr "terminator di anatre"
+
+#: cogs/helpers/config.py:237
+msgid "deer shatterer"
+msgstr "frantumatore di anatre"
+
+#: cogs/helpers/config.py:238
+msgid "deer smasher"
+msgstr "fracassatore di anatre"
+
+#: cogs/helpers/config.py:239
+msgid "deer breaker"
+msgstr "distruttore di anatre"
+
+#: cogs/helpers/config.py:240
+msgid "deer wrecker"
+msgstr "demolitore di anatre"
+
+#: cogs/helpers/config.py:241
+msgid "deer impaler"
+msgstr "impilatore di anatre"
+
+#: cogs/helpers/config.py:242
+msgid "deer eviscerator"
+msgstr "evisceratore di anatre"
+
+#: cogs/helpers/config.py:243
+msgid "deer terror"
+msgstr "terrore delle anatre"
+
+#: cogs/helpers/config.py:244
+msgid "deer exploder"
+msgstr "esploditore di anatre"
+
+#: cogs/helpers/config.py:245
+msgid "deer destructor"
+msgstr "distruttore di anatre"
+
+#: cogs/helpers/config.py:246
+msgid "deer blaster"
+msgstr "imploditore di anatre"
+
+#: cogs/helpers/config.py:247
+msgid "deer pulverizer"
+msgstr "polverizzatore di anatre"
+
+#: cogs/helpers/config.py:248
+msgid "deer disintegrator"
+msgstr "disintegratore d'anatre"
+
+#: cogs/helpers/config.py:249
+msgid "deer atomizer"
+msgstr "atomizzatore di anatre"
+
+#: cogs/helpers/config.py:250
+msgid "deer annihilator"
+msgstr "annientatore di anatre"
+
+#: cogs/helpers/config.py:251
+msgid "serial deer killer"
+msgstr "serial killer di anatre"
+
+#: cogs/helpers/config.py:252
+msgid "deer genocider"
+msgstr "genocida della specie delle anatre"
+
+#: cogs/helpers/config.py:253
+msgid "old noob"
+msgstr "vecchio nabbo"
+
+#: cogs/helpers/config.py:254
+msgid "deer toaster"
+msgstr "tostatore di anatre"
+
+#: cogs/helpers/config.py:255
+msgid "unemployed due to extinction of the deer species"
+msgstr "disoccupato a causa dell'estinzione delle specie delle anatre"
+
+#: cogs/helpers/data_store.py:182 cogs/helpers/database.py:193
+msgid "Level of {player} on #{channel}"
+msgstr "Livello del {player} su #{channel}"
+
+#: cogs/helpers/data_store.py:185 cogs/helpers/database.py:196
+msgid "You leveled down!"
+msgstr "Sei sceso di livello!"
+
+#: cogs/helpers/data_store.py:188 cogs/helpers/database.py:199
+msgid "You leveled up!"
+msgstr "Sei salito di livello!"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/database.py:207
+msgid "Current level"
+msgstr "Livello attuale"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/data_store.py:197
+#: cogs/helpers/database.py:207 cogs/helpers/database.py:208
+msgid "nom"
+msgstr "nom"
+
+#: cogs/helpers/data_store.py:197 cogs/helpers/database.py:208
+msgid "Previous level"
+msgstr "Livello precedente"
+
+#: cogs/helpers/data_store.py:198 cogs/helpers/database.py:209
+msgid "Shots accuracy"
+msgstr "Precisione dei colpi"
+
+#: cogs/helpers/data_store.py:199 cogs/helpers/database.py:210
+msgid "Weapon reliability"
+msgstr "Affidabilità dell'arma"
+
+#: cogs/helpers/data_store.py:200 cogs/helpers/database.py:211
+msgid "Exp points"
+msgstr "Punti exp"
+
+#: cogs/helpers/data_store.py:206 cogs/helpers/database.py:217
+msgid ""
+":warning: There was an error while sending the embed, please check if the "
+"bot has the `embed_links` permission and try again!"
+msgstr ""
+":warning: Si è verificato un errore durante l'invio dell'embed (messaggio "
+"con file/link allegato), per favore controllare che il bot abbia il permesso "
+"`embed_links` e ritentare!"
+
+#: cogs/helpers/deer.py:36
+msgid "Nothing"
+msgstr "Niente. Nulla di nulla."
+
+#: cogs/helpers/deer.py:40
+msgid "a lot of bushes."
+msgstr "Un mucchio di cespugli."
+
+#: cogs/helpers/deer.py:43
+msgid "a deer pin."
+msgstr "una spilla d'anatra."
+
+#: cogs/helpers/deer.py:47
+msgid "a bullet"
+msgstr "un proiettile"
+
+#: cogs/helpers/deer.py:59
+msgid "a full magazine"
+msgstr "Un caricatore pieno."
+
+#: cogs/helpers/deer.py:71
+msgid "a box of explosive ammo"
+msgstr "una scatola di munizioni esplosive"
+
+#: cogs/helpers/deer.py:84
+msgid "an almost empty box of explosive ammo"
+msgstr "una scatola quasi del tutto vuota di munizioni esplosive"
+
+#: cogs/helpers/deer.py:98
+msgid "some deer-grease"
+msgstr "del grasso d'anatra"
+
+#: cogs/helpers/deer.py:107
+msgid "a full-featured silencer"
+msgstr "un silenziatore pieno di funzionalità"
+
+#: cogs/helpers/deer.py:116
+msgid "a fully functional infrared detector"
+msgstr "Un rilevatore a infrarossi completamente operativo"
+
+#: cogs/helpers/deer.py:233
+msgid ""
+"**FLAPP**\tFrightened by so much noise, the deer fled! CONGRATS! [missed: -1 "
+"xp]"
+msgstr ""
+"**FLAPP** Impaurita da cotanto rumore, l'anatra è scappata! CONGRATULAZIONI! "
+"[mancata: -1 xp]"
+
+#: cogs/helpers/deer.py:244
+msgid "BPAM"
+msgstr "BPAM"
+
+#: cogs/helpers/deer.py:248
+msgid "BAAM"
+msgstr "BAAM"
+
+#: cogs/helpers/deer.py:252
+msgid "BOUM"
+msgstr "BOUM"
+
+#: cogs/helpers/deer.py:252
+msgid "SPROTCH"
+msgstr "SPROTCH"
+
+#: cogs/helpers/deer.py:304 cogs/helpers/deer.py:307
+msgid "Searching the bushes around the deer, you found..."
+msgstr "Cercando tra i cespugli attorno alle anatre, hai trovato..."
+
+#: cogs/helpers/deer.py:307
+msgid "that you unfortunately couldn't take, because your backpack is full."
+msgstr ""
+"il quale sfortunatamente hai dovuto lasciare dietro, poiché il tuo zaino è "
+"pieno."
+
+#: cogs/helpers/deer.py:342
+msgid ""
+"That was close, you almost killed the deer, but the other hunter got it "
+"first! [missed: -1 xp]"
+msgstr ""
+"Per un pelo hai quasi ucciso l'anatra, ma l'altro cacciatore l'ha presa per "
+"primo! [mancata: -1 xp]"
+
+#: cogs/helpers/deer.py:376
+msgid "<:Wizzz:365870248554921985> Wizzz huggy deery!"
+msgstr "<:Wizzz:365870248554921985>Wizzz anatrina coccolina!"
+
+#: cogs/helpers/deer.py:381
+msgid ""
+":heart: You try to hug the deer, but it knows you killed its brother, so it "
+"fled from you and jumped back into the woods![-2 exp]"
+msgstr ""
+":heart: Hai tentato di abbracciare l'anatra, ma sa che hai ucciso suo "
+"fratello, così è scappata da te ed è volata di nuovo nello stagno! [-2 exp]"
+
+#: cogs/helpers/deer.py:383
+msgid ""
+":heart: You try to hug the deer, but it feels someting wrong about you, so "
+"it fled from you and jumped back into the woods![-2 exp]"
+msgstr ""
+":heart: Hai tentato di abbracciare l'anatra, ma ha un brutto presentimento "
+"su di te, così è scappata via da te volando nuovamente nello stagno![-2exp]"
+
+#: cogs/helpers/deer.py:385
+msgid ""
+":heart: You try to hug the deer, but it saw the weapon you hid behind your "
+"back, so it fled from you and jumped back into the woods! [-2 exp]"
+msgstr ""
+":heart: Hai tentato di abbracciare l'anatra, ma ha notato l'arma che hai "
+"nascosto alle tue spalle, così è scappata da te ed è volata di nuovo nello "
+"stagno! (Rimane comunque una storia d'amore migliore di Twilight) [-2 exp]"
+
+#: cogs/helpers/deer.py:394
+msgid ""
+":skull_crossbones: **{onomatopoeia}**\tYou killed the deer in {time} "
+"seconds, you are now at a grand total of {total} deer (of which "
+"{supercanards} were super-deer) killed on {channel}.     \\_X<   *COUAC*   "
+"{exp}"
+msgstr ""
+":skull_crossbones: **{onomatopoeia}** Hai ucciso l'anatra in {time} secondi, "
+"adesso sei ad una somma totale di {total} anatre (di cui {supercanards} "
+"erano super-anatre) uccise su {channel}.     \\_X<   *COUAC*   {exp}"
+
+#: cogs/helpers/deer.py:402
+msgid ""
+":gun: The deer survived, try again! *SUPER DEER DETECTED* [life: -{vie} "
+"({current_life} / {max_life})]"
+msgstr ""
+":gun: L'anatra è sopravvissuta, ritenta! *SUPER ANATRA RILEVATA* [vita: -"
+"{vie} ({current_life} / {max_life})]"
+
+#: cogs/helpers/deer.py:404
+msgid ""
+":gun: The deer survived, try again! *SUPER DEER DETECTED* [life: -{vie}]"
+msgstr ""
+":gun: L'anatra è sopravvissuta, ritenta! *SUPER ANATRA RILEVATA* [vita: -"
+"{vie}]"
+
+#: cogs/helpers/deer.py:600
+msgid ""
+"You have been tricked by {user_mention} to kill a mechanical deer. It "
+"obviously won't work, and you lost 1 exp for this missed shot"
+msgstr ""
+"Sei stato ingannato da {user_mention} portandoti ad uccidere un'anatra "
+"meccanica. Ovviamente non ha funzionato, e hai perso 1 punto exp per questo "
+"colpo mancato"
+
+#: cogs/helpers/deer.py:650
+msgid "The baby deer left to take a little nap somewhere ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr ""
+"L'anatroccolo se n'è andato a fare un pisolino da qualche parte ·°'\\`'°-."
+",¸¸.·°'\\`"
+
+#: cogs/helpers/deer.py:670
+msgid ""
+":skull_crossbones: **{onomatopoeia}**\tYou killed the baby deer in {time} "
+"seconds, and you shouldn't have done this! You'll lose some exp, because you "
+"shouldn't kill babies\\_X<   *COUAC*   {exp}"
+msgstr ""
+":skull_crossbones: **{onomatopoeia}** Hai ucciso l'anatroccolo in {time} "
+"secondi, e non l'avresti dovuto fare! Perderai un po' di exp, poiché non "
+"dovresti uccidere i piccoli\\_X<   *COUAC*   {exp}"
+
+#: cogs/helpers/deer.py:686
+msgid ""
+"<:cmd_Hug_01:442695336348221451> **SMACK**\tYou hugged the baby deer, and "
+"now it is really happy! [3 exp]\n"
+"The baby deer left, feeling loved"
+msgstr ""
+"<:cmd_Hug_01:442695336348221451>** SMACK ** Hai stretto l'anatroccolo e ora "
+"è davvero felice! Aww :heart: [3 exp]\n"
+"L'anatroccolo se ne andò, sentendosi amato"
+
+#: cogs/helpers/deer.py:710
+msgid "**I AM...** Your mother"
+msgstr "**IO SONO...** Tua madre"
+
+#: cogs/helpers/deer.py:718
+msgid ""
+":skull_crossbones: **{onomatopoeia}**\t You killed me in {time} seconds, but "
+"you won't kill my children! \\_X<   *COUAC*   {exp}"
+msgstr ""
+":skull_crossbones: **{onomatopoeia}**  Mi hai ucciso in {time} secondi, ma "
+"non ucciderai i miei figli! \\_X<   *COUAC*   {exp}"

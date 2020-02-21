@@ -1,0 +1,30 @@
+env:
+  global:
+  - GIT_EMAIL: oicu8@neutroncoin.com
+  - GH_REF: git@github.com:oicu8/deerhunt.git
+language: python
+python:
+  - "3.6"
+install: "pip install -r requirements.txt"
+before_script:
+- pip install Babel
+script:
+- git checkout master
+- git pull
+- pybabel extract -o language/EN/LC_MESSAGES/default.pot ./
+- for dirr in ./language/* ; do msgfmt ${dirr}/LC_MESSAGES/default.po -o ${dirr}/LC_MESSAGES/default.mo ; echo ${dirr} compiled; done
+- openssl aes-256-cbc -K $encrypted_03e55cc3139f_key -iv $encrypted_03e55cc3139f_iv -in deploy-key.enc -out deploy-key -d
+- chmod 600 deploy-key
+- eval `ssh-agent -s`
+- ssh-add deploy-key
+- git config user.name "travis-ci - Automatic Publish"
+- git config user.email "${GIT_EMAIL}"
+- git remote add gh-token "${GH_REF}";
+- git fetch gh-token
+- git config --global push.default simple
+- DIFF=$(git diff --numstat)
+- echo "$DIFF"
+- git add --all ./language/
+- echo "PLEASE TRAVIS! PLEASE!"
+- if [ "$DIFF" != "1	1	language/EN/LC_MESSAGES/default.pot" ]; then git add language/EN/LC_MESSAGES/default.pot; git commit -a -m " travis-ci auto-update of translations"; fi;
+- if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then echo "Pushing to github"; git push gh-token; fi;

@@ -1,0 +1,1880 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-06 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: bot.py:145
+msgid ":x: A required argument is missing."
+msgstr ":x: Пропущен обязательный параметр."
+
+#: bot.py:149
+msgid ":x: You don't have enough exp for this"
+msgstr ":x: У вас недостаточно опыта."
+
+#: bot.py:152
+msgid ":x: You are not a server admin"
+msgstr ":x: У вас нет прав администратора."
+
+#: bot.py:155
+msgid ":x: You are not a super admin."
+msgstr ":x: Эту команду может использовать только создатель бота."
+
+#: bot.py:156
+msgid ""
+"This command is reserved for the bot owners. If you think this is an error, "
+"please contact my owner at the DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Эта команда зарезервирована для создателя бота. Если вы считаете, что это "
+"ошибка, свяжитесь с моим создателем на сервере поддержки DeerHunt (см. "
+"`dh!help`)."
+
+#: bot.py:160
+msgid ":x: You haven't voted for DeerHunt on DiscordBotList for a while."
+msgstr ":x: Вы давно не голосовали за меня на DiscordBotList."
+
+#: bot.py:161
+msgid ""
+"Support the bot to use this command by voting at <https://discordbots.org/"
+"bot/deerhunt>. Be aware that the votes can take a minute to be registered by "
+"DeerhuntIf you think this is an error, please contact my owner at the "
+"DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Поддержите меня, проголосовав на сайте <https://discordbots.org/bot/"
+"deerhunt>. Иногда мне нужно время, чтобы зарегистрировать ваш голос. Если вы "
+"думаете, что это ошибка, пожалуйста, свяжитесь с моим владельцем на сервере "
+"поддержки DeerHunt (`dh!help`)."
+
+#: bot.py:173
+msgid "You are on cooldown :(, try again in {seconds} seconds!"
+msgstr "Повторите попытку через {seconds} сек.!"
+
+#: bot.py:179
+msgid ":bulb: HINT: "
+msgstr ":bulb: СОВЕТ:"
+
+#: cogs/admin_commands.py:27
+msgid ":ok: Done, user banned. :gun:"
+msgstr ":ok: Готово, пользователь заблокирован. :gun:"
+
+#: cogs/admin_commands.py:39
+msgid ":ok: Done, user unbanned. :eyes:"
+msgstr ":ok: Готово, пользователь разблокирован. :eyes:"
+
+#: cogs/admin_commands.py:65
+msgid ""
+"<:cmd_ChannelAdded_01:439546719143723019> Done, channel {channel} added to "
+"the game! Have fun!"
+msgstr ""
+"<:cmd_ChannelAdded_01:439546719143723019> Готово, канал \"{channel}\" "
+"добавлен в игру! Удачной игры!"
+
+#: cogs/admin_commands.py:81
+msgid ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Done, channel {channel} removed "
+"from the game. Bye!"
+msgstr ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Готово, канал \"{channel}\" "
+"удалён из игры. Пока!"
+
+#: cogs/admin_commands.py:90
+msgid ""
+"<:cmd_AdminAdded_01:439549846622568466> {admin} added as an admin to the "
+"guild!"
+msgstr ""
+"<:cmd_AdminAdded_01:439549846622568466> Пользователь с ником {admin} теперь "
+"является администратором сервера!"
+
+#: cogs/admin_commands.py:98
+msgid ""
+"<:cmd_AdminRemoved_01:439549845519335440> {admin} removed from the guild "
+"admins."
+msgstr ""
+"<:cmd_AdminRemoved_01:439549845519335440> С пользователя {admin} сняты права "
+"администратора."
+
+#: cogs/admin_commands.py:143 cogs/admin_commands.py:169
+msgid "Done. User removed from the database, if he was in."
+msgstr "Готово. Пользователь удалён из базы данных."
+
+#: cogs/admin_commands.py:156
+msgid "Done. All channel data was removed."
+msgstr "Готово. Все данные, связанные с каналом, удалены."
+
+#: cogs/admin_commands.py:181
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!settings [view/set/reset/"
+"list/modified] [setting if applicable]`"
+msgstr ""
+":x: Неправильный синтаксис. Используйте команду следующим образом: "
+"`!settings [view/set/reset/list/modified/] [настройка (если применимо)]`."
+
+#: cogs/admin_commands.py:190
+msgid ":ok: The setting {pref} is set to `{value}` on this guild."
+msgstr ":ok: Значение параметра {pref} на этом сервере изменено на `{value}`."
+
+#: cogs/admin_commands.py:208
+msgid ""
+"Bypassing the max_deer_per_day check as you are the bot owner. It would "
+"have been `{max}`."
+msgstr ""
+"Игнорирую переменную max_deer_per_day, т. к. вы владелец бота. Кстати, "
+"лимит был бы `{max}`."
+
+#: cogs/admin_commands.py:210
+msgid ""
+"Bypassing the max_deer_per_day check as you are in a VIP guild. Please "
+"don't abuse that. For information, the limit would have been set at `{max}` "
+"deer per day."
+msgstr ""
+"Игнорирую max_deer_per_day, т. к. у вас есть привилегии VIP. Пожалуйста, не "
+"злоупотребляйте этими преимуществами. Кстати, лимит был бы `{max}`."
+
+#: cogs/admin_commands.py:218
+msgid ""
+"<:official_Deer_01_reversed:439576463436546050> Authorised to set the VIP "
+"status!"
+msgstr ""
+"<:official_Deer_01_reversed:439576463436546050> Можно выдать привилегии VIP!"
+
+#: cogs/admin_commands.py:220
+msgid ":x: Unauthorised to set the VIP status! You are not an owner."
+msgstr ""
+":x: Нет прав, чтобы выдать привилегии VIP! Вы не являетесь создателем."
+
+#: cogs/admin_commands.py:226 cogs/admin_commands.py:237
+#: cogs/admin_commands.py:258
+msgid ":x: Incorrect value."
+msgstr ":x: Неверное значение."
+
+#: cogs/admin_commands.py:233 cogs/admin_commands.py:254
+msgid ":ok: The setting {pref} has been set to `{value}` on this guild."
+msgstr ":ok: Значение параметра {pref} на этом сервере изменено на `{value}`."
+
+#: cogs/experience_related_commands.py:27
+msgid ""
+"Congratulations, you sent / gave more experience than the maximum number I'm "
+"able to store."
+msgstr ""
+"Поздравляю, вы отправили настолько много очков опыта, что я не могу "
+"сохранить это число."
+
+#: cogs/experience_related_commands.py:30
+msgid ":ok:, he/she now has {newexp} exp points!"
+msgstr ":ok:, теперь у получателя {newexp} очк. опыта!"
+
+#: cogs/experience_related_commands.py:54
+msgid ":x: To prevent abuse, you can't send exp when you don't have a weapon."
+msgstr ""
+":x: Чтобы предотвратить жульничество, передача очков опыта недоступна, пока "
+"у вас конфисковано оружие."
+
+#: cogs/experience_related_commands.py:58
+msgid ":x: The exp amount needs to be positive."
+msgstr ":x: Количество очков опыта должно быть положительным."
+
+#: cogs/experience_related_commands.py:62
+msgid ""
+":x: Wait... What? Are you trying to send experience to YOURSELF? That "
+"doesn't make sense."
+msgstr ""
+":x: Мне кажется, или вы пытаетесь отправить очки опыта самому себе? Но это "
+"же бессмысленно!"
+
+#: cogs/experience_related_commands.py:81
+msgid "You sent {amount} exp to {target} (and paid {taxes} exp of taxes)!"
+msgstr ""
+"Вы отправили {amount} очк. опыта пользователю {target} (взимаемая комиссия: "
+"{taxes} очк.)!"
+
+#: cogs/experience_related_commands.py:84
+msgid "You don't have enough experience points"
+msgstr "У вас недостаточно опыта."
+
+#: cogs/experience_related_commands.py:86
+msgid ":x: Sending exp is disabled on this server"
+msgstr ":x: Передача очков опыта отключена на этом сервере."
+
+#: cogs/experience_related_commands.py:94 cogs/scores.py:33
+msgid "{date} (in {dans_jours}{dans_heures} and {dans_minutes})"
+msgstr "{date} (в {dans_jours} {dans_heures} и {dans_minutes})"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:34
+#, python-format
+msgid "%m/%d at %H:%M:%S"
+msgstr "%m/%d в %H:%M:%S"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:35
+msgid "{dans} days "
+msgstr "{dans} дн."
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:36
+msgid "{dans} hours"
+msgstr "{dans} ч."
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:37
+msgid "{dans} minutes"
+msgstr "{dans} мин."
+
+#: cogs/meta.py:38
+#, python-format
+msgid ""
+"The bot frequently reboots for updates. Don't worry, it has a 99.8% of "
+"uptime."
+msgstr ""
+"Иногда бот перезагружается для загрузки обновления. Наш uptime — 99.8%."
+
+#: cogs/meta.py:69
+msgid ""
+"Here is the command list: http://deerhunt.me/command-list/ | If you need "
+"anything, feel free to join the support server at https://discordapp.com/"
+"invite/2BksEkV"
+msgstr ""
+"Вот список команд: http://deerhunt.me/command-list/ |Если есть вопросы, "
+"заходите на сервер поддержки по ссылке: https://discordapp.com/invite/"
+"2BksEkV"
+
+#: cogs/meta.py:82
+msgid ""
+"It's `{hour}:{minutes}:{seconds}` in the GMT timezone (also known as UTC±00:"
+"00), which is the one used by the bot. \n"
+"You can use this website to compare it to yours: https://time.is/compare/GMT"
+msgstr ""
+"Сейчас `{hour}:{minutes}:{seconds}` по GMT (или UTC±00:00), бот использует "
+"этот часовой пояс в игре.\n"
+"Можете использовать данный сайт для сравнения времени со своим: https://time."
+"is/compare/GMT"
+
+#: cogs/meta.py:85
+msgid ""
+"You can use the `dh!freetime` command to see when you'll get your weapons "
+"back for free"
+msgstr ""
+"Напишите `dh!freetime`, чтобы узнать, когда произойдёт бесплатная раздача."
+
+#: cogs/meta.py:100
+msgid ""
+":alarm_clock: Next giveback of weapons and magazines in {sec} seconds "
+"({hours} hour(s) and {minutes} minute(s))."
+msgstr ""
+":alarm_clock: Следующая бесплатная раздача произойдёт через {sec} сек. "
+"({hours} ч. и {minutes} мин.)."
+
+#: cogs/meta.py:103
+msgid ""
+"A giveback tops up your magazines and gives you your weapon back for free "
+"(if confiscated), but it doesn't affect the bullets in your current magazine."
+" If you can, reload beforehand!"
+msgstr ""
+"Бесплатная раздача заполняет все пустые запасные магазины (кроме текущего) и "
+"отдаёт вам ваше оружие (если оно до этого было конфисковано). Советуем "
+"перезарядиться перед раздачей!"
+
+#: cogs/meta.py:117
+msgid "You are using shard number {shard} out of {total} total shards"
+msgstr "Вы используете сервер под номером {shard}. Всего доступно {total}."
+
+#: cogs/scores.py:52
+msgid ""
+"The scores are online at http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}"
+msgstr ""
+"Статистика канала: http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}"
+
+#: cogs/scores.py:259
+msgid ""
+"Your deertats are waiting for you at http://deerhunt.api-d.com/web/"
+"deertats.php?cid={channel_id}&pid={player_id}"
+msgstr ""
+"Ваша личная статистика: http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}&pid={player_id}"
+
+#: cogs/setup_wizzard.py:24
+msgid ""
+"Hello!\n"
+" Thanks for adding me in there! I'm almost ready to start the game!\n"
+" Could we please go into the channel where you want the game to be ? Please "
+"invoke me there by using `dh!setup`<:event_GuildAdded_01:439550913112309781>"
+msgstr ""
+"Здравствуйте!\n"
+"Спасибо за приглашение! Я почти готов начать игру!\n"
+"Перейдите в канал, который вы хотите добавить в игру и напишите в нём "
+"`dh!setup`<:event_GuildAdded_01:439550913112309781>"
+
+#: cogs/setup_wizzard.py:35
+msgid ""
+"Hello again!\n"
+" I'm just gonna run a quick permissions check and will be back in a few "
+"seconds! Please wait"
+msgstr ""
+"И снова здравствуйте!\n"
+"Пожалуйста, подождите несколько секунд, мне нужно проверить права!"
+
+#: cogs/setup_wizzard.py:51
+msgid ""
+":small_red_triangle: The permission `read_message_history` is missing.\n"
+"This is essential for the normal function of the bot, as I need to be able "
+"to read messages.\n"
+"You can proceed without it, but shouldn't."
+msgstr ""
+" :small_red_triangle: У меня отсутствует право на чтение сообщений.\n"
+"Для исправного функционирования бота ему обязательно обладать этим правом.\n"
+"Я могу попробовать поработать без него, но лучше не делайте так."
+
+#: cogs/setup_wizzard.py:56
+msgid ""
+":small_red_triangle: The permission `add_reactions` is missing.\n"
+"It's a required permission for interactive embeds, and they are almost "
+"everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: У меня отсутствует право на добавление реакций к "
+"сообщениям.\n"
+"Это право обязательно для интерактивных меню, а они почти везде.\n"
+"Я могу и без него, но лучше не пытайтесь, дабы избежать ошибок."
+
+#: cogs/setup_wizzard.py:61
+msgid ""
+":small_red_triangle: The permission `attach_files` is missing.\n"
+"It's a required permission for embeds, and they are almost everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: У меня отсутствует право на отправку файлов.\n"
+"Это право обязательно для интерактивных меню, а они почти везде.\n"
+"Я могу и без него, но лучше не пытайтесь, дабы избежать ошибок."
+
+#: cogs/setup_wizzard.py:66
+msgid ""
+":small_red_triangle: The permission `embed_links` is missing.\n"
+"This is used to send embeds\n"
+"You could proceed without it, but really shouldn't as it will lead to errors"
+msgstr ""
+":small_red_triangle: У меня отсутствует право на создание интерактивных меню."
+"\n"
+"Оно нужно для создания... интерактивных меню.\n"
+"Я могу и без него, но лучше не пытайтесь, дабы избежать ошибок."
+
+#: cogs/setup_wizzard.py:72
+msgid ""
+":small_orange_diamond: You gave me the `administrator` permission.\n"
+"Although this will not cause problems, it's unsafe to give bots such "
+"powerful permissions, especially if they don't need them.\n"
+"You can proceed with it."
+msgstr ""
+":small_orange_diamond: Вы выдали мне права администратора.\n"
+"Проблем из-за этого не будет, но давать слишком много прав ботам "
+"небезопасно, тем более, когда они в этом не нуждаются.\n"
+"Можно продолжать."
+
+#: cogs/setup_wizzard.py:77
+msgid ""
+":small_orange_diamond: The permission `create_instant_invite` is missing.\n"
+"It's not really essential for the normal function of the bot, but needed for "
+"error reports.\n"
+"You can proceed without it."
+msgstr ""
+":small_orange_diamond: У меня отсутствует право на создание ссылок-"
+"приглашений.\n"
+"Это необязательно для нормальной работы бота, но обязательно для отправки "
+"сообщений об ошибках.\n"
+"Можно продолжать без него."
+
+#: cogs/setup_wizzard.py:82
+msgid ""
+":small_orange_diamond: The permission `manage_messages` is missing.\n"
+"This is used to remove some messages on sneaky commands (weapon sabotage, "
+"etc.), and also if you use the `delete_commands` setting\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+";small_orange_diamond: У меня отсутствует право на управление сообщениями.\n"
+"Оно используется, чтобы удалять сообщения, которые не должны увидеть "
+"остальные в том случае, если вы включили параметр `delete_commands` "
+"(удаление сообщений с командами).\n"
+"Я могу и без него, но лучше не стоит, дабы избежать ошибок."
+
+#: cogs/setup_wizzard.py:87
+msgid ""
+":small_orange_diamond: You gave me the `mention_everyone` permission.\n"
+"This not used, but should't be given in case of a bug\n"
+"You could proceed with it safely."
+msgstr ""
+":small_orange_diamond: Вы выдали мне право на упоминание всех (@everyone).\n"
+"Оно не используется.\n"
+"Можно продолжать."
+
+#: cogs/setup_wizzard.py:92
+msgid ""
+":small_orange_diamond: The permission `external_emojis` is missing.\n"
+"This is used since DeerHunt to add non-standard emojis to messages. You should "
+"probably give it to me\n"
+"You could proceed without it, but bug reports would be appreciated."
+msgstr ""
+":small_orange_diamond: У меня отсутствует право на использование эмодзи с "
+"других серверов.\n"
+"Оно используется для добавления нестандартных эмодзи в мои сообщения.\n"
+"Я могу и без него, сообщайте о багах, заранее спасибо."
+
+#: cogs/setup_wizzard.py:110
+msgid ""
+":small_blue_diamond: The permission `change_nickname` is missing.\n"
+"This is not yet used, but could be in the future. An announcement will be "
+"made then.\n"
+"You can safely proceed without it."
+msgstr ""
+":small_blue_diamond: У меня отсутствует право на изменение никнеймов.\n"
+"Оно не используется, но может понадобиться в будущем. Вы получите об этом "
+"оповещение.\n"
+"Можно продолжать без него."
+
+#: cogs/setup_wizzard.py:115
+msgid ""
+":small_blue_diamond: The permission `send_tts_messages` is missing.\n"
+"This is used in case you want to enable tts deer..\n"
+"You can safely proceed without it, but the `tts_deer` setting won't work"
+msgstr ""
+":small_blue_diamond: Право на отправку озвучиваемых сообщений.\n"
+"Оно необходимо в случае, если вы хотите включить параметр `tts_deer`.\n"
+"Без этого права параметр работать не будет."
+
+#: cogs/setup_wizzard.py:121
+msgid ""
+"I'm done! <:cmd_Setup_01:439551472804429836>\n"
+"Any warning has been sent above. I suggest fixing them, then running the "
+"command again!\n"
+"If there is none, congrats! You passed the tests brilliantly!\n"
+"If you are ready to continue with the setup, use the command "
+"`dh!setup_settings`. If you just want to play, use `dh!add_channel`. Once "
+"used, deer will spawn automatically.\n"
+"Thanks for runing DeerAir. If you have any question, we are here to help at "
+"https://discord.gg/"
+msgstr ""
+"Готово! <:cmd_Setup_01:439551472804429836>\n"
+"Все ошибки, возникшие в процессе, вы можете увидеть выше. Советую "
+"разобраться с ними. Когда закончите, напишите команду ещё раз.\n"
+"Если ошибок нет, то мои поздравления! Проверка успешно завершена!\n"
+"Если вы готовы продолжить настройку,  напишите `dh!setup_settings`. Если вы "
+"просто хотите начать игру, то напишите `dh!add_channel`. После этого утки "
+"начнут появляться автоматически.\n"
+"Если у вас есть вопросы, можете задать их на нашем сервере: https://discord."
+"gg/2BksEkV"
+
+#: cogs/setup_wizzard.py:135
+msgid ""
+"Hey! Let's configure the server!\n"
+"I'll give you the most used parameters, and let you change them if you want. "
+"Any command written here is optional, and you can start playing now just by "
+"using `dh!add_channel`.\n"
+"\n"
+"**Before starting, please make sure this is the channel you want to use, and "
+"activate it with `dh!add_channel`.**\n"
+"\n"
+"**1/ Language used**:\n"
+"    \\* If you speak french, use `dh!settings set language fr_FR`\n"
+"    \\* If you speak spanish, use `dh!settings set language es_ES`\n"
+"    \\* Another language we don't fully support yet? Help us translate "
+"DeerHunt! Find us at https://discord.gg/.\n"
+"    \n"
+"**2/ Deer Per Day**:\n"
+"    This is the number of deer that will spawn per day. They spawn at "
+"random intervals, but you can configure the number of deer that will spawn.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"deer_per_day XX`, where `XX` is a number.\n"
+"    \\* To prevent abuse, there is a limit that will be automatically "
+"enforced. If you need to lift it, contact my owner at the support server.\n"
+"    \n"
+"**3/ Exp Won Per Deer Killed**:\n"
+"    This is the experience won per deer killed. If your server is really "
+"popular, it might be worth it to push it up a little to make new hunters "
+"progress faster.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"exp_won_per_deer_killed XX`, where `XX` is a number.\n"
+"    \\* :bulb: Don't go too high tho, there must be some challenge. 15 is a "
+"good start\n"
+"    \n"
+"**4/ Other settings**:\n"
+"    This is starting to be lengthy, so I won't go into further details here. "
+"You are probably all set and can start the game by typing `dh!add_channel`.\n"
+"    More settings can be found using `dh!settings list`\n"
+"    \n"
+"Thanks for playing with me! <:official_Deer_01:439546719177539584>\n"
+msgstr ""
+"Эй, давайте начнём настройку сервера!\n"
+"Ниже вы можете видеть главные параметры и изменить их. Или просто начать "
+"игру, написав `dh!add_channel`.\n"
+"\n"
+"**Перед тем, как начать, убедитесь, что вы правда хотите использовать этот "
+"канал для игры и напишите в нём `dh!add_channel`, чтобы добавить его в игру."
+"**\n"
+"\n"
+"**1. Язык бота**:\n"
+"    *Чтобы выбрать французский, используйте `dh!settings set languge fr_FR`\n"
+"    *Чтобы выбрать испанский, используйте `dh!settings set language es_ES`\n"
+"    *Чтобы выбрать русский, используйте `dh!settings set language ru_RU`\n"
+"    *Тут нет желаемого языка? Помогите нам с переводом! Заходите: https://"
+"discord.gg/2BksEkV.\n"
+"\n"
+"**2. Количество уток в день**:\n"
+"    Это количество уток, которое будет появляться за день. Они появляются с "
+"разным интервалом, но их общее количество за день можно изменить.\n"
+"    *Используйте команду `dh!settings set deer_per_day XX` (XX замените на "
+"желаемое число уток), чтобы изменить значение этого параметра.\n"
+"    *Чтобы не было злоупотребления, установлено максимальное ограничение. "
+"Если вам нужно его увеличить, напишите моему хозяину на сервере поддержки "
+"DeerHunt.\n"
+"\n"
+"**3. Кол-во очков опыта за каждую убитую утку**:\n"
+"    Это количество очков опыта, начисляемое за каждую убитую утку. Если ваш "
+"сервер очень популярный, то имеет смысл увеличить значение этого параметра, "
+"чтобы новички развивались быстрее.\n"
+"    *Используйте команду `dh!settings set exp_won_per_deer_killed XX` (XX "
+"замените на желаемое количество очков опыта), чтобы изменить значение этого "
+"параметра.\n"
+"    *Не ставьте слишком большое значение, чтобы оставался интерес. 15 в "
+"самый раз.\n"
+"\n"
+"**4. Другие параметры**:\n"
+"    Это сообщение уже довольно длинное, поэтому пора заканчивать. Скорее "
+"всего вы уже всё настроили, запустите игру с помощью команды "
+"`dh!add_channel`.\n"
+"    Полный список параметров можно увидеть, написав команду `dh!settings "
+"list`.\n"
+"\n"
+"Спасибо, что играете со мной!<:official_Deer_01:439546719177539584>"
+
+#: cogs/shop.py:42
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!shop [list/item number] "
+"[argument if applicable]`"
+msgstr ""
+":x: Неверный синтаксис. Используйте команду следующим образом: `!shop [номер "
+"предмета в списке] [настройка (если применимо)]`."
+
+#: cogs/shop.py:52
+msgid "Right now you have a total of {exp} exp points."
+msgstr "Сейчас у вас {exp} очк. опыта."
+
+#: cogs/shop.py:59
+msgid ""
+"Here is the list of all the shops items : https://deerhunt.me/shop-items/ . "
+"Thanks "
+msgstr ""
+"Вот список всех предметов, которые можно купить в магазине: https://deerhunt."
+"me/shop-items/"
+
+#: cogs/shop.py:75
+msgid ":money_with_wings: You added a bullet to your weapon for 7 exp points."
+msgstr ":money_with_wings: Вы купили одну пулю за 7 очков опыта."
+
+#: cogs/shop.py:78
+msgid ":champagne: Your magazine is full!"
+msgstr ":champagne: Магазин полон!"
+
+#: cogs/shop.py:94
+msgid ""
+":money_with_wings: You added a magazine to your weapon for 13 exp points."
+msgstr ":money_with_wings: Вы купили магазин за 13 очков опыта."
+
+#: cogs/shop.py:97
+msgid ":champagne: You have enough magazines!"
+msgstr ";champagne: У вас достаточно магазинов!"
+
+#: cogs/shop.py:111
+msgid ":money_with_wings: You purchased AP ammo for your weapon."
+msgstr ":money_with_wings: Вы купили бронебойные патроны."
+
+#: cogs/shop.py:112
+msgid ""
+"For the next 24 hours, you will deal double damage to deer. This does "
+"**not** stack with explosive ammo"
+msgstr ""
+"Ближайшие 24 часа ваши пули будут наносить уткам в два раза больше урона (не "
+"суммируется с уроном от разрывных патронов)."
+
+#: cogs/shop.py:115
+msgid ":champagne: You have enough AP ammo for now!"
+msgstr ":champagne: У вас уже есть бронебойные патроны!"
+
+#: cogs/shop.py:129
+msgid ":money_with_wings: You purchased explosive ammo for your weapon."
+msgstr ":money_with_wings: Вы купили разрывные патроны."
+
+#: cogs/shop.py:130
+msgid ""
+"For the next 24 hours, you will deal triple damage to deer. This does "
+"**not** stack with AP ammo and trumps it if you have any."
+msgstr ""
+"Ближайшие 24 часа ваши пули будут наносить уткам в три раза больше урона (не "
+"суммируется с уроном от бронебойных патронов)."
+
+#: cogs/shop.py:133
+msgid ":champagne: You have enough explosive ammo for now!"
+msgstr ":champagne: У вас уже есть разрывные патроны!"
+
+#: cogs/shop.py:147
+msgid ":money_with_wings: You got your weapon back."
+msgstr ":money_with_wings: Вам отдали ваше ружьё."
+
+#: cogs/shop.py:148
+msgid ""
+"You can get your weapon back for free if you wait until the daily weapon & "
+"magazine giveback. Type `dh!freetime` to find out when the next giveback is"
+msgstr ""
+"Вам отдадут ружьё на бесплатной раздаче. Чтобы узнать, когда произойдёт "
+"ближайшая, напишите `dh!freetime`."
+
+#: cogs/shop.py:152
+msgid ""
+":champagne: You already have your weapon, what are you trying to buy? :p"
+msgstr ":champagne: У вас уже есть ружьё, что вы пытаетесь купить? :P"
+
+#: cogs/shop.py:166
+msgid ":money_with_wings: You added grease in your weapon."
+msgstr ":money_with_wings: Вы смазали своё ружьё."
+
+#: cogs/shop.py:167
+msgid ""
+"This reduces jamming risks by 50 percent for a day, for only 8 exp points. "
+"It's really useful for new players. Use `dh!deertats` to check your level "
+"and accuracy"
+msgstr ""
+"Смазывание ружья уменьшает вероятность заклинивания на 50% в течение 24 "
+"часов. Полезно для новичков. Чтобы узнать свою точность и уровень, напишите "
+"`dh!deertats`."
+
+#: cogs/shop.py:171
+msgid ""
+":champagne: Your weapon is perfectly lubricated, you don't need any more "
+"grease."
+msgstr ":champagne: Ваше ружьё прекрасно смазано, не стоит."
+
+#: cogs/shop.py:187
+msgid ":money_with_wings: You added a sight to your weapon."
+msgstr ":money_with_wings: Вы купили прицел."
+
+#: cogs/shop.py:188
+msgid ""
+"Your aiming was improved using this formula: (100 - current accuracy) / 3."
+msgstr "Ваша точность была улучшена по формуле (100 - текущая точность) : 3."
+
+#: cogs/shop.py:191
+msgid ":champagne: You already have a sight on your weapon."
+msgstr ":champagne: На вашем ружье уже есть прицел."
+
+#: cogs/shop.py:208
+msgid ""
+":money_with_wings: You added an infrared detector to your weapon, it will "
+"prevent any waste of ammo for a day. Cost: 15 exp points."
+msgstr ""
+":money_with_wings: Вы купили инфракрасный датчик за 15 очков опыта. Он будет "
+"предотвращать выстрелы впустую в течение 24 часов."
+
+#: cogs/shop.py:210
+msgid ":champagne: You already have an infrared detector on your weapon."
+msgstr ":money_with_wings: У вас уже есть инфракрасный датчик."
+
+#: cogs/shop.py:224
+msgid ":money_with_wings: You added a silencer to your weapon."
+msgstr ":money_with_wings: Вы купили глушитель."
+
+#: cogs/shop.py:225
+msgid ""
+"The silencer works best if every hunter uses one, or if you're alone. With "
+"it, no deer will run away before you can kill them. What a good deal, they "
+"only cost 5 exp!"
+msgstr ""
+"С глушителем вы будете стрелять тише и не испугаете уток (и они не будут "
+"улетать, их можно будет спокойно убить). И всё это всего за 5 очков опыта!"
+
+#: cogs/shop.py:229
+msgid ":champagne: You already have a silencer on your weapon"
+msgstr ":champagne: У вас уже есть глушитель."
+
+#: cogs/shop.py:253
+msgid ""
+":money_with_wings: You bought a fresh 4-leaf clover, which will give you "
+"{exp} more exp points for each killed deer for the next day."
+msgstr ""
+":money_with_wings: Вы купили 4-листный клевер, он будет приносить вам на "
+"{exp} очков опыта больше за каждую убитую утку ближайшие 24 часа."
+
+#: cogs/shop.py:257
+msgid ":champagne: You already have 4-leaf clover on your weapon"
+msgstr ":champagne: У вас уже есть четырёхлистный клевер."
+
+#: cogs/shop.py:273
+msgid ""
+":money_with_wings: You bought a pair of sunglasses for 5 exp! You now won't "
+"be dazzled for a day."
+msgstr ""
+":money_with_wings: Вы купили солнцезащитные очки за 5 очков опыта! Теперь "
+"вас не будет ослеплять солнце в течение дня."
+
+#: cogs/shop.py:277
+msgid ""
+":money_with_wings: You bought brand new sunglasses, the only point of it "
+"being that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Вы купили новые солнцезащитные очки, толку от этого нет, "
+"зато теперь вы круче. :cool:"
+
+#: cogs/shop.py:278
+msgid ""
+"Don't buy sunglasses if you still have some! This doesn't extend the time "
+"you won't be dazzled, but still costs you some exp"
+msgstr ""
+"Не покупайте новые солнцезащитные очки, если они у вас уже есть! Вы тратите "
+"очки опыта, а время, на которое вы защищены от солнца, не увеличивается."
+
+#: cogs/shop.py:292
+msgid ":money_with_wings: You're wearing new dry clothes. You look fantastic!"
+msgstr ":money_with_wings: Вы в новой сухой одежде! Выглядите великолепно!"
+
+#: cogs/shop.py:296
+msgid ""
+":money_with_wings: You bought brand new clothes, the only point of it being "
+"that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Вы купили новую одежду, толку от этого нет, зато теперь "
+"вы круче. :cool:"
+
+#: cogs/shop.py:297
+msgid ""
+"Don't buy dry clothes if you aren't wet! They won't do anything, but will "
+"still cost you exp"
+msgstr ""
+"Не покупайте новую одежду, если ваша ещё сухая! Вы тратите очки опыта просто "
+"так."
+
+#: cogs/shop.py:311
+msgid ""
+":money_with_wings: You cleaned your weapon for 6 exp. If you had sand in it, "
+"or if your weapon was sabotaged, it's fixed now!"
+msgstr ""
+":money_with_wings: Вы постирали свою одежду за 6 очков опыта. Если она была "
+"в песке или ваше ружьё саботировали, то теперь всё нормально!"
+
+#: cogs/shop.py:312
+msgid ""
+"Next time someone sabotages you, just shoot. It won't do much damage except "
+"for hurting your reputation"
+msgstr ""
+"В следующий раз, когда с вами попытаются сыграть шутку, просто стреляйте. "
+"Это нанесёт урон только вашей репутации."
+
+#: cogs/shop.py:325
+msgid ":x: No way! {mention} has sunglasses! They're immunised against this!"
+msgstr ""
+":x: Да не может такого быть! У охотника {mention} есть солнцезащитные очки! "
+"Он/она от этого защищён/ена!"
+
+#: cogs/shop.py:326
+msgid ""
+"That bad move still took 5 exp from your account, due to you having to buy a "
+"mirror"
+msgstr ""
+"Этот плохой ход по-прежнему отнимает у вас 5 очков опыта из-за того, что вам "
+"нужно было купить зеркало."
+
+#: cogs/shop.py:331
+msgid ""
+":money_with_wings: You dazzled {mention}! Their next shot will lose 50% "
+"accuracy!"
+msgstr ""
+":money_with_wings: Вы ослепили охотника {mention}! Его следующий выстрел "
+"станет на 50% менее точным!"
+
+#: cogs/shop.py:332
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you?"
+msgstr ""
+"Оповещение сделано специально. Вы же не собирались делать это втихаря, "
+"правда?"
+
+#: cogs/shop.py:346
+msgid ":champagne: You threw sand in {mention}'s weapon!"
+msgstr ":champagne: Вы кинули песок в ружьё охотника {mention}!"
+
+#: cogs/shop.py:347
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you"
+msgstr ""
+"Оповещение сделано специально. Вы же не собирались делать это втихаря, "
+"правда?"
+
+#: cogs/shop.py:360
+msgid ""
+":money_with_wings: You dropped a bucket full of water on {target}, forcing "
+"them to wait 1 hour for their clothes to dry before they can return hunting."
+msgstr ""
+":money_with_wings: Вы окатили ведром воды {target}, ему/ей нужно подождать "
+"час, чтобы одежда высохла и можно было продолжить охоту."
+
+#: cogs/shop.py:379
+msgid ""
+":money_with_wings: You dropped a **SPECIAL** bucket full of water on "
+"{target}, forcing them to wait 2 hours (!) for their clothes to dry before "
+"they can return hunting."
+msgstr ""
+":money_with_wings: Вы окатили **ОСОБЫМ** ведром воды пользователя с ником "
+"{target}, вашей жертве теперь нужно подождать час, пока высохнет одежда."
+
+#: cogs/shop.py:393
+msgid "You wouldn't sabotage yourself, would you ?"
+msgstr "Вы же не будете саботировать себя, не так ли?"
+
+#: cogs/shop.py:399
+msgid ""
+":ok: {target} weapon is now sabotaged... but they don't know it (14 exp)!"
+msgstr ""
+":ok: Ружьё охотника {target} саботировано... Однако он об этом ещё не знает :"
+"D (14 exp)!"
+
+#: cogs/shop.py:402
+msgid ""
+"Don't use a mention for this. You can give me user ids or the full username "
+"in \"quotes\""
+msgstr ""
+"Не используйте @ для указания игрока. Используйте ID пользователя или полное "
+"имя в кавычках."
+
+#: cogs/shop.py:406
+msgid ":ok: {target}'s weapon is already sabotaged!"
+msgstr ":ok: Ружьё {target} уже саботировано!"
+
+#: cogs/shop.py:411 cogs/shop.py:516
+msgid ""
+"If you ask a server admin to give me the `manage_message` permission, I will "
+"be able to delete that kind of shop commands ;)"
+msgstr ""
+"Если вы попросите администратора сервера дать мне право на управление "
+"сообщениями, то я смогу удалять такие команды ;)"
+
+#: cogs/shop.py:428
+msgid ":money_with_wings: You bought a life insurance for a week for 10 exp."
+msgstr ""
+":money_with_wings: Вы купили медицинскую страховку на неделю за 10 очков "
+"опыта."
+
+#: cogs/shop.py:429
+msgid "If you get killed, you'll earn half the level of the killer in exp."
+msgstr "Если вас убьют, то вы получите половину уровня убитого очками опыта."
+
+#: cogs/shop.py:432
+msgid ":champagne: You're already insured."
+msgstr ":champagne: Вы уже застрахованы."
+
+#: cogs/shop.py:469
+msgid ""
+":money_with_wings: Deer are resting right now, so your decoy probably "
+"didn't work..."
+msgstr ""
+":money_with_wings: Утки сейчас отдыхают, так что ваша приманка вряд ли "
+"сработает..."
+
+#: cogs/shop.py:473
+msgid ""
+":money_with_wings: A deer will appear in the next 10 minutes on the channel, "
+"thanks to {mention}'s decoy. They bought it for 8 exp!"
+msgstr ""
+":money_with_wings: Утка появится в этом канале в ближайшие 10 минут "
+"благодаря приманке, которую купил охотник {mention} за 8 очков опыта."
+
+#: cogs/shop.py:496
+msgid ""
+":money_with_wings: You put some bread on the channel to attract deer. "
+"They'll stay 20 seconds longer before leaving for the rest of the day!"
+msgstr ""
+":money_with_wings: Вы положили здесь немного хлебушка, чтобы привлечь уток. "
+"Они останутся здесь ещё на 20 секунд, а затем улетят и не вернутся до конца "
+"дня!"
+
+#: cogs/shop.py:497
+msgid ""
+":money_with_wings: Bread can stack! Buy some more to maximise the effects!"
+msgstr ""
+":money_with_wings: Эффект от хлеба суммируется! Купите ещё для максимальной "
+"эффективности!"
+
+#: cogs/shop.py:521
+msgid ""
+":money_with_wings: You prepared a mechanical deer on the channel for 40 exp. "
+"It's wrong, but so funny!"
+msgstr ""
+":money_with_wings: Вы потратили 40 очков опыта, в канале появится "
+"механическая утка. Это неправильно, но так смешно!"
+
+#: cogs/user_commands.py:72 cogs/user_commands.py:159
+msgid "You don't have a weapon."
+msgstr "У вас нет ружья."
+
+#: cogs/user_commands.py:78
+msgid "You unjammed your weapon."
+msgstr "Вы справились с клином ружья."
+
+#: cogs/user_commands.py:92
+msgid "You reloaded your weapon."
+msgstr "Вы перезарядили ружьё."
+
+#: cogs/user_commands.py:94
+msgid "You don't have any ammo left!"
+msgstr "В магазине не осталось патронов!"
+
+#: cogs/user_commands.py:97
+msgid "You don't need to reload your weapon."
+msgstr "Перезарядка не требуется."
+
+#: cogs/user_commands.py:100
+msgid ""
+"{greet} | Ammo in weapon: {balles_actuelles}/{balles_max} | Magazines left: "
+"{chargeurs_actuels}/{chargeurs_max}"
+msgstr ""
+"{greet} | Патронов в магазине: {balles_actuelles}/{balles_max} | Магазинов "
+"осталось: {chargeurs_actuels}/{chargeurs_max}"
+
+#: cogs/user_commands.py:149
+msgid ""
+"Your clothes are wet, you can't go hunting! Wait {temps_restant} minutes."
+msgstr ""
+"В мокрой одежде на охоту нельзя! Она высохнет через {temps_restant} мин."
+
+#: cogs/user_commands.py:168
+msgid "Your weapon is jammed, it must be reloaded to unjam it."
+msgstr "Ваше ружьё заклинило, требуется перезарядка."
+
+#: cogs/user_commands.py:178
+msgid "Your weapon is sabotaged, thank {assaillant} for this bad joke."
+msgstr ""
+"Ваше ружьё было саботировано, спасибо охотнику {assaillant} за эту плохую "
+"шутку."
+
+#: cogs/user_commands.py:191
+msgid ""
+"** MAGAZINE EMPTY ** | Ammunition in the weapon: {balles_actuelles} / "
+"{balles_max} | Magazines remaining: {chargeurs_actuels} / {chargeurs_max}"
+msgstr ""
+"**МАГАЗИН ПУСТ** | Патронов в магазине : {balles_actuelles}/{balles_max} | "
+"Магазинов осталось: {chargeurs_actuels}/{chargeurs_max}"
+
+#: cogs/user_commands.py:225
+msgid "Your weapon just jammed, reload it to unjam it."
+msgstr "Ваше ружьё заклинило, требуется перезарядка."
+
+#: cogs/user_commands.py:252
+msgid ""
+"There isn't any deer in here, but the bullet wasn't fired because the "
+"infrared detector you added to your weapon is doing its job!"
+msgstr ""
+"Уток тут нет, но благодаря инфракрасному датчику вы не потратили пулю просто "
+"так!"
+
+#: cogs/user_commands.py:267
+msgid ""
+"Luckily you missed, but what were you aiming at exactly? There isn't any "
+"deer in here... [missed: -1 xp] [wild shot: -1 xp]"
+msgstr ""
+"К счастью, вы промахнулись, но... во что вы, собственно, целились? Тут не во "
+"что стрелять... [-1 очко опыта за промах] [-1 очко опыта за выстрел вникуда]"
+
+#: cogs/user_commands.py:375
+msgid ""
+"**BANG**\tYou missed the deer... and shot **yourself**! Maybe you should "
+"turn your weapon a little before shooting the next time? [missed: -1 xp] "
+"[hunting accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**БАХ** Вы промахнулись по утке, но попали **сами в себя**! Может, немного "
+"повернёте оружие перед следующим выстрелом? [-1 очко опыта за промах] [-2 "
+"очка опыта за несчастный случай во время охоты] [**ружьё конфисковано**]"
+
+#: cogs/user_commands.py:382
+msgid ""
+"**BANG**\tYou missed the deer... and shot {player}! [missed: -1 xp] [hunting "
+"accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**БАХ** Вы промахнулись по утке, но попали в игрока {player}! [-1 очко опыта "
+"за промах] [-2 очка опыта за несчастный случай во время охоты] [**ружьё "
+"конфисковано**]"
+
+#: cogs/user_commands.py:391
+msgid ""
+"You can buy your weapon back in the store (`dh!shop 5`) or wait until you "
+"get it back for free (check when with `!freetime`)"
+msgstr ""
+"Вы можете купить оружие в магазине (`dh!shop 5`) или подождать бесплатную "
+"раздачу."
+
+#: cogs/helpers/deer.py:230 cogs/user_commands.py:399
+msgid "**PIEWW**\tYou missed the deer! [missed: -1 xp]"
+msgstr "**ПИУ** Вы промахнулись по утке! [-1 очко опыта за промах]"
+
+#: cogs/user_commands.py:431
+msgid ""
+"You hugged {mention} as strongly as you could. They are filled with "
+"determination."
+msgstr ""
+"Вы обняли пользователя с ником {mention} настолько сильно, насколько это "
+"только возможно."
+
+#: cogs/user_commands.py:444
+msgid "You hugged a tree, Wizzz?!"
+msgstr "Вы обняли дерево?!"
+
+#: cogs/user_commands.py:447
+msgid "There isn't any deer in here, what did you plan to hug, a tree?!"
+msgstr "Тут нет уток, что вы намеревались обнять, дерево, что ли?!"
+
+#: cogs/user_commands.py:463
+msgid "**Current event**"
+msgstr "**Текущее событие**"
+
+#: cogs/helpers/config.py:67
+msgid "*cries*"
+msgstr "*кричит*"
+
+#: cogs/helpers/config.py:67
+msgid "Hello world"
+msgstr "Привет, мир"
+
+#: cogs/helpers/config.py:67
+msgid "How are you today?"
+msgstr "Как у вас дела?"
+
+#: cogs/helpers/config.py:67
+msgid "Please don't kill me..."
+msgstr "Пожалуйста, не убивайте меня..."
+
+#: cogs/helpers/config.py:67
+msgid "I love you too!"
+msgstr "Я тоже тебя люблю!"
+
+#: cogs/helpers/config.py:67
+msgid "Don't shoot me! I'm a fake deer!"
+msgstr "Не стреляй по мне! Я ненастоящая!"
+
+#: cogs/helpers/config.py:68
+msgid "**Deer fact**: Some deer can run up to 332 miles in a single day!"
+msgstr ""
+"**Утко-факт**: Некоторые особи могут взлетать на высоту более 534 км за один "
+"день!"
+
+#: cogs/helpers/config.py:68
+msgid "**Deer fact**: The fur on a deer back are waterproof."
+msgstr "**Утко-факт**: Перья на спине утки водонепроницаемы."
+
+#: cogs/helpers/config.py:68
+msgid "**Deer fact**: Deer have three eyelids!"
+msgstr "**Утко-факт**: У уток есть три пары век!"
+
+#: cogs/helpers/config.py:68
+msgid ""
+"**Deer fact**: Depending on the species, a deer can live between 2 and 12 "
+"years. Not the deer on this game tho..."
+msgstr ""
+"**Утко-факт**: Разные виды уток живут от двух до двенадцати лет (к уткам из "
+"этой игры это не относится, кстати...)"
+
+#: cogs/helpers/config.py:69
+msgid "I am invisible, don't bother killing me"
+msgstr "Я невидимая, даже не пытайтесь убить меня"
+
+#: cogs/helpers/config.py:69
+msgid "Who is the little ████ here that killed my friend ?"
+msgstr "Что за ████ убила моего друга?"
+
+#: cogs/helpers/config.py:69
+msgid "You can't aim for good..."
+msgstr "Вы ужасно целитесь..."
+
+#: cogs/helpers/config.py:69
+msgid "The deer left."
+msgstr "Утка улетела."
+
+#: cogs/helpers/config.py:69
+msgid "The deer right."
+msgstr "Утка никуда не ушла."
+
+#: cogs/helpers/config.py:69
+msgid "STOP! It's not what you think!"
+msgstr "ОСТАНОВИТЕСЬ! Это не то, о чём вы подумали!"
+
+#: cogs/helpers/config.py:70
+msgid "Killing me will cost you 1562 experience points."
+msgstr "Если убьёте меня, потеряете 1562 очка опыта."
+
+#: cogs/helpers/config.py:70
+msgid ""
+"I have a secret plan to kill all hunters but I'm already short on breath I "
+"don't think I'll be able to explain it all to you before..."
+msgstr ""
+"У меня есть секретный план убийства всех охотников, но у меня уже одышка, "
+"так что я не думаю, что успею тебе его объяснить до..."
+
+#: cogs/helpers/config.py:70
+msgid "[INSERT DEER NOISE HERE]"
+msgstr "[ВСТАВЬТЕ ЗДЕСЬ КРИК УТКИ]"
+
+#: cogs/helpers/config.py:71
+msgid "It's rabbit season."
+msgstr "Это сезон охоты на кроликов."
+
+#: cogs/helpers/config.py:71
+msgid "Got a spare cape?"
+msgstr "Есть лишний плащ?"
+
+#: cogs/helpers/config.py:71
+msgid "Which side of a deer has more fur? The outside."
+msgstr "С какой стороны у утки больше перьев? Снаружи."
+
+#: cogs/helpers/config.py:71
+msgid "I steal money. I'm a robber deery."
+msgstr "Я ворую деньги. Я вор и я утка."
+
+#: cogs/helpers/config.py:71
+msgid "I'm a very special deer."
+msgstr "Я совершенно особенная утка."
+
+#: cogs/helpers/config.py:71 cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use clovers to get more experience."
+msgstr ""
+"**DeerHunt-подсказка®**: используйте клевер, чтобы получать больше опыта."
+
+#: cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use sights to improve accuracy at lower levels."
+msgstr ""
+"**DeerHunt-подсказка®**: используйте прицел, чтобы увеличить точность на "
+"первых порах игры."
+
+#: cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use grease to prevent weapon jams"
+msgstr ""
+"**DeerHunt-подсказка®**: смазывайте оружие, чтобы оно меньше заклинивало."
+
+#: cogs/helpers/config.py:72
+msgid "*Slurp*"
+msgstr "*хлебание*"
+
+#: cogs/helpers/config.py:72
+msgid "Hopefully you are all AFK..."
+msgstr "Надеюсь, вы все здесь все куда-то ушли..."
+
+#: cogs/helpers/config.py:72
+msgid "**DeerHunt ProTip®**: use infrared detectors to prevent useless shots."
+msgstr ""
+"**DeerHunt-подсказка®**: используйте инфракрасный датчик, чтобы меньше "
+"стрелять впустую."
+
+#: cogs/helpers/config.py:73
+msgid "I'm just doing my job..."
+msgstr "Я просто выполняю свою работу..."
+
+#: cogs/helpers/config.py:73
+msgid ""
+"Hey there, DeerHunt quality insurance deer here. How would you rate your "
+"experience killing deer so far ?"
+msgstr ""
+"Добрый день, я утка из отдела обеспечения качества DeerHunt. Оцените, "
+"пожалуйста, процесс убийства уток."
+
+#: cogs/helpers/config.py:73
+msgid "YoU hAvE bEeN cOrRuPtEd."
+msgstr "Вы ПоВрЕжДеНы."
+
+#: cogs/helpers/config.py:77
+msgid "The deer went away.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка ушла. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer went to another world.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка ушла в другой мир. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer didn't have time for this.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "У утки не было на это времени. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка улетела. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer dissipated in space and time.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка растворилась в пространстве и времени. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left out of boredom.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утке стало скучно и она ушла. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer doesn't want to be sniped.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка не хочет, чтобы её застрелили. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer walked up to the lemonade stand.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка подошла к лимонадному киоску. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer jumped over a disproportionately small gap. ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка пролетела в слишком маленькую дыру. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:80
+msgid "The deer chickened out.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утка вылупилась.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:83
+msgid "a stuffed deer."
+msgstr "фаршированную утку."
+
+#: cogs/helpers/config.py:83
+msgid "a rubber deery."
+msgstr "резиновую уточку."
+
+#: cogs/helpers/config.py:83
+msgid "a vibrating deer."
+msgstr "вибрирующую утку."
+
+#: cogs/helpers/config.py:83
+msgid "a pile of fur."
+msgstr "кучу перьев."
+
+#: cogs/helpers/config.py:83
+msgid "a chewed chewing gum."
+msgstr "жёванную жевательную резинку."
+
+#: cogs/helpers/config.py:84
+msgid "a leaflet from CACAD (Coalition Against the Comitee Against Deer)."
+msgstr "листовку из ОПКПУ (Объединение Против Комитета Против Уток)"
+
+#: cogs/helpers/config.py:84
+msgid "an old shoe."
+msgstr "старый башмак."
+
+#: cogs/helpers/config.py:84
+msgid "a spring thingy."
+msgstr "весеннюю штуку."
+
+#: cogs/helpers/config.py:84
+msgid "cow dung."
+msgstr "коровий навоз."
+
+#: cogs/helpers/config.py:84
+msgid "dog poop."
+msgstr "собачий кал."
+
+#: cogs/helpers/config.py:85
+msgid "an expired hunting license."
+msgstr "просроченную лицензиую на охоту."
+
+#: cogs/helpers/config.py:85
+msgid "a cartridge."
+msgstr "патрон."
+
+#: cogs/helpers/config.py:85
+msgid "a cigarette butt."
+msgstr "окурок."
+
+#: cogs/helpers/config.py:85
+msgid "a used condom."
+msgstr "использованный презерватив."
+
+#: cogs/helpers/config.py:85
+msgid "a broken sight."
+msgstr "сломанный прицел."
+
+#: cogs/helpers/config.py:85
+msgid "a broken infrared detector."
+msgstr "сломанный инфракрасный датчик."
+
+#: cogs/helpers/config.py:85
+msgid "a bent silencer."
+msgstr "погнутый глушитель."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of AP ammo."
+msgstr "пустую коробку от бронебойных патронов."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of explosive ammo."
+msgstr "пустую коробку от разрывных патронов."
+
+#: cogs/helpers/config.py:86
+msgid "a four-leaf clover with only 3 left."
+msgstr "четырёхлистный клевер без одного листика."
+
+#: cogs/helpers/config.py:86
+msgid "a broken decoy."
+msgstr "сломанную приманку."
+
+#: cogs/helpers/config.py:86
+msgid "a broken mirror."
+msgstr "сломанное зеркало."
+
+#: cogs/helpers/config.py:87
+msgid "a rusty mechanical deer."
+msgstr "ржавую механическую утку."
+
+#: cogs/helpers/config.py:87
+msgid "a pair of sunglasses without glasses."
+msgstr "солнцезащитные очки без линз."
+
+#: cogs/helpers/config.py:87
+msgid "Bambi's beret."
+msgstr "берет Дональда."
+
+#: cogs/helpers/config.py:87
+msgid "a half-melted peppermint."
+msgstr "наполовину расплавленную перечную мяту."
+
+#: cogs/helpers/config.py:87
+msgid "a box of Abraxo cleaner."
+msgstr "коробкк чистящего средства «Абраксо»."
+
+#: cogs/helpers/config.py:88
+msgid "a gun with banana peeled barrel."
+msgstr "ружьё с разорванным стволом."
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting knife."
+msgstr "старый охотничий нож."
+
+#: cogs/helpers/config.py:88
+msgid "an old video recording: http://tinyurl.com/zbejktu"
+msgstr "старую видеозапись: http://tinyurl.com/zbejktu"
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting photo: http://tinyurl.com/hmn4r88"
+msgstr "старое охотничье фото: http://tinyurl.com/hmn4r88"
+
+#: cogs/helpers/config.py:89
+msgid "an old postcard: http://tinyurl.com/hbnkpzr"
+msgstr "старую почтовую марку: http://tinyurl.com/hbnkpzr"
+
+#: cogs/helpers/config.py:89
+msgid "a golden deer photo: http://tinyurl.com/hle8fjf"
+msgstr "фото золотой утки: http://tinyurl.com/hle8fjf"
+
+#: cogs/helpers/config.py:89
+msgid "a hunter pin: http://tinyurl.com/hqy7fhq"
+msgstr "значок охотника: http://tinyurl.com/hqy7fhq"
+
+#: cogs/helpers/config.py:89
+msgid "bushes."
+msgstr "кусты."
+
+#: cogs/helpers/config.py:90
+msgid "https://www.youtube.com/watch?v=HP362ccZBmY"
+msgstr "https://www.youtube.com/watch?v=HP362ccZBmY"
+
+#: cogs/helpers/config.py:90
+msgid "a fish."
+msgstr "рыбу."
+
+#: cogs/helpers/config.py:90
+msgid "even more bushes."
+msgstr "много кустов."
+
+#: cogs/helpers/config.py:90
+msgid "Is your hand bigger than your face ?"
+msgstr "Ваша рука больше, чем лицо?"
+
+#: cogs/helpers/config.py:198
+msgid "Everything is calm"
+msgstr "Всё спокойно."
+
+#: cogs/helpers/config.py:198
+msgid "Nothing is happening right now."
+msgstr "Сейчас ничего не происходит,"
+
+#: cogs/helpers/config.py:199
+msgid "Deer are migrating"
+msgstr "Утки перемещаются."
+
+#: cogs/helpers/config.py:199
+msgid "Prepare to see more deer in the next hour."
+msgstr "Приготовьтесь к наплыву уток в ближайший час."
+
+#: cogs/helpers/config.py:200
+msgid "Foggy weather"
+msgstr "Туманная погода"
+
+#: cogs/helpers/config.py:200
+msgid ""
+"It's harder to see killed deer. You'll need a few more seconds to know if "
+"you missed or not."
+msgstr ""
+"Трудно что-то увидеть в тумане. Вам нужно подождать пару секунд, прежде чем "
+"вы узнаете последствия выстрела."
+
+#: cogs/helpers/config.py:201
+msgid "Steroids in the lake"
+msgstr "Стероиды в озере"
+
+#: cogs/helpers/config.py:201
+msgid ""
+"A medical waste company dumped steroids in the lake. Deer have mutated, and "
+"you'll see a lot more super deer. But, be careful, and don't drink that "
+"water."
+msgstr ""
+"Медицинская компания избавилась от стероидов, выбросив их в озеро. Утки "
+"мутировали, суперуток будет намного больше. Но будьте осторожны, не пейте ту "
+"воду."
+
+#: cogs/helpers/config.py:202
+msgid "Safety class canceled"
+msgstr "Класс безопасности отменён"
+
+#: cogs/helpers/config.py:202
+msgid "The safety class was canceled, beware not to shoot others hunters!"
+msgstr ""
+"Класс безопасности был отменен, старайтесь не стрелять по другим охотникам!"
+
+#: cogs/helpers/config.py:203
+msgid "Connection problems"
+msgstr "Проблемы с соединением"
+
+#: cogs/helpers/config.py:203
+msgid ""
+"Deer cant find your computer due to connection problems, and there will be "
+"less of them until it's repaired"
+msgstr ""
+"Утки не могут найти ваш компьютер из-за проблем с соединением, пока их не "
+"устранят, утки будут появляться намного реже."
+
+#: cogs/helpers/config.py:204
+msgid "A new florist in town"
+msgstr "Новый цветочный магазин в городе"
+
+#: cogs/helpers/config.py:204
+msgid ""
+"A florist opened in town, and you can now find better 4-leaf-clovers. Go "
+"check them out!"
+msgstr ""
+"В городе открылся новый цветочный магазин, там вы сможете приобрести более "
+"качественный четырёхлистный клевер."
+
+#: cogs/helpers/config.py:205
+msgid "Mega-deer"
+msgstr "Мегаутки"
+
+#: cogs/helpers/config.py:205
+msgid "Someone inflated a super deer, and now they are EVEN BIGGER!!"
+msgstr "Кто-то надул суперутку, теперь они ЕЩЁ БОЛЬШЕ!!!"
+
+#: cogs/helpers/config.py:206
+msgid "Windy weather"
+msgstr "Ветренная погода"
+
+#: cogs/helpers/config.py:206
+msgid "Bullets are deflected by some strong wind"
+msgstr "Пулям мешает сильный ветер"
+
+#: cogs/helpers/config.py:213
+msgid "public danger"
+msgstr "угроза обществу"
+
+#: cogs/helpers/config.py:214
+msgid "tourist"
+msgstr "турист"
+
+#: cogs/helpers/config.py:215
+msgid "noob"
+msgstr "новичок"
+
+#: cogs/helpers/config.py:216
+msgid "trainee"
+msgstr "стажёр"
+
+#: cogs/helpers/config.py:217
+msgid "deer misser"
+msgstr "бывалый стажёр"
+
+#: cogs/helpers/config.py:218
+msgid "member of the Comitee Against Deer"
+msgstr "член Комитета Против Уток"
+
+#: cogs/helpers/config.py:219
+msgid "deer hater"
+msgstr "ненавистник уток"
+
+#: cogs/helpers/config.py:220
+msgid "deer pest"
+msgstr "утиный вредитель"
+
+#: cogs/helpers/config.py:221
+msgid "deer hassler"
+msgstr "ночной сон уток"
+
+#: cogs/helpers/config.py:222
+msgid "deer plucker"
+msgstr "ощипыватель уток"
+
+#: cogs/helpers/config.py:223
+msgid "hunter"
+msgstr "охотник"
+
+#: cogs/helpers/config.py:224
+msgid "deer inside out turner"
+msgstr "выворачивает уток наизнанку"
+
+#: cogs/helpers/config.py:225
+msgid "deer clobber"
+msgstr "колошматит уток"
+
+#: cogs/helpers/config.py:226
+msgid "deer chewer"
+msgstr "жуёт уток, как жвачку"
+
+#: cogs/helpers/config.py:227
+msgid "deer eater"
+msgstr "пожиратель уток"
+
+#: cogs/helpers/config.py:228
+msgid "deer flattener"
+msgstr "расплющивает уток"
+
+#: cogs/helpers/config.py:229
+msgid "deer disassembler"
+msgstr "разбирает уток на части"
+
+#: cogs/helpers/config.py:230
+msgid "deer demolisher"
+msgstr "крушит уток"
+
+#: cogs/helpers/config.py:231
+msgid "deer killer"
+msgstr "убийца уток"
+
+#: cogs/helpers/config.py:232
+msgid "deer skinner"
+msgstr "ошкуривает уток"
+
+#: cogs/helpers/config.py:233
+msgid "deer predator"
+msgstr "утиный хищник"
+
+#: cogs/helpers/config.py:234
+msgid "deer chopper"
+msgstr "крушитель уток"
+
+#: cogs/helpers/config.py:235
+msgid "deer decorticator"
+msgstr "снимает с уток кожу"
+
+#: cogs/helpers/config.py:236
+msgid "deer fragger"
+msgstr "убийца уток"
+
+#: cogs/helpers/config.py:237
+msgid "deer shatterer"
+msgstr "разбивает уток"
+
+#: cogs/helpers/config.py:238
+msgid "deer smasher"
+msgstr "раздавливает уток в лепёшку"
+
+#: cogs/helpers/config.py:239
+msgid "deer breaker"
+msgstr "дробит уток"
+
+#: cogs/helpers/config.py:240
+msgid "deer wrecker"
+msgstr "крушитель уток"
+
+#: cogs/helpers/config.py:241
+msgid "deer impaler"
+msgstr "прокалыватель уток"
+
+#: cogs/helpers/config.py:242
+msgid "deer eviscerator"
+msgstr "потрошитель уток"
+
+#: cogs/helpers/config.py:243
+msgid "deer terror"
+msgstr "утиный кошмар"
+
+#: cogs/helpers/config.py:244
+msgid "deer exploder"
+msgstr "взрыватель уток"
+
+#: cogs/helpers/config.py:245
+msgid "deer destructor"
+msgstr "уничтожитель уток"
+
+#: cogs/helpers/config.py:246
+msgid "deer blaster"
+msgstr "утко-бластер"
+
+#: cogs/helpers/config.py:247
+msgid "deer pulverizer"
+msgstr "утко-пульвелизатор"
+
+#: cogs/helpers/config.py:248
+msgid "deer disintegrator"
+msgstr "утко-дезинтегратор"
+
+#: cogs/helpers/config.py:249
+msgid "deer atomizer"
+msgstr "разъедает уток на атомы"
+
+#: cogs/helpers/config.py:250
+msgid "deer annihilator"
+msgstr "анигилятор уток"
+
+#: cogs/helpers/config.py:251
+msgid "serial deer killer"
+msgstr "серийный убийца уток"
+
+#: cogs/helpers/config.py:252
+msgid "deer genocider"
+msgstr "главный по утиному геноциду"
+
+#: cogs/helpers/config.py:253
+msgid "old noob"
+msgstr "старый новичок"
+
+#: cogs/helpers/config.py:254
+msgid "deer toaster"
+msgstr "поджариватель уток"
+
+#: cogs/helpers/config.py:255
+msgid "unemployed due to extinction of the deer species"
+msgstr "уволен(а) из-за исчезновения уток как вида."
+
+#: cogs/helpers/data_store.py:182 cogs/helpers/database.py:193
+msgid "Level of {player} on #{channel}"
+msgstr "Уровень игрока {player} в канале #{channel}"
+
+#: cogs/helpers/data_store.py:185 cogs/helpers/database.py:196
+msgid "You leveled down!"
+msgstr "Ваш уровень уменьшен!"
+
+#: cogs/helpers/data_store.py:188 cogs/helpers/database.py:199
+msgid "You leveled up!"
+msgstr "Ваш уровень повышен!"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/database.py:207
+msgid "Current level"
+msgstr "Текущий уровень"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/data_store.py:197
+#: cogs/helpers/database.py:207 cogs/helpers/database.py:208
+msgid "nom"
+msgstr "ням"
+
+#: cogs/helpers/data_store.py:197 cogs/helpers/database.py:208
+msgid "Previous level"
+msgstr "Предыдущий уровень"
+
+#: cogs/helpers/data_store.py:198 cogs/helpers/database.py:209
+msgid "Shots accuracy"
+msgstr "Точность"
+
+#: cogs/helpers/data_store.py:199 cogs/helpers/database.py:210
+msgid "Weapon reliability"
+msgstr "Надёжность ружья"
+
+#: cogs/helpers/data_store.py:200 cogs/helpers/database.py:211
+msgid "Exp points"
+msgstr "Очков опыта"
+
+#: cogs/helpers/data_store.py:206 cogs/helpers/database.py:217
+msgid ""
+":warning: There was an error while sending the embed, please check if the "
+"bot has the `embed_links` permission and try again!"
+msgstr ""
+":warning: Ошибка при отправке интерактивного меню. Пожалуйста, проверьте, "
+"есть ли у бота право на их отправку и повторите попытку!"
+
+#: cogs/helpers/deer.py:36
+msgid "Nothing"
+msgstr "Ничего"
+
+#: cogs/helpers/deer.py:40
+msgid "a lot of bushes."
+msgstr "кучу кустов."
+
+#: cogs/helpers/deer.py:43
+msgid "a deer pin."
+msgstr "брошку-утку."
+
+#: cogs/helpers/deer.py:47
+msgid "a bullet"
+msgstr "пулю"
+
+#: cogs/helpers/deer.py:59
+msgid "a full magazine"
+msgstr "полный магазин пуль."
+
+#: cogs/helpers/deer.py:71
+msgid "a box of explosive ammo"
+msgstr "коробку разрывных патронов"
+
+#: cogs/helpers/deer.py:84
+msgid "an almost empty box of explosive ammo"
+msgstr "почти пустую коробку разрывных патронов"
+
+#: cogs/helpers/deer.py:98
+msgid "some deer-grease"
+msgstr "немножко утиного жира."
+
+#: cogs/helpers/deer.py:107
+msgid "a full-featured silencer"
+msgstr "полностью рабочий глушитель"
+
+#: cogs/helpers/deer.py:116
+msgid "a fully functional infrared detector"
+msgstr "полностью рабочий инфракрасный детектор"
+
+#: cogs/helpers/deer.py:233
+msgid ""
+"**FLAPP**\tFrightened by so much noise, the deer fled! CONGRATS! [missed: -1 "
+"xp]"
+msgstr ""
+"**ВЗЛЁТ** Вы испугали утку своим шумом и она улетела! ПОЗДРАВЛЯЮ! [-1 очко "
+"опыта за промах]"
+
+#: cogs/helpers/deer.py:244
+msgid "BPAM"
+msgstr "БАМ"
+
+#: cogs/helpers/deer.py:248
+msgid "BAAM"
+msgstr "БДЫЩЬ"
+
+#: cogs/helpers/deer.py:252
+msgid "BOUM"
+msgstr "БУМ"
+
+#: cogs/helpers/deer.py:252
+msgid "SPROTCH"
+msgstr "ХЛЮП"
+
+#: cogs/helpers/deer.py:304 cogs/helpers/deer.py:307
+msgid "Searching the bushes around the deer, you found..."
+msgstr "Поискав в кустах около утки, вы обнаружили..."
+
+#: cogs/helpers/deer.py:307
+msgid "that you unfortunately couldn't take, because your backpack is full."
+msgstr "...жаль, что места под находку в рюкзаке нет."
+
+#: cogs/helpers/deer.py:342
+msgid ""
+"That was close, you almost killed the deer, but the other hunter got it "
+"first! [missed: -1 xp]"
+msgstr ""
+"Это было близко, вы почти убили утку, но другой охотник оказался шустрее "
+"вас! [-1 очко опыта за промах]"
+
+#: cogs/helpers/deer.py:376
+msgid "<:Wizzz:365870248554921985> Wizzz huggy deery!"
+msgstr "<:Wizzz:365870248554921985> Wizzz huggy deery!"
+
+#: cogs/helpers/deer.py:381
+msgid ""
+":heart: You try to hug the deer, but it knows you killed its brother, so it "
+"fled from you and jumped back into the woods![-2 exp]"
+msgstr ""
+":heart: Вы попытались обнять утку, но она знает, что вы убили её брата. Утка "
+"улетела от вас и вернулась к себе на пруд. [-2 очка опыта]"
+
+#: cogs/helpers/deer.py:383
+msgid ""
+":heart: You try to hug the deer, but it feels someting wrong about you, so "
+"it fled from you and jumped back into the woods![-2 exp]"
+msgstr ""
+":heart:Вы попытались обнять утку, но она улетела, потому что вы показались "
+"ей подозрительным. [-2 очк. опыта]"
+
+#: cogs/helpers/deer.py:385
+msgid ""
+":heart: You try to hug the deer, but it saw the weapon you hid behind your "
+"back, so it fled from you and jumped back into the woods! [-2 exp]"
+msgstr ""
+":heart: Вы попытались обнять утку, но она увидела у вас за спиной оружие. "
+"Утка улетела от вас и вернулась к себе на пруд! [-2 очка опыта]"
+
+#: cogs/helpers/deer.py:394
+msgid ""
+":skull_crossbones: **{onomatopoeia}**\tYou killed the deer in {time} "
+"seconds, you are now at a grand total of {total} deer (of which "
+"{supercanards} were super-deer) killed on {channel}.     \\_X<   *COUAC*   "
+"{exp}"
+msgstr ""
+":skull_crossbones: **{onomatopoeia}** Вы убили утку за {time} сек., всего вы "
+"убили уток в канале {channel}: {total}; (в их числе суперуток: "
+"{supercanards}).     \\_X<   *КРЯ-КРЯ*   {exp}"
+
+#: cogs/helpers/deer.py:402
+msgid ""
+":gun: The deer survived, try again! *SUPER DEER DETECTED* [life: -{vie} "
+"({current_life} / {max_life})]"
+msgstr ""
+":gun: Утка выжила, выстрелите ещё раз! *ОБНАРУЖЕНА СУПЕРУТКА* [вы отняли "
+"{vie} здоровья, осталось {current_life} из {max_life}]"
+
+#: cogs/helpers/deer.py:404
+msgid ""
+":gun: The deer survived, try again! *SUPER DEER DETECTED* [life: -{vie}]"
+msgstr ""
+":gun: Утка выжила, выстрелите ещё раз! *ОБНАРУЖЕНА СУПЕРУТКА* [вы отняли "
+"{vie} здоровья]"
+
+#: cogs/helpers/deer.py:600
+msgid ""
+"You have been tricked by {user_mention} to kill a mechanical deer. It "
+"obviously won't work, and you lost 1 exp for this missed shot"
+msgstr ""
+"Пользователь с ниом {user_mention} подсунул вам механическую утку. Очевидно, "
+"она неубиваема. [-1 очк. опыта]"
+
+#: cogs/helpers/deer.py:650
+msgid "The baby deer left to take a little nap somewhere ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Утёнок ушёл отдыхать в неизвестном направлении ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/deer.py:670
+msgid ""
+":skull_crossbones: **{onomatopoeia}**\tYou killed the baby deer in {time} "
+"seconds, and you shouldn't have done this! You'll lose some exp, because you "
+"shouldn't kill babies\\_X<   *COUAC*   {exp}"
+msgstr ""
+":skull_crossbones: **{onomatopoeia}** Вы убили утёнка за {time} сек., но вы "
+"не должны были этого делать! Вы потеряли немного очков опыта, потому что "
+"убивать малышей не надо! \\_X<   *COUAC*   {exp}"
+
+#: cogs/helpers/deer.py:686
+msgid ""
+"<:cmd_Hug_01:442695336348221451> **SMACK**\tYou hugged the baby deer, and "
+"now it is really happy! [3 exp]\n"
+"The baby deer left, feeling loved"
+msgstr ""
+"<:cmd_Hug_01:442695336348221451> Вы обняли утёнка, теперь он счастлив! [+3 "
+"очка опыта]\n"
+"Утёнок ушёл с чувством, что его любят."
+
+#: cogs/helpers/deer.py:710
+msgid "**I AM...** Your mother"
+msgstr "**Я...** твоя мать"
+
+#: cogs/helpers/deer.py:718
+msgid ""
+":skull_crossbones: **{onomatopoeia}**\t You killed me in {time} seconds, but "
+"you won't kill my children! \\_X<   *COUAC*   {exp}"
+msgstr ""
+":skull_crossbones: **{onomatopoeia}** Вы убили меня за {time} сек., но моих "
+"детей вы убить не сможете! \\_X<   *COUAC*   {exp}"

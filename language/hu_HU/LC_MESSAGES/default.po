@@ -1,0 +1,447 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-06 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: cogs/experience_related_commands.py:27
+msgid ""
+"Congratulations, you sent / gave more experience than the maximum number I'm "
+"able to store."
+msgstr ""
+"Gratula, te küldtél / kaptál több xp-t, mint a maximum összeg amit "
+"raktározni tudok."
+
+#: cogs/experience_related_commands.py:54
+msgid ":x: To prevent abuse, you can't send exp when you don't have a weapon."
+msgstr ""
+":x: Hogy meggátoljuk a visszaéléseket, nem küldhetsz tapasztalatpontot, ha "
+"nincs fegyvered."
+
+#: cogs/experience_related_commands.py:58
+msgid ":x: The exp amount needs to be positive."
+msgstr ":x: Pozitív összeget kell beírnod, hogy xp-t küldhess."
+
+#: cogs/experience_related_commands.py:81
+msgid "You sent {amount} exp to {target} (and paid {taxes} exp of taxes)!"
+msgstr ""
+"Elküldtél {amount} xp-t {target} nek (és fizettél {taxes} xp-t adónak) !"
+
+#: cogs/experience_related_commands.py:84
+msgid "You don't have enough experience points"
+msgstr "Nincs elég tapasztalatpontod"
+
+#: cogs/experience_related_commands.py:86
+msgid ":x: Sending exp is disabled on this server"
+msgstr ":x: Tapasztalatküldés nem engedélyezett ezen a szerveren"
+
+#: cogs/experience_related_commands.py:94 cogs/scores.py:33
+msgid "{date} (in {dans_jours}{dans_heures} and {dans_minutes})"
+msgstr "{date} ({dans_jours}{dans_heures} ban és {dans_minutes} ben)"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:34
+#, python-format
+msgid "%m/%d at %H:%M:%S"
+msgstr "%m/%d %H:%M:%S nál"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:35
+msgid "{dans} days "
+msgstr "{dans} nap"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:36
+msgid "{dans} hours"
+msgstr "{dans} óra"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:37
+msgid "{dans} minutes"
+msgstr "{dans} perc"
+
+#: cogs/shop.py:115
+msgid ":champagne: You have enough AP ammo for now!"
+msgstr ":champagne: Van már elég AP muníciód mostanra!"
+
+#: cogs/shop.py:133
+msgid ":champagne: You have enough explosive ammo for now!"
+msgstr ":champagne: Van már elég robbanótölteted mostanra!"
+
+#: cogs/user_commands.py:178
+msgid "Your weapon is sabotaged, thank {assaillant} for this bad joke."
+msgstr "A fegyveredet ellopták, köszönd meg ezt a viccet  {assaillant} "
+
+#: cogs/helpers/config.py:67
+msgid "*cries*"
+msgstr "*sír*"
+
+#: cogs/helpers/config.py:67
+msgid "Hello world"
+msgstr "Hello világ"
+
+#: cogs/helpers/config.py:67
+msgid "How are you today?"
+msgstr "Hogy vagy ma? "
+
+#: cogs/helpers/config.py:67
+msgid "Please don't kill me..."
+msgstr "Kérlek ne ölj meg... "
+
+#: cogs/helpers/config.py:78
+msgid "The deer left.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "A kacsa elment. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer doesn't want to be sniped.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "A kacsa nem akarta, hogy lelőjék. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer walked up to the lemonade stand.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "A kacsa felsétált a limonádéstandra. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:83
+msgid "a stuffed deer."
+msgstr "egy kitömött kacsa."
+
+#: cogs/helpers/config.py:83
+msgid "a rubber deery."
+msgstr "egy gumikacsa."
+
+#: cogs/helpers/config.py:83
+msgid "a vibrating deer."
+msgstr "egy kacsavibrátor."
+
+#: cogs/helpers/config.py:83
+msgid "a pile of fur."
+msgstr "egy tollkupac."
+
+#: cogs/helpers/config.py:83
+msgid "a chewed chewing gum."
+msgstr "egy megrágott rágógumi."
+
+#: cogs/helpers/config.py:84
+msgid "a leaflet from CACAD (Coalition Against the Comitee Against Deer)."
+msgstr "egy szórólap a KKEEtől (Koalíció a Kacsaellenes Egyesület Ellen)."
+
+#: cogs/helpers/config.py:84
+msgid "an old shoe."
+msgstr "egy régi bakancs."
+
+#: cogs/helpers/config.py:84
+msgid "a spring thingy."
+msgstr "egy rugószerűség."
+
+#: cogs/helpers/config.py:85
+msgid "an expired hunting license."
+msgstr "egy lejárt vadászliszensz."
+
+#: cogs/helpers/config.py:85
+msgid "a cartridge."
+msgstr "egy patron."
+
+#: cogs/helpers/config.py:85
+msgid "a cigarette butt."
+msgstr "egy cigarettavég."
+
+#: cogs/helpers/config.py:85
+msgid "a used condom."
+msgstr "egy használt óvszer."
+
+#: cogs/helpers/config.py:85
+msgid "a broken sight."
+msgstr "egy törött látcső."
+
+#: cogs/helpers/config.py:85
+msgid "a broken infrared detector."
+msgstr "egy törött infravörös detektor."
+
+#: cogs/helpers/config.py:85
+msgid "a bent silencer."
+msgstr "egy görbe hangtompító."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of AP ammo."
+msgstr "egy üres AP muníciósláda."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of explosive ammo."
+msgstr "egy üres robbanó muníciósláda."
+
+#: cogs/helpers/config.py:86
+msgid "a four-leaf clover with only 3 left."
+msgstr "egy négylevelű lóhere, de csak 3 levéllel."
+
+#: cogs/helpers/config.py:86
+msgid "a broken decoy."
+msgstr "egy törött csapda."
+
+#: cogs/helpers/config.py:86
+msgid "a broken mirror."
+msgstr "egy törött tükör."
+
+#: cogs/helpers/config.py:87
+msgid "a rusty mechanical deer."
+msgstr "egy rozsdás robotkacsa."
+
+#: cogs/helpers/config.py:87
+msgid "a pair of sunglasses without glasses."
+msgstr "egy napszemüveg üveg nélkül."
+
+#: cogs/helpers/config.py:87
+msgid "Bambi's beret."
+msgstr "Bambi kacsa svájcisapkája."
+
+#: cogs/helpers/config.py:87
+msgid "a half-melted peppermint."
+msgstr "félig megrágcsált borsmenta."
+
+#: cogs/helpers/config.py:87
+msgid "a box of Abraxo cleaner."
+msgstr "egy Abraxo tiszítós doboz."
+
+#: cogs/helpers/config.py:88
+msgid "a gun with banana peeled barrel."
+msgstr "egy fegyver egy banánnal a csövén."
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting knife."
+msgstr "egy régi vadászkés."
+
+#: cogs/helpers/config.py:88
+msgid "an old video recording: http://tinyurl.com/zbejktu"
+msgstr "egy régi videófelvétel: http://tinyurl.com/zbejktu"
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting photo: http://tinyurl.com/hmn4r88"
+msgstr "egy régi vadászfotó: http://tinyurl.com/hmn4r88"
+
+#: cogs/helpers/config.py:89
+msgid "an old postcard: http://tinyurl.com/hbnkpzr"
+msgstr "egy régi képeslap: http://tinyurl.com/hbnkpzr"
+
+#: cogs/helpers/config.py:89
+msgid "a golden deer photo: http://tinyurl.com/hle8fjf"
+msgstr "egy aranykacsa fotója: http://tinyurl.com/hle8fjf"
+
+#: cogs/helpers/config.py:89
+msgid "a hunter pin: http://tinyurl.com/hqy7fhq"
+msgstr "egy vadászjelvény: http://tinyurl.com/hqy7fhq"
+
+#: cogs/helpers/config.py:89
+msgid "bushes."
+msgstr "bokrok."
+
+#: cogs/helpers/config.py:90
+msgid "https://www.youtube.com/watch?v=HP362ccZBmY"
+msgstr "https://www.youtube.com/watch?v=HP362ccZBmY "
+
+#: cogs/helpers/config.py:90
+msgid "a fish."
+msgstr "egy hal."
+
+#: cogs/helpers/config.py:213
+msgid "public danger"
+msgstr "közveszélyes "
+
+#: cogs/helpers/config.py:214
+msgid "tourist"
+msgstr "turista "
+
+#: cogs/helpers/config.py:215
+msgid "noob"
+msgstr "pancser "
+
+#: cogs/helpers/config.py:216
+msgid "trainee"
+msgstr "újonc "
+
+#: cogs/helpers/config.py:217
+msgid "deer misser"
+msgstr "kacsatévesztő"
+
+#: cogs/helpers/config.py:218
+msgid "member of the Comitee Against Deer"
+msgstr "tagja a Kacsaellenes Egyesületnek"
+
+#: cogs/helpers/config.py:219
+msgid "deer hater"
+msgstr "kacsautáló"
+
+#: cogs/helpers/config.py:220
+msgid "deer pest"
+msgstr "a kacsák átka"
+
+#: cogs/helpers/config.py:221
+msgid "deer hassler"
+msgstr "kacsavágó"
+
+#: cogs/helpers/config.py:222
+msgid "deer plucker"
+msgstr "kacsatépő"
+
+#: cogs/helpers/config.py:223
+msgid "hunter"
+msgstr "vadász"
+
+#: cogs/helpers/config.py:225
+msgid "deer clobber"
+msgstr "kacsáknak kesztyűbe dudálástanító"
+
+#: cogs/helpers/config.py:226
+msgid "deer chewer"
+msgstr "kacsa... bagózó?"
+
+#: cogs/helpers/config.py:227
+msgid "deer eater"
+msgstr "kacsaevő"
+
+#: cogs/helpers/config.py:228
+msgid "deer flattener"
+msgstr "kacsakalapácsoló"
+
+#: cogs/helpers/config.py:229
+msgid "deer disassembler"
+msgstr "kacsaszétszedő"
+
+#: cogs/helpers/config.py:230
+msgid "deer demolisher"
+msgstr "kacsapusztító"
+
+#: cogs/helpers/config.py:231
+msgid "deer killer"
+msgstr "kacsaölő"
+
+#: cogs/helpers/config.py:232
+msgid "deer skinner"
+msgstr "kacsanyúzó"
+
+#: cogs/helpers/config.py:234
+msgid "deer chopper"
+msgstr "kacsacafatoló"
+
+#: cogs/helpers/config.py:235
+msgid "deer decorticator"
+msgstr "kacsahámozó"
+
+#: cogs/helpers/config.py:236
+msgid "deer fragger"
+msgstr "kacsadaraboló"
+
+#: cogs/helpers/config.py:237
+msgid "deer shatterer"
+msgstr "kacsazúzó"
+
+#: cogs/helpers/config.py:238
+msgid "deer smasher"
+msgstr "kacsaütő"
+
+#: cogs/helpers/config.py:239
+msgid "deer breaker"
+msgstr "kacsatörő"
+
+#: cogs/helpers/config.py:240
+msgid "deer wrecker"
+msgstr "kacsaroncsoló"
+
+#: cogs/helpers/config.py:241
+msgid "deer impaler"
+msgstr "kacsák karóba húzója"
+
+#: cogs/helpers/config.py:242
+msgid "deer eviscerator"
+msgstr "kacsabelező"
+
+#: cogs/helpers/config.py:243
+msgid "deer terror"
+msgstr "kacsák réme"
+
+#: cogs/helpers/config.py:244
+msgid "deer exploder"
+msgstr "kacsarobbantó"
+
+#: cogs/helpers/config.py:245
+msgid "deer destructor"
+msgstr "kacsasemmisítő"
+
+#: cogs/helpers/config.py:246
+msgid "deer blaster"
+msgstr "kacsarobbantó"
+
+#: cogs/helpers/config.py:247
+msgid "deer pulverizer"
+msgstr "kacsaporlasztó"
+
+#: cogs/helpers/config.py:248
+msgid "deer disintegrator"
+msgstr "kacsaaprító"
+
+#: cogs/helpers/config.py:249
+msgid "deer atomizer"
+msgstr "kacsaatomizáló"
+
+#: cogs/helpers/config.py:250
+msgid "deer annihilator"
+msgstr "a kacsákat földdel egyenlővé tevő"
+
+#: cogs/helpers/config.py:251
+msgid "serial deer killer"
+msgstr "sorozatos kacsagyilkos"
+
+#: cogs/helpers/config.py:252
+msgid "deer genocider"
+msgstr "kacsairtó"
+
+#: cogs/helpers/config.py:253
+msgid "old noob"
+msgstr "nyomi veterán"
+
+#: cogs/helpers/config.py:254
+msgid "deer toaster"
+msgstr "kacsapirító"
+
+#: cogs/helpers/data_store.py:182 cogs/helpers/database.py:193
+msgid "Level of {player} on #{channel}"
+msgstr "{player} szintje # {channel} en"
+
+#: cogs/helpers/data_store.py:185 cogs/helpers/database.py:196
+msgid "You leveled down!"
+msgstr "Szintet estél!"
+
+#: cogs/helpers/data_store.py:188 cogs/helpers/database.py:199
+msgid "You leveled up!"
+msgstr "Szintet léptél!"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/database.py:207
+msgid "Current level"
+msgstr "Jelenlegi szint"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/data_store.py:197
+#: cogs/helpers/database.py:207 cogs/helpers/database.py:208
+msgid "nom"
+msgstr "nyami"
+
+#: cogs/helpers/data_store.py:197 cogs/helpers/database.py:208
+msgid "Previous level"
+msgstr "Előző szint"
+
+#: cogs/helpers/data_store.py:198 cogs/helpers/database.py:209
+msgid "Shots accuracy"
+msgstr "Lövések pontossága"
+
+#: cogs/helpers/data_store.py:199 cogs/helpers/database.py:210
+msgid "Weapon reliability"
+msgstr "Fegyver hatékonysága"
+
+#: cogs/helpers/data_store.py:200 cogs/helpers/database.py:211
+msgid "Exp points"
+msgstr "Tapasztalatpontok"

@@ -1,0 +1,1482 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-06 09:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: bot.py:145
+msgid ":x: A required argument is missing."
+msgstr ":x: Požadovaný argument chybí."
+
+#: bot.py:149
+msgid ":x: You don't have enough exp for this"
+msgstr ":x: Nemáš pro toto dostatečný počet expů."
+
+#: bot.py:152
+msgid ":x: You are not a server admin"
+msgstr ":x: Nejsi admin serveru."
+
+#: bot.py:155
+msgid ":x: You are not a super admin."
+msgstr ":x: Nejsi super-admin."
+
+#: bot.py:156
+msgid ""
+"This command is reserved for the bot owners. If you think this is an error, "
+"please contact my owner at the DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Tento příkaz je rezervovaný pro majitele bota. Pokud si myslíš, že je toto "
+"chyba, prosím kontaktuj mého majitele na DeerHunt Support Server (odkaz "
+"získáš příkazem `dh!help`)."
+
+#: bot.py:160
+msgid ":x: You haven't voted for DeerHunt on DiscordBotList for a while."
+msgstr ":x: Nějakou dobu jsi nevolil pro DeerHunt na DiscordBotList."
+
+#: bot.py:161
+msgid ""
+"Support the bot to use this command by voting at <https://discordbots.org/"
+"bot/deerhunt>. Be aware that the votes can take a minute to be registered by "
+"DeerhuntIf you think this is an error, please contact my owner at the "
+"DeerHunt Support Server (see `dh!help`)."
+msgstr ""
+"Podpoř tohoto bota volením na <https://discordbots.org/bot/deerhunt>, abys "
+"mohl použít tento příkaz. Pamatuj, že registrace hlasů DeerHuntem může "
+"chvíli trvat.  Pokud si myslíš, že je toto chyba, prosím kontaktuj mého "
+"majitele na DeerHunt Support Server (odkaz získáš příkazem `dh!help`)."
+
+#: bot.py:173
+msgid "You are on cooldown :(, try again in {seconds} seconds!"
+msgstr "Jsi na ?? :(, zkus to znovu za {seconds} sekunda/sekundy/sekund."
+
+#: bot.py:179
+msgid ":bulb: HINT: "
+msgstr ":bulb: NÁPOVĚDA:"
+
+#: cogs/admin_commands.py:27
+msgid ":ok: Done, user banned. :gun:"
+msgstr ":ok: Hotovo, uživateli byl dán ban. :gun:"
+
+#: cogs/admin_commands.py:39
+msgid ":ok: Done, user unbanned. :eyes:"
+msgstr ":ok: Hotovo, uživatel byl zbaven banu. :eyes:"
+
+#: cogs/admin_commands.py:65
+msgid ""
+"<:cmd_ChannelAdded_01:439546719143723019> Done, channel {channel} added to "
+"the game! Have fun!"
+msgstr ""
+"<:cmd_ChannelAdded_01:439546719143723019> Hotovo, kanál {channel} byl přidán "
+"do hry! Bavte se!"
+
+#: cogs/admin_commands.py:81
+msgid ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Done, channel {channel} removed "
+"from the game. Bye!"
+msgstr ""
+"<:cmd_ChannelRemoved_01:439546718737137674> Hotovo, kanál {channel} byl "
+"odebrán ze hry. Nashledanou!"
+
+#: cogs/admin_commands.py:90
+msgid ""
+"<:cmd_AdminAdded_01:439549846622568466> {admin} added as an admin to the "
+"guild!"
+msgstr ""
+"<:cmd_AdminAdded_01:439549846622568466> {admin} byl přidán jako admin do "
+"cechu!"
+
+#: cogs/admin_commands.py:98
+msgid ""
+"<:cmd_AdminRemoved_01:439549845519335440> {admin} removed from the guild "
+"admins."
+msgstr ""
+"<:cmd_AdminRemoved_01:439549845519335440> {admin} byl odebrán z adminů "
+"cechu!"
+
+#: cogs/admin_commands.py:143 cogs/admin_commands.py:169
+msgid "Done. User removed from the database, if he was in."
+msgstr "Hotovo. Pokud byl uživatel v databázi, byl z ní odstraněn."
+
+#: cogs/admin_commands.py:156
+msgid "Done. All channel data was removed."
+msgstr "Hotovo. Všechna data kanálu byla odstraněna."
+
+#: cogs/admin_commands.py:181
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!settings [view/set/reset/"
+"list/modified] [setting if applicable]`"
+msgstr ""
+":x: Neplatná syntaxe. Použij tento příkaz takto: `!settings [view/set/reset/"
+"list/modified] [nastavení, pokud lze aplikovat]` [zobrazit/nastavit/"
+"vyresetovat/list/upraveno]"
+
+#: cogs/admin_commands.py:190
+msgid ":ok: The setting {pref} is set to `{value}` on this guild."
+msgstr ":ok: Nastavení {pref} bylo pro tento cech nastaveno na `{value}`"
+
+#: cogs/admin_commands.py:208
+msgid ""
+"Bypassing the max_deer_per_day check as you are the bot owner. It would "
+"have been `{max}`."
+msgstr ""
+"Obcházím kontrolu max_deer_per_day (max kachen za den), protože jsi "
+"vlastníkem bota. Jinak by maximum bylo `{max}`."
+
+#: cogs/admin_commands.py:210
+msgid ""
+"Bypassing the max_deer_per_day check as you are in a VIP guild. Please "
+"don't abuse that. For information, the limit would have been set at `{max}` "
+"deer per day."
+msgstr ""
+"Obcházím kontrolu max_deer_per_day (max kachen za den), protože jsi ve VIP "
+"cechu. Prosím, nezneužívej toho. Pro informaci, limit by byl jinak nastaven "
+"na `{max}` kachen za den."
+
+#: cogs/admin_commands.py:218
+msgid ""
+"<:official_Deer_01_reversed:439576463436546050> Authorised to set the VIP "
+"status!"
+msgstr ""
+"<:official_Deer_01_reversed:439576463436546050> Oprávněn nastavit VIP "
+"status!"
+
+#: cogs/admin_commands.py:220
+msgid ":x: Unauthorised to set the VIP status! You are not an owner."
+msgstr ":x: Neoprávněn nastavit VIP status! Nejste vlastníkem serveru."
+
+#: cogs/admin_commands.py:226 cogs/admin_commands.py:237
+#: cogs/admin_commands.py:258
+msgid ":x: Incorrect value."
+msgstr ":x: Neplatná hodnota."
+
+#: cogs/admin_commands.py:233 cogs/admin_commands.py:254
+msgid ":ok: The setting {pref} has been set to `{value}` on this guild."
+msgstr ":ok: Nastavení {pref} bylo pro tento cech nastaveno na `{value}` ."
+
+#: cogs/experience_related_commands.py:27
+msgid ""
+"Congratulations, you sent / gave more experience than the maximum number I'm "
+"able to store."
+msgstr ""
+"Blahopřeji, poslal / dal jsi více zkušeností než je maximum toho, co můžu "
+"uložit."
+
+#: cogs/experience_related_commands.py:30
+msgid ":ok:, he/she now has {newexp} exp points!"
+msgstr ":ok:, on/ona má nyní {newexp} exp. bodů!"
+
+#: cogs/experience_related_commands.py:54
+msgid ":x: To prevent abuse, you can't send exp when you don't have a weapon."
+msgstr ""
+":x: Abychom předešli zneužívání, nemůžeš poslat expy když nemáš zbraň."
+
+#: cogs/experience_related_commands.py:58
+msgid ":x: The exp amount needs to be positive."
+msgstr ":x: Hodnota expů musí být kladná."
+
+#: cogs/experience_related_commands.py:62
+msgid ""
+":x: Wait... What? Are you trying to send experience to YOURSELF? That "
+"doesn't make sense."
+msgstr ""
+":x: Počkat... Cože? Snažíš se poslat zkušenosti SÁM SOBĚ? To nedává smysl."
+
+#: cogs/experience_related_commands.py:81
+msgid "You sent {amount} exp to {target} (and paid {taxes} exp of taxes)!"
+msgstr ""
+"Poslal jsi {amount} expů {target} (a zaplatil {taxes} expů na daních)!"
+
+#: cogs/experience_related_commands.py:84
+msgid "You don't have enough experience points"
+msgstr "Nemáš dostatek exp. bodů"
+
+#: cogs/experience_related_commands.py:86
+msgid ":x: Sending exp is disabled on this server"
+msgstr ":x: Posílání expů je na tomto serveru vypnuto"
+
+#: cogs/experience_related_commands.py:94 cogs/scores.py:33
+msgid "{date} (in {dans_jours}{dans_heures} and {dans_minutes})"
+msgstr "{date} (v {dans_jours}{dans_heures} a {dans_minutes})"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:34
+#, python-format
+msgid "%m/%d at %H:%M:%S"
+msgstr "%m/%d v %H:%M:%S"
+
+#: cogs/experience_related_commands.py:95 cogs/scores.py:35
+msgid "{dans} days "
+msgstr "{dans} den/dny/dnů"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:36
+msgid "{dans} hours"
+msgstr "{dans} hodina/hodiny/hodin"
+
+#: cogs/experience_related_commands.py:96 cogs/scores.py:37
+msgid "{dans} minutes"
+msgstr "{dans} minuta/minuty/minut"
+
+#: cogs/meta.py:38
+#, python-format
+msgid ""
+"The bot frequently reboots for updates. Don't worry, it has a 99.8% of "
+"uptime."
+msgstr ""
+"Bot se pravidelně restartuje kvůli updatům, ale žádné strachy, je 99.8% času "
+"online."
+
+#: cogs/meta.py:69
+msgid ""
+"Here is the command list: http://deerhunt.me/command-list/ | If you need "
+"anything, feel free to join the support server at https://discordapp.com/"
+"invite/2BksEkV"
+msgstr ""
+"Tady je seznam příkazů: http://deerhunt.me/command-list/ | Pokud něco budeš "
+"potřebovat, můžeš přijít na náš server podpory na https://discordapp.com/"
+"invite/2BksEkV"
+
+#: cogs/meta.py:82
+msgid ""
+"It's `{hour}:{minutes}:{seconds}` in the GMT timezone (also known as UTC±00:"
+"00), which is the one used by the bot. \n"
+"You can use this website to compare it to yours: https://time.is/compare/GMT"
+msgstr ""
+"V GMT (UTC±00:00), která je používána botem, je`{hours}:{minutes}:{seconds}`\n"
+"Můžeš použít tuto webovou stránku, aby jsi ho porovnal s tím tvým: https://"
+"time.is/compare/GMT"
+
+#: cogs/meta.py:85
+msgid ""
+"You can use the `dh!freetime` command to see when you'll get your weapons "
+"back for free"
+msgstr ""
+"Můžeš použít `dh!freetime`, abys zjistil, kdy získáš své zbraně zpět zdarma"
+
+#: cogs/meta.py:100
+msgid ""
+":alarm_clock: Next giveback of weapons and magazines in {sec} seconds "
+"({hours} hour(s) and {minutes} minute(s))."
+msgstr ""
+":alarm_clock: Další navrácení zbraní a zásobníků bude za {sec} sekundu/"
+"sekundy/sekund ({hours} hodina/hodiny/hodin a {minutes} minuta/minuty/minut)."
+""
+
+#: cogs/meta.py:103
+msgid ""
+"A giveback tops up your magazines and gives you your weapon back for free "
+"(if confiscated), but it doesn't affect the bullets in your current magazine."
+" If you can, reload beforehand!"
+msgstr ""
+"Navrácení doplní tvé zásobníky a dá ti tvou zbraň zpět zdarma (pokud byla "
+"zabavena), ale neovlivní kulky v tvém aktuálním zásobníku. Pokud můžeš, před "
+"navrácením přebij!"
+
+#: cogs/meta.py:117
+msgid "You are using shard number {shard} out of {total} total shards"
+msgstr "Používáš shard číslo {shard} z {total} shardů celkem."
+
+#: cogs/scores.py:52
+msgid ""
+"The scores are online at http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}"
+msgstr ""
+"Skóre je online na http://deerhunt.api-d.com/web/deertats.php?cid="
+"{channel_id}"
+
+#: cogs/scores.py:259
+msgid ""
+"Your deertats are waiting for you at http://deerhunt.api-d.com/web/"
+"deertats.php?cid={channel_id}&pid={player_id}"
+msgstr ""
+"Tvé lovecké statistiky na tebe čekají na http://deerhunt.api-d.com/web/"
+"deertats.php?cid={channel_id}&pid={player_id}"
+
+#: cogs/setup_wizzard.py:24
+msgid ""
+"Hello!\n"
+" Thanks for adding me in there! I'm almost ready to start the game!\n"
+" Could we please go into the channel where you want the game to be ? Please "
+"invoke me there by using `dh!setup`<:event_GuildAdded_01:439550913112309781>"
+msgstr ""
+"Ahoj!\n"
+"Děkuji za přidání sem! Jsem téměř připraven na spuštění hry! Můžeme prosím "
+"jít do kanálu, kde chceš tuto hru mít? Spusťte mě tam prosím pomocí příkazu "
+"`dh!setup`\n"
+"<:event_GuildAdded_01:439550913112309781>"
+
+#: cogs/setup_wizzard.py:35
+msgid ""
+"Hello again!\n"
+" I'm just gonna run a quick permissions check and will be back in a few "
+"seconds! Please wait"
+msgstr ""
+"Znova ahoj!\n"
+"Jen udělám rychlou kontrolu oprávnění a budu zpět za pár sekund! Vyčkej "
+"prosím"
+
+#: cogs/setup_wizzard.py:51
+msgid ""
+":small_red_triangle: The permission `read_message_history` is missing.\n"
+"This is essential for the normal function of the bot, as I need to be able "
+"to read messages.\n"
+"You can proceed without it, but shouldn't."
+msgstr ""
+":small_red_triangle: Oprávnění  `číst historii zpráv` chybí.\n"
+"Je to základ pro normální funkčnost bota, protože potřebuji mít možnost číst "
+"zprávy.\n"
+"Můžeš bez něho pokračovat, ale neměl bys."
+
+#: cogs/setup_wizzard.py:56
+msgid ""
+":small_red_triangle: The permission `add_reactions` is missing.\n"
+"It's a required permission for interactive embeds, and they are almost "
+"everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: Oprávnění `přidat reakce` chybí.\n"
+"Je to nezbytné oprávnění pro interaktivní vložky a ty jsou skoro všude.\n"
+"Můžeš bez něho pokračovat, ale není to doporučeno a mohlo by to vést k "
+"chybám."
+
+#: cogs/setup_wizzard.py:61
+msgid ""
+":small_red_triangle: The permission `attach_files` is missing.\n"
+"It's a required permission for embeds, and they are almost everywhere.\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_red_triangle: Oprávnění `přiložit soubory` chybí.\n"
+"Je to nezbytné oprávnění pro vložky, a ty jsou skoro všude.\n"
+"Můžeš bez něho pokračovat, ale není to doporučeno a mohlo by to vést k "
+"chybám."
+
+#: cogs/setup_wizzard.py:66
+msgid ""
+":small_red_triangle: The permission `embed_links` is missing.\n"
+"This is used to send embeds\n"
+"You could proceed without it, but really shouldn't as it will lead to errors"
+msgstr ""
+":small_red_triangle: Oprávnění `vkládat odkazy` chybí.\n"
+"Toto je použito k vložení odkazů.\n"
+"Můžeš bez něho pokračovat, ale neměl bys, protože povede k chybám."
+
+#: cogs/setup_wizzard.py:72
+msgid ""
+":small_orange_diamond: You gave me the `administrator` permission.\n"
+"Although this will not cause problems, it's unsafe to give bots such "
+"powerful permissions, especially if they don't need them.\n"
+"You can proceed with it."
+msgstr ""
+":small_orange_diamond: Dali jste mi oprávnění `administrátor`\n"
+"Přestože toto nastavení nezpůsobí problémy, je nebezpečné dávat tak mocná "
+"oprávnění botům, kteří je nepotřebují.\n"
+"Můžete s ním pokračovat."
+
+#: cogs/setup_wizzard.py:77
+msgid ""
+":small_orange_diamond: The permission `create_instant_invite` is missing.\n"
+"It's not really essential for the normal function of the bot, but needed for "
+"error reports.\n"
+"You can proceed without it."
+msgstr ""
+":small_orange_diamond: Oprávnění `vytvořit pozvánku` chybí.\n"
+"Toto není potřeba pro normální funkčnost bota, ale je potřeba pro chybová "
+"hlášení.\n"
+"Můžete bez něho pokračovat."
+
+#: cogs/setup_wizzard.py:82
+msgid ""
+":small_orange_diamond: The permission `manage_messages` is missing.\n"
+"This is used to remove some messages on sneaky commands (weapon sabotage, "
+"etc.), and also if you use the `delete_commands` setting\n"
+"You could proceed without it, but it's not recommended and could lead to "
+"errors"
+msgstr ""
+":small_orange_diamond: Oprávnění `správa zpráv` chybí.\n"
+"Toto je použito k odstranění zpráv tajných příkazů (sabotáž zpraní, atd.), a "
+"také pokud použiješ nastavení `delete_commands`.\n"
+"Můžeš bez něho pokračovat, ale není to doporučeno a mohlo by to vést k "
+"chybám."
+
+#: cogs/setup_wizzard.py:87
+msgid ""
+":small_orange_diamond: You gave me the `mention_everyone` permission.\n"
+"This not used, but should't be given in case of a bug\n"
+"You could proceed with it safely."
+msgstr ""
+":small_orange_diamond: Dali jste mi oprávnění `zmínit každého`.\n"
+"Toto není použito, ale nemělo by být dáno v případě chyby.\n"
+"Můžeš s ním bezpečně pokračovat."
+
+#: cogs/setup_wizzard.py:92
+msgid ""
+":small_orange_diamond: The permission `external_emojis` is missing.\n"
+"This is used since DeerHunt to add non-standard emojis to messages. You should "
+"probably give it to me\n"
+"You could proceed without it, but bug reports would be appreciated."
+msgstr ""
+":small_orange_diamond: Oprávnění `používat externí smajlíky` chybí.\n"
+"Toto je použito už od DeerHunt k přidání nestandardních smajlíků k zprávám. Měli "
+"byste mi ho pravděpodobně dát\n"
+"Můžete bez něj pokračovat, ale ocenil bych chybová hlášení"
+
+#: cogs/setup_wizzard.py:110
+msgid ""
+":small_blue_diamond: The permission `change_nickname` is missing.\n"
+"This is not yet used, but could be in the future. An announcement will be "
+"made then.\n"
+"You can safely proceed without it."
+msgstr ""
+":small_blue_diamond: Oprávnění `změna přezdívky` chybí.\n"
+"Toto zatím není použito, ale mohlo by být v budoucnosti. Potom bude vydáno "
+"oznámení.\n"
+"Můžete bez něj bezpečně pokračovat."
+
+#: cogs/setup_wizzard.py:115
+msgid ""
+":small_blue_diamond: The permission `send_tts_messages` is missing.\n"
+"This is used in case you want to enable tts deer..\n"
+"You can safely proceed without it, but the `tts_deer` setting won't work"
+msgstr ""
+":small_blue_diamond: Oprávnění `odesílat zprávy tts` chybí.\n"
+"Toto je použito v případě, že zapnete tts kachny...\n"
+"Můžete bez něj bezpečně pokračovat, ale nastavení `tts_deer` nebude "
+"fungovat"
+
+#: cogs/setup_wizzard.py:121
+msgid ""
+"I'm done! <:cmd_Setup_01:439551472804429836>\n"
+"Any warning has been sent above. I suggest fixing them, then running the "
+"command again!\n"
+"If there is none, congrats! You passed the tests brilliantly!\n"
+"If you are ready to continue with the setup, use the command "
+"`dh!setup_settings`. If you just want to play, use `dh!add_channel`. Once "
+"used, deer will spawn automatically.\n"
+"Thanks for runing DeerAir. If you have any question, we are here to help at "
+"https://discord.gg/"
+msgstr ""
+"Jsem hotový! <:cmd_Setup_01:439551472804429836>\n"
+"Jakákoliv varování byla poslána výše. Doporučuji je opravit, a pak použít "
+"tento příkaz znovu!\n"
+"Pokud tam nejsou žádné, gratuluji! Prošel si brilantně testem!\n"
+"Pokud si připravený pokračovat s nastavováním, použij příkaz "
+"`dh!setup_settings`. Pokud už chceš jenom hrát, použij `dh!add_channel`. "
+"Jednou použito, kachny se začnou automaticky objevovat.\n"
+"Díky létajícím DeerAir. Pokud máte nějaké otázky, jsme na https://discord."
+"gg/2BksEkV , abychom vám pomohli."
+
+#: cogs/setup_wizzard.py:135
+msgid ""
+"Hey! Let's configure the server!\n"
+"I'll give you the most used parameters, and let you change them if you want. "
+"Any command written here is optional, and you can start playing now just by "
+"using `dh!add_channel`.\n"
+"\n"
+"**Before starting, please make sure this is the channel you want to use, and "
+"activate it with `dh!add_channel`.**\n"
+"\n"
+"**1/ Language used**:\n"
+"    \\* If you speak french, use `dh!settings set language fr_FR`\n"
+"    \\* If you speak spanish, use `dh!settings set language es_ES`\n"
+"    \\* Another language we don't fully support yet? Help us translate "
+"DeerHunt! Find us at https://discord.gg/.\n"
+"    \n"
+"**2/ Deer Per Day**:\n"
+"    This is the number of deer that will spawn per day. They spawn at "
+"random intervals, but you can configure the number of deer that will spawn.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"deer_per_day XX`, where `XX` is a number.\n"
+"    \\* To prevent abuse, there is a limit that will be automatically "
+"enforced. If you need to lift it, contact my owner at the support server.\n"
+"    \n"
+"**3/ Exp Won Per Deer Killed**:\n"
+"    This is the experience won per deer killed. If your server is really "
+"popular, it might be worth it to push it up a little to make new hunters "
+"progress faster.\n"
+"    \\* Use the following command to change it, use `dh!settings set "
+"exp_won_per_deer_killed XX`, where `XX` is a number.\n"
+"    \\* :bulb: Don't go too high tho, there must be some challenge. 15 is a "
+"good start\n"
+"    \n"
+"**4/ Other settings**:\n"
+"    This is starting to be lengthy, so I won't go into further details here. "
+"You are probably all set and can start the game by typing `dh!add_channel`.\n"
+"    More settings can be found using `dh!settings list`\n"
+"    \n"
+"Thanks for playing with me! <:official_Deer_01:439546719177539584>\n"
+msgstr ""
+"Hej! Pojďme nakonfigurovat server!\n"
+"Dám vám nejčastěji používané parametry a nechám vás je změnit, pokud byste "
+"chtěl. Jakýkoliv příkaz zde napsaný je nepovinný a můžete začít hned hrát "
+"jenom tím že použijete příkaz `dh!add_channel`.\n"
+"\n"
+"**Než začnete, prosím, ujistěte se, že toto je kanál, který chcete použít, a "
+"potom ho aktivujte příkazem `dh!add_channel`.**\n"
+"\n"
+"**1/ Použitý jazyk**:\n"
+"    \\* Pokud mluvíte francouzsky, použijte `dh!settings set language fr_FR`\n"
+"    \\* Pokud mluvíte španělsky, použijte `dh!settings set language es_ES`\n"
+"    \\* Jiný jazyk, který plně nepodporujeme? Pomozte nám přeložit DeerHunt! "
+"Najdete nás na https://discord.gg/.\n"
+"\n"
+"**2/ Kachny Za Den**:\n"
+"    Toto je počet kachen, které se objeví za den. Objevují se v náhodných "
+"intervalech, ale můžete nakonfigurovat počet kachen, který se objeví.\n"
+"    \\* Použijte následující příkaz, abyste to změnil, použijte `dh!settings "
+"set deer_per_day XX`, kde `XX` je ten počet.\n"
+"    \\* Je nastaven limit, který se vám automaticky vnutí. Je zde aby "
+"zabránil zneužití. Pokud ho potřebujete zvýšit, kontaktujte mého majitele na "
+"serveru podpory.\n"
+"\n"
+"**3/ Expy Vyhrané Za Kachnu Zabitou**:\n"
+"    Toto jsou zkušenosti vyhrané za kachnu zabitou. Pokud je váš server "
+"populární, bylo by možná výhodné toto trochu zvednout, aby mohli nový lovci "
+"se posouvat rychleji.\n"
+"    \\* Použijte následující příkaz, abyste to změnil, použijte `dh!settings "
+"set exp_won_per_deer_killed XX`, kde `XX` je ten počet expů.\n"
+"    \\* :bulb: Ovšem nejdi moc vysoko, musí to být aspoň trochu výzva. 15 je "
+"dobrý start\n"
+"\n"
+"**4/ Jiná nastavení**:\n"
+"    Toto začíná být trochu zdlouhavé, takže tady nepůjdu do hlubších detailů."
+" Pravděpodobně máte všechno připraveno a můžete začít hru napsáním "
+"`dh!add_channel`.\n"
+"    Další nastavení můžete najít použitím `dh!settings list`\n"
+"\n"
+"\n"
+"Děkuji, že se mnou hraješ! <:official_Deer_01:439546719177539584>"
+
+#: cogs/shop.py:42
+msgid ""
+":x: Incorrect syntax. Use the command this way: `!shop [list/item number] "
+"[argument if applicable]`"
+msgstr ""
+":x: Neplatná syntaxe. Použij tento příkaz takto: `!shop [list/číslo položky] "
+"[argument, pokud lze aplikovat]`"
+
+#: cogs/shop.py:52
+msgid "Right now you have a total of {exp} exp points."
+msgstr "Aktuálně máš celkem {exp} exp. bodů."
+
+#: cogs/shop.py:59
+msgid ""
+"Here is the list of all the shops items : https://deerhunt.me/shop-items/ . "
+"Thanks "
+msgstr ""
+"Zde je list všech předmětů obchodu: https://deerhunt.me/shop-items/ . Díky"
+
+#: cogs/shop.py:75
+msgid ":money_with_wings: You added a bullet to your weapon for 7 exp points."
+msgstr ":money_with_wings: Přidal/a jsi kulku do své zbraně za 7 exp. bodů."
+
+#: cogs/shop.py:78
+msgid ":champagne: Your magazine is full!"
+msgstr ":champagne: Tvůj zásobník je plný!"
+
+#: cogs/shop.py:94
+msgid ""
+":money_with_wings: You added a magazine to your weapon for 13 exp points."
+msgstr ""
+":money_with_wings: Přidal/a jsi zásobník do své zbraně za 13 exp. bodů."
+
+#: cogs/shop.py:97
+msgid ":champagne: You have enough magazines!"
+msgstr ":champagne: Máš dostatek zásobníků!"
+
+#: cogs/shop.py:111
+msgid ":money_with_wings: You purchased AP ammo for your weapon."
+msgstr ":money_with_wings: Zakoupil/a jsi AP náboje pro svou zbraň."
+
+#: cogs/shop.py:112
+msgid ""
+"For the next 24 hours, you will deal double damage to deer. This does "
+"**not** stack with explosive ammo"
+msgstr ""
+"Po dalších 24 hodin, budeš dávat kachnám dvojnásobná zranění. Toto se "
+"**neslučuje** s výbušnými náboji."
+
+#: cogs/shop.py:115
+msgid ":champagne: You have enough AP ammo for now!"
+msgstr ":champagne: Prozatím máš dost AP munice!"
+
+#: cogs/shop.py:129
+msgid ":money_with_wings: You purchased explosive ammo for your weapon."
+msgstr ":money_with_wings: Zakoupil/a jsi výbušné náboje pro svou zbraň."
+
+#: cogs/shop.py:130
+msgid ""
+"For the next 24 hours, you will deal triple damage to deer. This does "
+"**not** stack with AP ammo and trumps it if you have any."
+msgstr ""
+"Po dalších 24 hodin, budeš dávat kachnám trojnásobná zranění. Toto se "
+"**neslučuje** s výbušnými náboji a přebije je, pokud nějaké máš."
+
+#: cogs/shop.py:133
+msgid ":champagne: You have enough explosive ammo for now!"
+msgstr ":champagne: Prozatím máš dost explosivní munice!"
+
+#: cogs/shop.py:147
+msgid ":money_with_wings: You got your weapon back."
+msgstr ":money_with_wings: Získal jsi svou zbraň zpět."
+
+#: cogs/shop.py:148
+msgid ""
+"You can get your weapon back for free if you wait until the daily weapon & "
+"magazine giveback. Type `dh!freetime` to find out when the next giveback is"
+msgstr ""
+"Můžeš dostat své zbraně zdarma zpět, pokud počkáš do denního navrácení "
+"zbraní a zásobníků. Napiš `dh!freetime`, abys zjistil kdy bude další "
+"navrácení"
+
+#: cogs/shop.py:152
+msgid ""
+":champagne: You already have your weapon, what are you trying to buy? :p"
+msgstr ":champagne: Už máš svoji zbraň, co si snažíš koupit? :p"
+
+#: cogs/shop.py:166
+msgid ":money_with_wings: You added grease in your weapon."
+msgstr ":money_with_wings: Přidal jsi do své zbraně mazivo."
+
+#: cogs/shop.py:167
+msgid ""
+"This reduces jamming risks by 50 percent for a day, for only 8 exp points. "
+"It's really useful for new players. Use `dh!deertats` to check your level "
+"and accuracy"
+msgstr ""
+"Toto sníží šanci zablokování zbraně o 50 procent ne jeden den, za pouhých 8 "
+"exp. bodů. Toto je vážně užitečné pro nové hráče. Použij `dh!deertats` k "
+"zkontrolování svého levelu a přesnosti."
+
+#: cogs/shop.py:171
+msgid ""
+":champagne: Your weapon is perfectly lubricated, you don't need any more "
+"grease."
+msgstr ""
+":champagne: Tvá zbraň je perfektně promazaná, nepotřebuješ více maziva."
+
+#: cogs/shop.py:187
+msgid ":money_with_wings: You added a sight to your weapon."
+msgstr ":money_with_wings: Přidal jsi na svou zbraň zaměřovač."
+
+#: cogs/shop.py:188
+msgid ""
+"Your aiming was improved using this formula: (100 - current accuracy) / 3."
+msgstr "Tvé míření se zlepšilo touto rovnicí: (100 - aktuální přesnost) / 3."
+
+#: cogs/shop.py:191
+msgid ":champagne: You already have a sight on your weapon."
+msgstr ":champagne: Už máš na své zbrani zaměřovač."
+
+#: cogs/shop.py:208
+msgid ""
+":money_with_wings: You added an infrared detector to your weapon, it will "
+"prevent any waste of ammo for a day. Cost: 15 exp points."
+msgstr ""
+":money_with_wings: Přidal jsi na svou zbraň infračervený senzor, toto "
+"zabrání plítvání náboji na 1 den. Cena: 15 exp. bodů."
+
+#: cogs/shop.py:210
+msgid ":champagne: You already have an infrared detector on your weapon."
+msgstr ":champagne: Už máš na své zbrani infračervený senzor."
+
+#: cogs/shop.py:224
+msgid ":money_with_wings: You added a silencer to your weapon."
+msgstr ":money_with_wings: Přidal jsi na svou zbraň tlumič."
+
+#: cogs/shop.py:225
+msgid ""
+"The silencer works best if every hunter uses one, or if you're alone. With "
+"it, no deer will run away before you can kill them. What a good deal, they "
+"only cost 5 exp!"
+msgstr ""
+"Tlumič funguje nejlépe pokud ho každý lovec používá, nebo pokud jste sám/"
+"sama. S ním, žádné kachny neodletí před tím než je budete moct zabít. Jaká "
+"dobrá nabídka, stojí pouze 5 exp.!"
+
+#: cogs/shop.py:229
+msgid ":champagne: You already have a silencer on your weapon"
+msgstr ":champagne: Už máš na své zbrani tlumič."
+
+#: cogs/shop.py:253
+msgid ""
+":money_with_wings: You bought a fresh 4-leaf clover, which will give you "
+"{exp} more exp points for each killed deer for the next day."
+msgstr ""
+":money_with_wings: Zakoupil/a jsi čerstvý čtyřlístek, který ti dá o {exp} "
+"více exp. bodů za každou zabitou kachnu po další den."
+
+#: cogs/shop.py:257
+msgid ":champagne: You already have 4-leaf clover on your weapon"
+msgstr ":champagne: Už máš na své zbrani čtyřlístek"
+
+#: cogs/shop.py:273
+msgid ""
+":money_with_wings: You bought a pair of sunglasses for 5 exp! You now won't "
+"be dazzled for a day."
+msgstr ""
+":money_with_wings: Zakoupil/a jsi si pár slunečních brýlí za 5 expů! Nyní "
+"nebudeš oslněný/á pro jeden den."
+
+#: cogs/shop.py:277
+msgid ""
+":money_with_wings: You bought brand new sunglasses, the only point of it "
+"being that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Zakoupil/a jsi si nové brýle, jen kvůli tomu abys byl/a "
+"víc cool. :cool:"
+
+#: cogs/shop.py:278
+msgid ""
+"Don't buy sunglasses if you still have some! This doesn't extend the time "
+"you won't be dazzled, but still costs you some exp"
+msgstr ""
+"Nekupuj si sluneční brýle, když ještě nějaké máš! Toto neprodlouží tvůj čas "
+"po který nebudeš oslněný/á, ale stále tě bude stát nějaké ty expy"
+
+#: cogs/shop.py:292
+msgid ":money_with_wings: You're wearing new dry clothes. You look fantastic!"
+msgstr ""
+":money_with_wings: Máš na sobě nové suché oblečení. Vypadáš fantasticky!"
+
+#: cogs/shop.py:296
+msgid ""
+":money_with_wings: You bought brand new clothes, the only point of it being "
+"that you're much swagger now. :cool:"
+msgstr ""
+":money_with_wings: Zakoupil/a jsi si nové oblečení, Jen kvůli tomu abys byl/"
+"a víc cool. :cool:"
+
+#: cogs/shop.py:297
+msgid ""
+"Don't buy dry clothes if you aren't wet! They won't do anything, but will "
+"still cost you exp"
+msgstr ""
+"Nekupuj si suché oblečení, když nejsi mokrý/á! Nic neudělají, ale stále tě "
+"budou stát expy"
+
+#: cogs/shop.py:311
+msgid ""
+":money_with_wings: You cleaned your weapon for 6 exp. If you had sand in it, "
+"or if your weapon was sabotaged, it's fixed now!"
+msgstr ""
+":money_with_wings: Vyčistil/a jsi si svou zbraň za 6 expů. Pokud si ve své "
+"zbrani měl/a písek nebo jestli byla tvá zbraň sabotovaná, je nyní opravena!"
+
+#: cogs/shop.py:312
+msgid ""
+"Next time someone sabotages you, just shoot. It won't do much damage except "
+"for hurting your reputation"
+msgstr ""
+"Příště až tě někdo sabotuje, prostě střel. Neudělá to moc zranění, až na "
+"zranění, které utrpí tvá reputace"
+
+#: cogs/shop.py:325
+msgid ":x: No way! {mention} has sunglasses! They're immunised against this!"
+msgstr ""
+":x: To není možné! {mention} má sluneční brýle! Oni jsou proti tomuto "
+"imunní!"
+
+#: cogs/shop.py:326
+msgid ""
+"That bad move still took 5 exp from your account, due to you having to buy a "
+"mirror"
+msgstr ""
+"Tento špatný krok ti stále vzal 5 expů z tvého účtu, kvůli tomu, že jsi si "
+"musel koupit zrcadlo"
+
+#: cogs/shop.py:331
+msgid ""
+":money_with_wings: You dazzled {mention}! Their next shot will lose 50% "
+"accuracy!"
+msgstr ""
+":money_with_wings: Oslepil jsi {mention}! Jejich příští výstřel bude mít 50% "
+"přesnost!"
+
+#: cogs/shop.py:332
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you?"
+msgstr ""
+"To že zmínka je tady, má svůj důvod. Neudělal/a bys to za jejich zády, že "
+"ne?"
+
+#: cogs/shop.py:346
+msgid ":champagne: You threw sand in {mention}'s weapon!"
+msgstr ":champagne: Hodil jsi písek do zbraně {mention}!"
+
+#: cogs/shop.py:347
+msgid ""
+"The mention is here on purpose. You wouldn't do this behind their back, "
+"would you"
+msgstr ""
+"To že zmínka je tady, má svůj důvod. Neudělal/a bys to za jejich zády, že ne"
+
+#: cogs/shop.py:360
+msgid ""
+":money_with_wings: You dropped a bucket full of water on {target}, forcing "
+"them to wait 1 hour for their clothes to dry before they can return hunting."
+msgstr ""
+":money_with_wings: Vylil jsi kyblík plný vody na {target}, čímž si je "
+"donutil počkat 1 hodinu na uschnutí jejich oblečení než se budou moct vrátit "
+"na lov."
+
+#: cogs/shop.py:379
+msgid ""
+":money_with_wings: You dropped a **SPECIAL** bucket full of water on "
+"{target}, forcing them to wait 2 hours (!) for their clothes to dry before "
+"they can return hunting."
+msgstr ""
+":money_with_wings: Vylil jsi **SPECIÁLNÍ** kyblík plný vody na {target}, "
+"čímž jsi je donutil počkat 2 hodiiny (!) na uschnutí jejich oblečení než se "
+"budou moct vrátit na lov."
+
+#: cogs/shop.py:393
+msgid "You wouldn't sabotage yourself, would you ?"
+msgstr "Nesabotoval bys sebe, že ne?"
+
+#: cogs/shop.py:399
+msgid ""
+":ok: {target} weapon is now sabotaged... but they don't know it (14 exp)!"
+msgstr ""
+":ok: Zbraň {target} je nyní sabotovaná... ale oni to nevědí (14 expů)!"
+
+#: cogs/shop.py:402
+msgid ""
+"Don't use a mention for this. You can give me user ids or the full username "
+"in \"quotes\""
+msgstr ""
+"Nepoužívej zmínku pro toto. Můžeš mi dát uživatelská id nebo plné "
+"uživatelské jméno v \"uvozovkách\""
+
+#: cogs/shop.py:406
+msgid ":ok: {target}'s weapon is already sabotaged!"
+msgstr ":ok: Zbraň {target} je už sabotovaná!"
+
+#: cogs/shop.py:411 cogs/shop.py:516
+msgid ""
+"If you ask a server admin to give me the `manage_message` permission, I will "
+"be able to delete that kind of shop commands ;)"
+msgstr ""
+"Pokud se zeptáš admina serveru, aby mi dal právo `správa zpráv`, budu moct "
+"smazat tento typ příkazů obchodu ;)"
+
+#: cogs/shop.py:428
+msgid ":money_with_wings: You bought a life insurance for a week for 10 exp."
+msgstr ":money_with_wings: Zakoupil/a jsi si životní pojištění za 10 expů."
+
+#: cogs/shop.py:429
+msgid "If you get killed, you'll earn half the level of the killer in exp."
+msgstr "Pokud budeš zabit, dostaneš půlku levelů vraha v expech."
+
+#: cogs/shop.py:432
+msgid ":champagne: You're already insured."
+msgstr ":champagne: Už jsi pojištěný/á."
+
+#: cogs/shop.py:469
+msgid ""
+":money_with_wings: Deer are resting right now, so your decoy probably "
+"didn't work..."
+msgstr ""
+":money_with_wings: Kachny zrovna odpočívají, takže tvoje lákadlo "
+"pravděpodobně nezafungovalo..."
+
+#: cogs/shop.py:473
+msgid ""
+":money_with_wings: A deer will appear in the next 10 minutes on the channel, "
+"thanks to {mention}'s decoy. They bought it for 8 exp!"
+msgstr ""
+":money_with_wings: Kachna se objeví v dalších 10 minutách v tomto kanále, "
+"díky návnadě {mention}. Koupili ji za 8 expů!"
+
+#: cogs/shop.py:496
+msgid ""
+":money_with_wings: You put some bread on the channel to attract deer. "
+"They'll stay 20 seconds longer before leaving for the rest of the day!"
+msgstr ""
+":money_with_wings: Položil/a jsi trochu chleba na kanál, abys přilákal/a "
+"kachny. Zůstanou o 20 sekund déle před odchodem po zbytek dne!"
+
+#: cogs/shop.py:497
+msgid ""
+":money_with_wings: Bread can stack! Buy some more to maximise the effects!"
+msgstr ""
+":money_with_wings: Chleba se může nahromadit! Kupte ho trošku více, abyste "
+"maximalizovali tyto efekty!"
+
+#: cogs/shop.py:521
+msgid ""
+":money_with_wings: You prepared a mechanical deer on the channel for 40 exp. "
+"It's wrong, but so funny!"
+msgstr ""
+":money_with_wings: Připravil si mechanickou kachnu na kanál za 40 expů. Je "
+"to špatné, ale tak vtipné!"
+
+#: cogs/user_commands.py:72 cogs/user_commands.py:159
+msgid "You don't have a weapon."
+msgstr "Nemáš zbraň."
+
+#: cogs/user_commands.py:78
+msgid "You unjammed your weapon."
+msgstr "Odblokoval jsi svoji zbraň."
+
+#: cogs/user_commands.py:92
+msgid "You reloaded your weapon."
+msgstr "Přebil jsi svoji zbraň."
+
+#: cogs/user_commands.py:94
+msgid "You don't have any ammo left!"
+msgstr "Nezbývají ti žádné náboje!"
+
+#: cogs/user_commands.py:97
+msgid "You don't need to reload your weapon."
+msgstr "Nepotřebuješ si přebít svou zbraň."
+
+#: cogs/user_commands.py:100
+msgid ""
+"{greet} | Ammo in weapon: {balles_actuelles}/{balles_max} | Magazines left: "
+"{chargeurs_actuels}/{chargeurs_max}"
+msgstr ""
+"{greet} | Náboje ve zbrani: {balles_actuelles}/{balles_max} | Zbývající "
+"zásobníky: {chargeurs_actuels}/{chargeurs_max}"
+
+#: cogs/user_commands.py:149
+msgid ""
+"Your clothes are wet, you can't go hunting! Wait {temps_restant} minutes."
+msgstr ""
+"Tvé oblečení je mokré, nemůžeš jít lovit! Počkej {temps_restant} minuta/"
+"minuty/minut."
+
+#: cogs/user_commands.py:168
+msgid "Your weapon is jammed, it must be reloaded to unjam it."
+msgstr "Tvá zbraň je zablokovaná, musíš přebít, abys ji odblokoval."
+
+#: cogs/user_commands.py:178
+msgid "Your weapon is sabotaged, thank {assaillant} for this bad joke."
+msgstr "Tvá zbraň byla sabotována, poděkuj {assaillant} za tento špatný vtip."
+
+#: cogs/user_commands.py:191
+msgid ""
+"** MAGAZINE EMPTY ** | Ammunition in the weapon: {balles_actuelles} / "
+"{balles_max} | Magazines remaining: {chargeurs_actuels} / {chargeurs_max}"
+msgstr ""
+"** ZÁSOBNÍK PRÁZDNÝ ** | Náboje ve zbrani: {balles_actuelles} / {balles_max} "
+"| Zásobníků zbývá: {chargeurs_actuels} / {chargeurs_max}"
+
+#: cogs/user_commands.py:225
+msgid "Your weapon just jammed, reload it to unjam it."
+msgstr "Tvá zbraň se zrovna zablokovala, přebij ji, abys ji odblokoval."
+
+#: cogs/user_commands.py:252
+msgid ""
+"There isn't any deer in here, but the bullet wasn't fired because the "
+"infrared detector you added to your weapon is doing its job!"
+msgstr ""
+"Široko daleko žádná kachna, kulka nebyla vystřelena, protože infračervený "
+"senzor, který jsi si přidal na svou zbraň děla svou práci!"
+
+#: cogs/user_commands.py:267
+msgid ""
+"Luckily you missed, but what were you aiming at exactly? There isn't any "
+"deer in here... [missed: -1 xp] [wild shot: -1 xp]"
+msgstr ""
+"Naštěstí jsi minul, ale na co si vlastně mířil? Vždyť tu žádná kachna není..."
+" [minul jsi: -1 exp.] [divoký výstřel: -1 exp.]"
+
+#: cogs/user_commands.py:375
+msgid ""
+"**BANG**\tYou missed the deer... and shot **yourself**! Maybe you should "
+"turn your weapon a little before shooting the next time? [missed: -1 xp] "
+"[hunting accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**BANG** Minul jsi kachnu... a střelil **sám sebe**! Možná bys měl "
+"trošičičku otočit svou zbraň než budeš příště střílet? [minul jsi: -1 exp.] "
+"[lovecká nehoda: -2 exp.] [**zbraň zabavena**]"
+
+#: cogs/user_commands.py:382
+msgid ""
+"**BANG**\tYou missed the deer... and shot {player}! [missed: -1 xp] [hunting "
+"accident: -2 xp] [**weapon confiscated**]"
+msgstr ""
+"**BANG** Minul jsi kachnu... a střelil {player}! [minul jsi: -1 exp.] "
+"[lovecká nehoda: -2 exp.] [**zbraň zabavena**]"
+
+#: cogs/user_commands.py:391
+msgid ""
+"You can buy your weapon back in the store (`dh!shop 5`) or wait until you "
+"get it back for free (check when with `!freetime`)"
+msgstr ""
+"Můžeš si koupit svou zbraň zpět v obchodě (`dh!shop 5`) nebo počkej, dokud "
+"ji nedostaneš zdarma zpět (zjisti kdy s `dh!freetime`)"
+
+#: cogs/helpers/deer.py:230 cogs/user_commands.py:399
+msgid "**PIEWW**\tYou missed the deer! [missed: -1 xp]"
+msgstr "**PEW** Minul jsi kachnu! [minul jsi: -1 exp.]"
+
+#: cogs/user_commands.py:431
+msgid ""
+"You hugged {mention} as strongly as you could. They are filled with "
+"determination."
+msgstr ""
+"Objal jsi {metion}, tak silně, jak si jen mohl. Jsou naplněni odhodláním!"
+
+#: cogs/user_commands.py:444
+msgid "You hugged a tree, Wizzz?!"
+msgstr "Objal jsi strom, ?? ?!"
+
+#: cogs/user_commands.py:463
+msgid "**Current event**"
+msgstr "**Aktuální událost**"
+
+#: cogs/helpers/config.py:67
+msgid "*cries*"
+msgstr "*brečí*"
+
+#: cogs/helpers/config.py:67
+msgid "Hello world"
+msgstr "Ahoj, světe"
+
+#: cogs/helpers/config.py:67
+msgid "How are you today?"
+msgstr "Jak se dnes máte?"
+
+#: cogs/helpers/config.py:67
+msgid "Please don't kill me..."
+msgstr "Prosím, nezabíjej mě..."
+
+#: cogs/helpers/config.py:67
+msgid "I love you too!"
+msgstr "Já tě taky miluji!"
+
+#: cogs/helpers/config.py:67
+msgid "Don't shoot me! I'm a fake deer!"
+msgstr "Nestřílej mě! Já jsem falešná kachna!"
+
+#: cogs/helpers/config.py:77
+msgid "The deer went away.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna odešla pryč. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer went to another world.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna odešla do jiného světa. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:77
+msgid "The deer didn't have time for this.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Na tohle kachna neměla čas. ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna odešla.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer dissipated in space and time.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna se rozptýlila v čase a prostoru.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:78
+msgid "The deer left out of boredom.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna se unudila k smrti.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer doesn't want to be sniped.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna nechce být zastřelena.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:79
+msgid "The deer walked up to the lemonade stand.  ·°'\\`'°-.,¸¸.·°'\\`"
+msgstr "Kachna odešla k stánku s limonádou.  ·°'\\`'°-.,¸¸.·°'\\`"
+
+#: cogs/helpers/config.py:83
+msgid "a stuffed deer."
+msgstr "vycpanou kachnu."
+
+#: cogs/helpers/config.py:83
+msgid "a rubber deery."
+msgstr "gumovou kachničku."
+
+#: cogs/helpers/config.py:83
+msgid "a vibrating deer."
+msgstr "vibrující kachnu."
+
+#: cogs/helpers/config.py:83
+msgid "a pile of fur."
+msgstr "hromádku peří."
+
+#: cogs/helpers/config.py:83
+msgid "a chewed chewing gum."
+msgstr "vyžvýkanou žvýkací gumu."
+
+#: cogs/helpers/config.py:84
+msgid "an old shoe."
+msgstr "starou botu."
+
+#: cogs/helpers/config.py:84
+msgid "a spring thingy."
+msgstr "pružinovou věcičku."
+
+#: cogs/helpers/config.py:84
+msgid "cow dung."
+msgstr "kravský hnůj."
+
+#: cogs/helpers/config.py:84
+msgid "dog poop."
+msgstr "psí hovínko."
+
+#: cogs/helpers/config.py:85
+msgid "an expired hunting license."
+msgstr "prošlou loveckou licenci."
+
+#: cogs/helpers/config.py:85
+msgid "a cigarette butt."
+msgstr "cigaretový nedopalek."
+
+#: cogs/helpers/config.py:85
+msgid "a used condom."
+msgstr "použitý kondom."
+
+#: cogs/helpers/config.py:85
+msgid "a broken sight."
+msgstr "rozbitý zaměřovač."
+
+#: cogs/helpers/config.py:85
+msgid "a broken infrared detector."
+msgstr "rozbitý infračervený senzor."
+
+#: cogs/helpers/config.py:85
+msgid "a bent silencer."
+msgstr "ohnutý tlumič."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of AP ammo."
+msgstr "prázdnou krabici od AP nábojů."
+
+#: cogs/helpers/config.py:86
+msgid "an empty box of explosive ammo."
+msgstr "prázdnou krabici od výbušných nábojů."
+
+#: cogs/helpers/config.py:86
+msgid "a four-leaf clover with only 3 left."
+msgstr "čtyřlístek, kterému zbývají pouze 3 lístky."
+
+#: cogs/helpers/config.py:86
+msgid "a broken decoy."
+msgstr "rozbitou návnadu."
+
+#: cogs/helpers/config.py:86
+msgid "a broken mirror."
+msgstr "rozbité zrcadlo."
+
+#: cogs/helpers/config.py:87
+msgid "a rusty mechanical deer."
+msgstr "rezavou mechanickou kachnu."
+
+#: cogs/helpers/config.py:87
+msgid "a pair of sunglasses without glasses."
+msgstr "sluneční brýle bez sklíček."
+
+#: cogs/helpers/config.py:87
+msgid "Bambi's beret."
+msgstr "Bambiův baret."
+
+#: cogs/helpers/config.py:87
+msgid "a half-melted peppermint."
+msgstr "polorozpuštěnou peppermintku."
+
+#: cogs/helpers/config.py:87
+msgid "a box of Abraxo cleaner."
+msgstr "krabici čističe Abraxo."
+
+#: cogs/helpers/config.py:88
+msgid "a gun with banana peeled barrel."
+msgstr "pistol s hlavní, která vypadá jak oloupaný banán."
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting knife."
+msgstr "starý lovecký nůž."
+
+#: cogs/helpers/config.py:88
+msgid "an old video recording: http://tinyurl.com/zbejktu"
+msgstr "starou video nahrávku: http://tinyurl.com/zbejktu"
+
+#: cogs/helpers/config.py:88
+msgid "an old hunting photo: http://tinyurl.com/hmn4r88"
+msgstr "starou loveckou fotku: http://tinyurl.com/hmn4r88"
+
+#: cogs/helpers/config.py:89
+msgid "an old postcard: http://tinyurl.com/hbnkpzr"
+msgstr "starou pohlednici: http://tinyurl.com/hbnkpzr"
+
+#: cogs/helpers/config.py:89
+msgid "a golden deer photo: http://tinyurl.com/hle8fjf"
+msgstr "fotku zlaté kachny: http://tinyurl.com/hle8fjf"
+
+#: cogs/helpers/config.py:89
+msgid "a hunter pin: http://tinyurl.com/hqy7fhq"
+msgstr "lovecký odznak: http://tinyurl.com/hqy7fhq"
+
+#: cogs/helpers/config.py:89
+msgid "bushes."
+msgstr "keře."
+
+#: cogs/helpers/config.py:90
+msgid "https://www.youtube.com/watch?v=HP362ccZBmY"
+msgstr "https://www.youtube.com/watch?v=HP362ccZBmY"
+
+#: cogs/helpers/config.py:90
+msgid "a fish."
+msgstr "rybu."
+
+#: cogs/helpers/config.py:90
+msgid "even more bushes."
+msgstr "ještě více keřů."
+
+#: cogs/helpers/config.py:198
+msgid "Everything is calm"
+msgstr "Všechno je poklidné"
+
+#: cogs/helpers/config.py:198
+msgid "Nothing is happening right now."
+msgstr "Nic se zrovna teď neděje."
+
+#: cogs/helpers/config.py:199
+msgid "Deer are migrating"
+msgstr "Kachny migrují"
+
+#: cogs/helpers/config.py:199
+msgid "Prepare to see more deer in the next hour."
+msgstr "Připrav se, že uvidíš více kachen v příští hodině."
+
+#: cogs/helpers/config.py:200
+msgid "Foggy weather"
+msgstr "Mlhavé počasí"
+
+#: cogs/helpers/config.py:200
+msgid ""
+"It's harder to see killed deer. You'll need a few more seconds to know if "
+"you missed or not."
+msgstr ""
+"Je težší vidět zabité kachny. Budeš potřebovat pár sekund navíc než zjistíš "
+"zda jsi minul nebo ne."
+
+#: cogs/helpers/config.py:201
+msgid "Steroids in the lake"
+msgstr "Steroidy v jezeře"
+
+#: cogs/helpers/config.py:203
+msgid "Connection problems"
+msgstr "Problémy s připojením"
+
+#: cogs/helpers/config.py:203
+msgid ""
+"Deer cant find your computer due to connection problems, and there will be "
+"less of them until it's repaired"
+msgstr ""
+"Kachny nemohou najít tvůj počítač kvůli problémům s připojením, a bude jich "
+"méně dokud se to neopraví"
+
+#: cogs/helpers/config.py:204
+msgid "A new florist in town"
+msgstr "Nový květinář ve městě"
+
+#: cogs/helpers/config.py:205
+msgid "Mega-deer"
+msgstr "Mega-kachy"
+
+#: cogs/helpers/config.py:205
+msgid "Someone inflated a super deer, and now they are EVEN BIGGER!!"
+msgstr "Někdo nafoukl super kachny, a nyní jsou JEŠTĚ VĚTŠÍ!"
+
+#: cogs/helpers/config.py:206
+msgid "Windy weather"
+msgstr "Větrné počasí"
+
+#: cogs/helpers/config.py:206
+msgid "Bullets are deflected by some strong wind"
+msgstr "Kulky jsou vychylovány silným větrem"
+
+#: cogs/helpers/config.py:213
+msgid "public danger"
+msgstr "veřejné nebezpečí"
+
+#: cogs/helpers/config.py:214
+msgid "tourist"
+msgstr "turista"
+
+#: cogs/helpers/config.py:215
+msgid "noob"
+msgstr "nula"
+
+#: cogs/helpers/config.py:216
+msgid "trainee"
+msgstr "praktikant"
+
+#: cogs/helpers/config.py:217
+msgid "deer misser"
+msgstr "míječ kachen"
+
+#: cogs/helpers/config.py:218
+msgid "member of the Comitee Against Deer"
+msgstr "člen Sdružení Proti Kachnám"
+
+#: cogs/helpers/config.py:220
+msgid "deer pest"
+msgstr "škůdce kachen"
+
+#: cogs/helpers/config.py:223
+msgid "hunter"
+msgstr "lovec"
+
+#: cogs/helpers/config.py:224
+msgid "deer inside out turner"
+msgstr "rozparovač kachen"
+
+#: cogs/helpers/config.py:227
+msgid "deer eater"
+msgstr "jedlík kachen"
+
+#: cogs/helpers/config.py:228
+msgid "deer flattener"
+msgstr "zplošťovač kachen"
+
+#: cogs/helpers/config.py:229
+msgid "deer disassembler"
+msgstr "rozebírač kachen"
+
+#: cogs/helpers/config.py:230
+msgid "deer demolisher"
+msgstr "bořič kachen"
+
+#: cogs/helpers/config.py:231
+msgid "deer killer"
+msgstr "kachní vrah"
+
+#: cogs/helpers/config.py:251
+msgid "serial deer killer"
+msgstr "sériový vrah kachen"
+
+#: cogs/helpers/config.py:252
+msgid "deer genocider"
+msgstr "vyhlazovač kachen"
+
+#: cogs/helpers/config.py:253
+msgid "old noob"
+msgstr "stará nula"
+
+#: cogs/helpers/config.py:254
+msgid "deer toaster"
+msgstr "toastovač kachen"
+
+#: cogs/helpers/config.py:255
+msgid "unemployed due to extinction of the deer species"
+msgstr "nezměstnaný kvůli vyhynutí kachního druhu"
+
+#: cogs/helpers/data_store.py:182 cogs/helpers/database.py:193
+msgid "Level of {player} on #{channel}"
+msgstr "Level {player} na #{channel}"
+
+#: cogs/helpers/data_store.py:185 cogs/helpers/database.py:196
+msgid "You leveled down!"
+msgstr "Tvůj level se snížíl!"
+
+#: cogs/helpers/data_store.py:188 cogs/helpers/database.py:199
+msgid "You leveled up!"
+msgstr "Tvůj level se zvýšil!"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/database.py:207
+msgid "Current level"
+msgstr "Současný level"
+
+#: cogs/helpers/data_store.py:196 cogs/helpers/data_store.py:197
+#: cogs/helpers/database.py:207 cogs/helpers/database.py:208
+msgid "nom"
+msgstr "nom"
+
+#: cogs/helpers/data_store.py:197 cogs/helpers/database.py:208
+msgid "Previous level"
+msgstr "Předchozí level"
+
+#: cogs/helpers/data_store.py:198 cogs/helpers/database.py:209
+msgid "Shots accuracy"
+msgstr "Přesnost střelby"
+
+#: cogs/helpers/data_store.py:199 cogs/helpers/database.py:210
+msgid "Weapon reliability"
+msgstr "Spolehlivost zbraně"
+
+#: cogs/helpers/data_store.py:200 cogs/helpers/database.py:211
+msgid "Exp points"
+msgstr "Exp. bodů"
+
+#: cogs/helpers/deer.py:36
+msgid "Nothing"
+msgstr "Nic"
+
+#: cogs/helpers/deer.py:40
+msgid "a lot of bushes."
+msgstr "hodně keřů."
+
+#: cogs/helpers/deer.py:43
+msgid "a deer pin."
+msgstr "odznak kachny."
+
+#: cogs/helpers/deer.py:47
+msgid "a bullet"
+msgstr "kulku."
+
+#: cogs/helpers/deer.py:71
+msgid "a box of explosive ammo"
+msgstr "krabici výbušných nábojů."
+
+#: cogs/helpers/deer.py:84
+msgid "an almost empty box of explosive ammo"
+msgstr "téměř prázdnou krabici výbušných nábojů."
+
+#: cogs/helpers/deer.py:98
+msgid "some deer-grease"
+msgstr "trochu kachního maziva."
+
+#: cogs/helpers/deer.py:107
+msgid "a full-featured silencer"
+msgstr "plnohodnotný tlumič."
+
+#: cogs/helpers/deer.py:116
+msgid "a fully functional infrared detector"
+msgstr "plně funkční infračervený senzor."
+
+#: cogs/helpers/deer.py:233
+msgid ""
+"**FLAPP**\tFrightened by so much noise, the deer fled! CONGRATS! [missed: -1 "
+"xp]"
+msgstr ""
+"**ŽBLUŇK** Vyděšena takovým hlukem, kachna utekla! GRATULACE! [minul jsi: -1 "
+"exp.]"
+
+#: cogs/helpers/deer.py:304 cogs/helpers/deer.py:307
+msgid "Searching the bushes around the deer, you found..."
+msgstr "Prohledávajíce keře kolem kachny si našel..."
+
+#: cogs/helpers/deer.py:307
+msgid "that you unfortunately couldn't take, because your backpack is full."
+msgstr "jež si naneštěstí nemohl vzít, protože máš plný batoh."
+
+#: cogs/helpers/deer.py:342
+msgid ""
+"That was close, you almost killed the deer, but the other hunter got it "
+"first! [missed: -1 xp]"
+msgstr ""
+"To bylo těsné, skoro jsi tu kachnu zabil, ale jiný lovec ji dostal první! "
+"[minul jsi: -1 exp.]"
+
+#: cogs/helpers/deer.py:710
+msgid "**I AM...** Your mother"
+msgstr "**JSEM...** Tvoje matka"
